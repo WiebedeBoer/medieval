@@ -265,11 +265,11 @@
     <title>Aragonese</title>
     <forenames>
         <masculine>
-            <forename>Alfonso</forename> 
-            <forename>Antonio</forename>          
+            <forename>Alfonso</forename>
+            <forename>Antonio</forename>
             <forename>Berenguer</forename>
             <forename>Carlos</forename>
-            <forename>Enrique</forename> 
+            <forename>Enrique</forename>
             <forename>Fadrique</forename>
             <forename>Fernando</forename>
             <forename>Garcia</forename>
@@ -304,15 +304,32 @@
         </feminine>
     </forenames>
     <surnames>
-        <surname>Aragon</surname>
+        <surname>Abarca</surname>
+        <surname>de Aragon</surname>
+        <surname>de Asturias</surname>
+        <surname>de Alcaniz</surname>
+        <surname>Alvarez</surname>
+        <surname>Aznarez</surname>
+        <surname>de Barcelona</surname>
+        <surname>Cabrera</surname>
+        <surname>Enriquez</surname>
+        <surname>Entenca</surname>
+        <surname>Garces</surname>
+        <surname>Guzman</surname>
+        <surname>Iniguez</surname>
         <surname>Jimenez</surname>
-        <surname>Moncada</surname>
-        <surname>Urgell</surname>
-        <surname></surname>
-        <surname></surname>
-        <surname></surname>
-        <surname></surname>
-        <surname></surname>
+        <surname>de Leon</surname>
+        <surname>de Moncada</surname>
+        <surname>Oropesa</surname>
+        <surname>Osorio</surname>
+        <surname>de Pamplona</surname>
+        <surname>Ramirez</surname>
+        <surname>Sanchez</surname>
+        <surname>Santcliment</surname>
+        <surname>de Silva</surname>
+        <surname>Traba</surname>
+        <surname>Trastamara</surname>
+        <surname>de Urgell</surname>
     </surnames>
     <nicknames>
         <nickname>the Black</nickname>
@@ -542,11 +559,11 @@
     <title>Asturian</title>
     <forenames>
         <masculine>
-            <forename>Alfonso</forename> 
-            <forename>Antonio</forename>          
+            <forename>Alfonso</forename>
+            <forename>Antonio</forename>
             <forename>Berenguer</forename>
             <forename>Carlos</forename>
-            <forename>Enrique</forename> 
+            <forename>Enrique</forename>
             <forename>Fadrique</forename>
             <forename>Fernando</forename>
             <forename>Garcia</forename>
@@ -581,8 +598,32 @@
         </feminine>
     </forenames>
     <surnames>
-        <surname></surname>
-        <surname></surname>
+        <surname>Abarca</surname>
+        <surname>de Aragon</surname>
+        <surname>de Asturias</surname>
+        <surname>de Alcaniz</surname>
+        <surname>Alvarez</surname>
+        <surname>Aznarez</surname>
+        <surname>de Barcelona</surname>
+        <surname>Cabrera</surname>
+        <surname>Enriquez</surname>
+        <surname>Entenca</surname>
+        <surname>Garces</surname>
+        <surname>Guzman</surname>
+        <surname>Iniguez</surname>
+        <surname>Jimenez</surname>
+        <surname>de Leon</surname>
+        <surname>de Moncada</surname>
+        <surname>Oropesa</surname>
+        <surname>Osorio</surname>
+        <surname>de Pamplona</surname>
+        <surname>Ramirez</surname>
+        <surname>Sanchez</surname>
+        <surname>Santcliment</surname>
+        <surname>de Silva</surname>
+        <surname>Traba</surname>
+        <surname>Trastamara</surname>
+        <surname>de Urgell</surname>
     </surnames>
     <nicknames>
         <nickname>the Black</nickname>
@@ -1057,11 +1098,11 @@
     <title>Castillian</title>
     <forenames>
         <masculine>
-            <forename>Alfonso</forename> 
-            <forename>Antonio</forename>          
+            <forename>Alfonso</forename>
+            <forename>Antonio</forename>
             <forename>Berenguer</forename>
             <forename>Carlos</forename>
-            <forename>Enrique</forename> 
+            <forename>Enrique</forename>
             <forename>Fadrique</forename>
             <forename>Fernando</forename>
             <forename>Garcia</forename>
@@ -1096,15 +1137,32 @@
         </feminine>
     </forenames>
     <surnames>
+        <surname>Abarca</surname>
+        <surname>de Aragon</surname>
+        <surname>de Asturias</surname>
+        <surname>de Alcaniz</surname>
         <surname>Alvarez</surname>
+        <surname>Aznarez</surname>
+        <surname>de Barcelona</surname>
+        <surname>Cabrera</surname>
         <surname>Enriquez</surname>
+        <surname>Entenca</surname>
+        <surname>Garces</surname>
         <surname>Guzman</surname>
+        <surname>Iniguez</surname>
+        <surname>Jimenez</surname>
+        <surname>de Leon</surname>
+        <surname>de Moncada</surname>
         <surname>Oropesa</surname>
+        <surname>Osorio</surname>
+        <surname>de Pamplona</surname>
+        <surname>Ramirez</surname>
+        <surname>Sanchez</surname>
+        <surname>Santcliment</surname>
         <surname>de Silva</surname>
+        <surname>Traba</surname>
         <surname>Trastamara</surname>
-        <surname></surname>
-        <surname></surname>
-        <surname></surname>
+        <surname>de Urgell</surname>
     </surnames>
     <nicknames>
         <nickname>the Black</nickname>
@@ -1160,11 +1218,11 @@
     <title>Catalan</title>
     <forenames>
         <masculine>
-            <forename>Alfonso</forename> 
-            <forename>Antonio</forename>          
+            <forename>Alfonso</forename>
+            <forename>Antonio</forename>
             <forename>Berenguer</forename>
             <forename>Carlos</forename>
-            <forename>Enrique</forename> 
+            <forename>Enrique</forename>
             <forename>Fadrique</forename>
             <forename>Fernando</forename>
             <forename>Garcia</forename>
@@ -1199,9 +1257,32 @@
         </feminine>
     </forenames>
     <surnames>
-        <surname>Barcelona</surname>
+        <surname>Abarca</surname>
+        <surname>de Aragon</surname>
+        <surname>de Asturias</surname>
+        <surname>de Alcaniz</surname>
+        <surname>Alvarez</surname>
+        <surname>Aznarez</surname>
+        <surname>de Barcelona</surname>
         <surname>Cabrera</surname>
+        <surname>Enriquez</surname>
         <surname>Entenca</surname>
+        <surname>Garces</surname>
+        <surname>Guzman</surname>
+        <surname>Iniguez</surname>
+        <surname>Jimenez</surname>
+        <surname>de Leon</surname>
+        <surname>de Moncada</surname>
+        <surname>Oropesa</surname>
+        <surname>Osorio</surname>
+        <surname>de Pamplona</surname>
+        <surname>Ramirez</surname>
+        <surname>Sanchez</surname>
+        <surname>Santcliment</surname>
+        <surname>de Silva</surname>
+        <surname>Traba</surname>
+        <surname>Trastamara</surname>
+        <surname>de Urgell</surname>
     </surnames>
     <nicknames>
         <nickname>the Black</nickname>
@@ -2077,11 +2158,11 @@
     <title>Galician</title>
     <forenames>
         <masculine>
-            <forename>Alfonso</forename> 
-            <forename>Antonio</forename>          
+            <forename>Alfonso</forename>
+            <forename>Antonio</forename>
             <forename>Berenguer</forename>
             <forename>Carlos</forename>
-            <forename>Enrique</forename> 
+            <forename>Enrique</forename>
             <forename>Fadrique</forename>
             <forename>Fernando</forename>
             <forename>Garcia</forename>
@@ -2116,8 +2197,32 @@
         </feminine>
     </forenames>
     <surnames>
-        <surname></surname>
-        <surname></surname>
+        <surname>Abarca</surname>
+        <surname>de Aragon</surname>
+        <surname>de Asturias</surname>
+        <surname>de Alcaniz</surname>
+        <surname>Alvarez</surname>
+        <surname>Aznarez</surname>
+        <surname>de Barcelona</surname>
+        <surname>Cabrera</surname>
+        <surname>Enriquez</surname>
+        <surname>Entenca</surname>
+        <surname>Garces</surname>
+        <surname>Guzman</surname>
+        <surname>Iniguez</surname>
+        <surname>Jimenez</surname>
+        <surname>de Leon</surname>
+        <surname>de Moncada</surname>
+        <surname>Oropesa</surname>
+        <surname>Osorio</surname>
+        <surname>de Pamplona</surname>
+        <surname>Ramirez</surname>
+        <surname>Sanchez</surname>
+        <surname>Santcliment</surname>
+        <surname>de Silva</surname>
+        <surname>Traba</surname>
+        <surname>Trastamara</surname>
+        <surname>de Urgell</surname>
     </surnames>
     <nicknames>
         <nickname>the Black</nickname>
@@ -2543,11 +2648,11 @@
     <title>Leonese</title>
     <forenames>
         <masculine>
-            <forename>Alfonso</forename> 
-            <forename>Antonio</forename>          
+            <forename>Alfonso</forename>
+            <forename>Antonio</forename>
             <forename>Berenguer</forename>
             <forename>Carlos</forename>
-            <forename>Enrique</forename> 
+            <forename>Enrique</forename>
             <forename>Fadrique</forename>
             <forename>Fernando</forename>
             <forename>Garcia</forename>
@@ -2582,10 +2687,32 @@
         </feminine>
     </forenames>
     <surnames>
-        <surname>Leon</surname>
-        <surname></surname>
-        <surname></surname>
-        <surname></surname>
+        <surname>Abarca</surname>
+        <surname>de Aragon</surname>
+        <surname>de Asturias</surname>
+        <surname>de Alcaniz</surname>
+        <surname>Alvarez</surname>
+        <surname>Aznarez</surname>
+        <surname>de Barcelona</surname>
+        <surname>Cabrera</surname>
+        <surname>Enriquez</surname>
+        <surname>Entenca</surname>
+        <surname>Garces</surname>
+        <surname>Guzman</surname>
+        <surname>Iniguez</surname>
+        <surname>Jimenez</surname>
+        <surname>de Leon</surname>
+        <surname>de Moncada</surname>
+        <surname>Oropesa</surname>
+        <surname>Osorio</surname>
+        <surname>de Pamplona</surname>
+        <surname>Ramirez</surname>
+        <surname>Sanchez</surname>
+        <surname>Santcliment</surname>
+        <surname>de Silva</surname>
+        <surname>Traba</surname>
+        <surname>Trastamara</surname>
+        <surname>de Urgell</surname>
     </surnames>
     <nicknames>
         <nickname>the Black</nickname>
@@ -3214,11 +3341,11 @@
     <title>Navarrese</title>
     <forenames>
         <masculine>
-            <forename>Alfonso</forename> 
-            <forename>Antonio</forename>          
+            <forename>Alfonso</forename>
+            <forename>Antonio</forename>
             <forename>Berenguer</forename>
             <forename>Carlos</forename>
-            <forename>Enrique</forename> 
+            <forename>Enrique</forename>
             <forename>Fadrique</forename>
             <forename>Fernando</forename>
             <forename>Garcia</forename>
@@ -3254,11 +3381,31 @@
     </forenames>
     <surnames>
         <surname>Abarca</surname>
+        <surname>de Aragon</surname>
+        <surname>de Asturias</surname>
+        <surname>de Alcaniz</surname>
+        <surname>Alvarez</surname>
+        <surname>Aznarez</surname>
+        <surname>de Barcelona</surname>
+        <surname>Cabrera</surname>
+        <surname>Enriquez</surname>
+        <surname>Entenca</surname>
         <surname>Garces</surname>
+        <surname>Guzman</surname>
         <surname>Iniguez</surname>
-        <surname>Pamplona</surname>
+        <surname>Jimenez</surname>
+        <surname>de Leon</surname>
+        <surname>de Moncada</surname>
+        <surname>Oropesa</surname>
+        <surname>Osorio</surname>
+        <surname>de Pamplona</surname>
         <surname>Ramirez</surname>
         <surname>Sanchez</surname>
+        <surname>Santcliment</surname>
+        <surname>de Silva</surname>
+        <surname>Traba</surname>
+        <surname>Trastamara</surname>
+        <surname>de Urgell</surname>
     </surnames>
     <nicknames>
         <nickname>the Black</nickname>
