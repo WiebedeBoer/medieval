@@ -3635,7 +3635,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//178
-			//tegernsee, ebertshausen, munich, staffelsee, schaftlarn
+			//tegernsee, ebertshausen, munich, staffelsee, schaftlarn, taufkirchen
             DB::table('counties')->insert([
 				'county_name' => 'Sundergau',
 				'county_category' => 'Feudal_Manor',
@@ -8300,7 +8300,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//421
-			//pau, oloron, maure
+			//pau, oloron, maure, bellocq
             DB::table('counties')->insert([
 				'county_name' => 'Bearn',
 				'county_category' => 'Feudal_Manor',
@@ -8643,7 +8643,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Ducks'
             ]);
 			//439
-			//troyes, clairvaux, saint bernard, fraville, longchamp
+			//troyes, clairvaux, saint bernard, fraville, longchamp, chacenay
             DB::table('counties')->insert([
 				'county_name' => 'Troyes',
 				'county_category' => 'Feudal_Manor',

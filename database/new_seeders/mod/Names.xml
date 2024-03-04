@@ -385,17 +385,60 @@
     <title>Armenian</title>
     <forenames>
         <masculine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Abas</forename>
+            <forename>Ambakh</forename>
+            <forename>Arran</forename>
+            <forename>Ashot</forename>
+            <forename>Bagrat</forename>
+            <forename>Bazak</forename>
+            <forename>Dalakh</forename>
+            <forename>Gagik</forename>
+            <forename>Grigor</forename>
+            <forename>Hamazasp</forename>
+            <forename>Harakh</forename>
+            <forename>Hiran</forename>
+            <forename>Horai</forename>
+            <forename>Khoy</forename>
+            <forename>Mesrop</forename>
+            <forename>Movses</forename>
+            <forename>Mushegh</forename>
+            <forename>Nerseh</forename>
+            <forename>Parnas</forename>
+            <forename>Sahat</forename>
+            <forename>Smbat</forename>
+            <forename>Tigran</forename>
+            <forename>Vastamkahr</forename>
+            <forename>Zarmehr</forename>
         </masculine>
         <feminine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Alina</forename>
+            <forename>Gayaneh</forename>
+            <forename>Hasmik</forename>
+            <forename>Maneh</forename>
+            <forename>Mariam</forename>
+            <forename>Nadia</forename>
+            <forename>Naira</forename>
+            <forename>Nareh</forename>
+            <forename>Narine</forename>
+            <forename>Zabel</forename>
+            <forename>Zaruhi</forename>
         </feminine>
     </forenames>
     <surnames>
-        <surname></surname>
-        <surname></surname>
+        <surname>Andzevatsi</surname>
+        <surname>Artsruni</surname>
+        <surname>Atabekian</surname>
+        <surname>Baghratuni</surname>
+        <surname>Gnuni</surname>
+        <surname>Jalalyan</surname>
+        <surname>Khorenatsi</surname>
+        <surname>Mamikonian</surname>
+        <surname>Mashtots</surname>
+        <surname>Mihran</surname>
+        <surname>Roupenian</surname>
+        <surname>Rshtuni</surname>
+        <surname>Saharuni</surname>
+        <surname>Shirakatsi</surname>
     </surnames>
     <nicknames>
         <nickname>the Black</nickname>
@@ -483,6 +526,7 @@
         </masculine>
         <feminine>
             <forename>Adelaide</forename>
+            <forename>Agnes</forename>
             <forename>Anne</forename>
             <forename>Beatrice</forename>
             <forename>Bertrade</forename>
@@ -502,8 +546,22 @@
         </feminine>
     </forenames>
     <surnames>
-        <surname>Burgundy</surname>
-        <surname></surname>
+        <surname>de Autun</surname>
+        <surname>de Auxerre</surname>
+        <surname>de Briancon</surname>
+        <surname>de Burgundie</surname>
+        <surname>de Chatillon</surname>
+        <surname>de Cluny</surname>
+        <surname>de Molay</surname>
+        <surname>de Molesme</surname>
+        <surname>de Quincy</surname>
+        <surname>de Roulans</surname>
+        <surname>de Ruffey</surname>
+        <surname>de Savigny</surname>
+        <surname>de Savoie</surname>
+        <surname>de Semur</surname>
+        <surname>de Valence</surname>
+        <surname>de Vienne</surname>
     </surnames>
     <nicknames>
         <nickname>the Black</nickname>
@@ -737,8 +795,28 @@
         </feminine>
     </forenames>
     <surnames>
-        <surname></surname>
-        <surname></surname>
+        <surname>von Abensberg</surname>
+        <surname>Adelshofen</surname>
+        <surname>von Breitenstein</surname>
+        <surname>Engelshofen</surname>
+        <surname>von Falkenstein</surname>
+        <surname>von Franckenstein</surname>
+        <surname>Gabelthofen</surname>
+        <surname>von Hohenfels</surname>
+        <surname>Krafthofen</surname>
+        <surname>Lengenfeld</surname>
+        <surname>Manshof</surname>
+        <surname>Mayrhof</surname>
+        <surname>von Ortenburg</surname>
+        <surname>von Parsberg</surname>
+        <surname>Pelckhofen</surname>
+        <surname>Pfaffenhofen</surname>
+        <surname>Pulnhofen</surname>
+        <surname>Raitenbuch</surname>
+        <surname>Satzenhofen</surname>
+        <surname>Schmit</surname>
+        <surname>von Taufkirchen</surname>
+        <surname>von Waldkirchen</surname>
     </surnames>
     <nicknames>
         <nickname>the Black</nickname>
@@ -890,6 +968,7 @@
         </masculine>
         <feminine>
             <forename>Adelaide</forename>
+            <forename>Agnes</forename>
             <forename>Anne</forename>
             <forename>Beatrice</forename>
             <forename>Bertrade</forename>
@@ -909,8 +988,23 @@
         </feminine>
     </forenames>
     <surnames>
-        <surname></surname>
-        <surname></surname>
+        <surname>Beauharnais</surname>
+        <surname>Chabot</surname>
+        <surname>Chateaubriand</surname>
+        <surname>Clisson</surname>
+        <surname>Cornouaille</surname>
+        <surname>Fougeres</surname>
+        <surname>Gilles</surname>
+        <surname>Goyon</surname>
+        <surname>Huchet</surname>
+        <surname>Lannion</surname>
+        <surname>Nantes</surname>
+        <surname>Penthievre</surname>
+        <surname>Rennes</surname>
+        <surname>Rieux</surname>
+        <surname>Rohan</surname>
+        <surname>Talhouet</surname>
+        <surname>Vitre</surname>
     </surnames>
     <nicknames>
         <nickname>the Black</nickname>
@@ -1602,37 +1696,44 @@
     <title>Flemish</title>
     <forenames>
         <masculine>
+            <forename>Arnulf</forename>
+            <forename>Boudewyn</forename>
             <forename>Claes</forename>
+            <forename>Diederik</forename>
+            <forename>Filips</forename>
+            <forename>Gwyde</forename>
             <forename>Jan</forename>
+            <forename>Karel</forename>
+            <forename>Lodewyk</forename>
             <forename>Marten</forename>
             <forename>Robrecht</forename>
-            <forename></forename>
+            <forename>Willem</forename>
         </masculine>
         <feminine>
             <forename>Elisabeth</forename>
+            <forename>Johanna</forename>
+            <forename>Margaretha</forename>
             <forename>Margriet</forename>
-            <forename></forename>
-            <forename></forename>
+            <forename>Maria</forename>
         </feminine>
     </forenames>
     <surnames>
-        <surname>Artois</surname>
+        <surname>van Altena</surname>
+        <surname>van Artesie</surname>
+        <surname>van Avesnes</surname>
+        <surname>van Bethune</surname>
         <surname>van Bokhoven</surname>
         <surname>van den Bosch</surname>
+        <surname>van der Burch</surname>
         <surname>van Gavere</surname>
         <surname>van Gesseler</surname>
+        <surname>van Halewyn</surname>
+        <surname>van Lannoy</surname>
+        <surname>van Lichtervelde</surname>
         <surname>van Loon</surname>
         <surname>van Mierlo</surname>
         <surname>van Ravenstein</surname>
-        <surname></surname>
-        <surname></surname>
-        <surname></surname>
-        <surname></surname>
-        <surname></surname>
-        <surname></surname>
-        <surname></surname>
-        <surname></surname>
-        <surname></surname>
+        <surname>van Vlaanderen</surname>
     </surnames>
     <nicknames>
         <nickname>the Black</nickname>
@@ -1688,37 +1789,83 @@
     <title>Franconian</title>
     <forenames>
         <masculine>
+            <forename>Albert</forename>
+            <forename>Bernhard</forename>
+            <forename>Burchard</forename>
+            <forename>Eberhard</forename>
+            <forename>Ernst</forename>
+            <forename>Frederick</forename>
+            <forename>Gerhard</forename>
+            <forename>Hans</forename>
+            <forename>Hartung</forename>
+            <forename>Henrik</forename>
+            <forename>Jakob</forename>
+            <forename>Joachim</forename>
             <forename>Johan</forename>
-            <forename></forename>
+            <forename>Karel</forename>
+            <forename>Konrad</forename>
+            <forename>Lothar</forename>
+            <forename>Ludwig</forename>
+            <forename>Meinhard</forename>
+            <forename>Rudolf</forename>
+            <forename>Otto</forename>
+            <forename>Sighard</forename>
+            <forename>Sigmund</forename>
+            <forename>Thomas</forename>
         </masculine>
         <feminine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Adelheid</forename>
+            <forename>Agnes</forename>
+            <forename>Anna</forename>
+            <forename>Barbara</forename>
+            <forename>Beatrix</forename>
+            <forename>Berta</forename>
+            <forename>Bianca</forename>
+            <forename>Elisabeth</forename>
+            <forename>Emma</forename>
+            <forename>Ermengarde</forename>
+            <forename>Ermesinde</forename>
+            <forename>Gertrude</forename>
+            <forename>Gisela</forename>
+            <forename>Henriette</forename>
+            <forename>Hildegard</forename>
+            <forename>Ida</forename>
+            <forename>Isabella</forename>
+            <forename>Judith</forename>
+            <forename>Margarethe</forename>
+            <forename>Maria</forename>
+            <forename>Mathilde</forename>
+            <forename>Mechthild</forename>
+            <forename>Sibylle</forename>
+            <forename>Sophie</forename>
+            <forename>Rosine</forename>
         </feminine>
     </forenames>
     <surnames>
+        <surname>Absberg</surname>
+        <surname>Aufsees</surname>
         <surname>Bar</surname>
         <surname>Bentinck</surname>
 		<surname>Beyer</surname>
         <surname>van Boetselaer</surname>
         <surname>van Bronkhorst</surname>
         <surname>van Cleves</surname>
+        <surname>Egloffstein</surname>
         <surname>van Goltstein</surname>
+        <surname>Gravenreuth</surname>
+        <surname>van Grueningen</surname>
+        <surname>Guise</surname>
         <surname>van Kranenburg</surname>
+        <surname>van Lotharingen</surname>
+        <surname>van Kunzberg</surname>
 		<surname>van Luxembourg</surname>
+        <surname>van Munzenberg</surname>
+        <surname>Pfersfeld</surname>
         <surname>Poortman</surname>
-        <surname></surname>
-        <surname></surname>
-        <surname></surname>
-        <surname></surname>
-        <surname></surname>
-        <surname></surname>
-        <surname></surname>
-        <surname></surname>
-        <surname></surname>
-        <surname></surname>
-        <surname></surname>
-        <surname></surname>
+        <surname>van Reitzenstein</surname>
+        <surname>van Schaumberg</surname>
+        <surname>van Schlusselberg</surname>
+        <surname>Sparneck</surname>
     </surnames>
     <nicknames>
         <nickname>the Black</nickname>
@@ -1806,6 +1953,7 @@
         </masculine>
         <feminine>
             <forename>Adelaide</forename>
+            <forename>Agnes</forename>
             <forename>Anne</forename>
             <forename>Beatrice</forename>
             <forename>Bertrade</forename>
@@ -1825,29 +1973,27 @@
         </feminine>
     </forenames>
     <surnames>
+        <surname>Amboise</surname>
         <surname>de Anjou</surname>
         <surname>de Blois</surname>
         <surname>Bourbon</surname>
         <surname>Capet</surname>
+        <surname>de Chacenay</surname>
         <surname>de Champagne</surname>
+        <surname>de Dampierre</surname>
+        <surname>de Dreux</surname>
         <surname>de Dunois</surname>
         <surname>de Evreux</surname>
+        <surname>la Fayette</surname>
         <surname>de Lusignan</surname>
         <surname>de Orleans</surname>
+        <surname>Montfort</surname>
+        <surname>Montmorency</surname>
         <surname>Plantagenet</surname>
         <surname>de Poitiers</surname>
         <surname>Valois</surname>
         <surname>Vermandois</surname>
-        <surname></surname>
-        <surname></surname>
-        <surname></surname>
-        <surname></surname>
-        <surname></surname>
-        <surname></surname>
-        <surname></surname>
-        <surname></surname>
-        <surname></surname>
-        <surname></surname>
+        <surname>la Tremoille</surname>
     </surnames>
     <nicknames>
         <nickname>the Black</nickname>
@@ -1940,7 +2086,6 @@
     </forenames>
     <surnames>
         <surname>van Ammersoyen</surname>
-        <surname>Altena</surname>
         <surname>van Arkel</surname>
         <surname>van Aylva</surname>
         <surname>van Berckhout</surname>
@@ -2278,17 +2423,50 @@
     <title>Georgian</title>
     <forenames>
         <masculine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Adarnase</forename>
+            <forename>Aleksandre</forename>
+            <forename>David</forename>
+            <forename>Demetre</forename>
+            <forename>Giorgi</forename>
+            <forename>Guaram</forename>
+            <forename>Gurgen</forename>
+            <forename>Juansher</forename>
+            <forename>Konstantine</forename>
+            <forename>Levan</forename>
+            <forename>Nerse</forename>
+            <forename>Stephanoz</forename>
+            <forename>Sumbat</forename>
+            <forename>Svimon</forename>
         </masculine>
         <feminine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Ana</forename>
+            <forename>Eteri</forename>
+            <forename>Gurandukht</forename>
+            <forename>Kata</forename>
+            <forename>Ketevan</forename>
+            <forename>Miryam</forename>
+            <forename>Naira</forename>
+            <forename>Natella</forename>
+            <forename>Rusudan</forename>
+            <forename>Tamar</forename>
+            <forename>Tinatin</forename>
         </feminine>
     </forenames>
     <surnames>
-        <surname></surname>
-        <surname></surname>
+        <surname>Baratashvili</surname>
+        <surname>Cholokashvili</surname>
+        <surname>Dadeshkeliani</surname>
+        <surname>Gelovani</surname>
+        <surname>Guarmiani</surname>
+        <surname>Juansheriani</surname>
+        <surname>Kashibadze</surname>
+        <surname>Khosroianni</surname>
+        <surname>Machabeli</surname>
+        <surname>Mkhargrdzeli</surname>
+        <surname>Nersiani</surname>
+        <surname>Parnavaziani</surname>
+        <surname>Sharvashidze</surname>
+        <surname>Sologashvili</surname>
     </surnames>
     <nicknames>
         <nickname>the Black</nickname>
@@ -2915,8 +3093,10 @@
         <surname>Bardi</surname>
         <surname>Boccaccio</surname>
         <surname>Este</surname>
+        <surname>Grimaldi</surname>
         <surname>Ivrea</surname>
         <surname>Machiavelli</surname>
+        <surname>Mazarini</surname>
         <surname>Medici</surname>
         <surname>Pazzi</surname>
         <surname>Sacchetti</surname>
@@ -3559,6 +3739,7 @@
         </masculine>
         <feminine>
             <forename>Adelaide</forename>
+            <forename>Agnes</forename>
             <forename>Anne</forename>
             <forename>Beatrice</forename>
             <forename>Bertrade</forename>
@@ -3749,6 +3930,7 @@
         </masculine>
         <feminine>
             <forename>Adelaide</forename>
+            <forename>Agnes</forename>
             <forename>Anne</forename>
             <forename>Beatrice</forename>
             <forename>Bertrade</forename>
@@ -3770,14 +3952,16 @@
     <surnames>
         <surname>Albret</surname>
         <surname>de Angouleme</surname>
+        <surname>de Armagnac</surname>
         <surname>de Aquitaine</surname>
+        <surname>de Baux</surname>
+        <surname>de Bearn</surname>
         <surname>de Bigorre</surname>
         <surname>de Foix</surname>
         <surname>de Gascony</surname>
+        <surname>de Orange</surname>
         <surname>de Roucy</surname>
-        <surname></surname>
-        <surname></surname>
-        <surname></surname>
+        <surname>Talleyrand</surname>
     </surnames>
     <nicknames>
         <nickname>the Black</nickname>
@@ -4784,10 +4968,12 @@
         </feminine>
     </forenames>
     <surnames>
+        <surname>von Elsas</surname>
         <surname>Fugger</surname>
+        <surname>von Habsburg</surname>
         <surname>Hochstetter</surname>
-        <surname>Hohenstaufen</surname>
-        <surname>Hohenzollern</surname>
+        <surname>von Hohenstaufen</surname>
+        <surname>von Hohenzollern</surname>
         <surname>von Rosenberg</surname>
         <surname>von Schwanberg</surname>
         <surname>Welf</surname>
