@@ -7858,7 +7858,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//398
-			//tours, cormery, gaillard, amboise, villandry, chatigny, saint martin, chinon, fondettes, villaines, saint genouph
+			//tours, cormery, gaillard, amboise, villandry, chatigny, saint martin, chinon, fondettes, villaines, saint genouph, montsoreau
             DB::table('counties')->insert([
 				'county_name' => 'Touraine',
 				'county_category' => 'Feudal_Manor',
@@ -7935,7 +7935,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//402
-			//angouleme, saint michel, chateauneuf
+			//angouleme, saint michel, chateauneuf, verteuil
             DB::table('counties')->insert([
 				'county_name' => 'Angoumois',
 				'county_category' => 'Feudal_Manor',
@@ -8605,7 +8605,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//437
-			//rethel, attigny, porcien
+			//rethel, attigny, porcien, landreville
             DB::table('counties')->insert([
 				'county_name' => 'Rethelois',
 				'county_category' => 'Feudal_Manor',
