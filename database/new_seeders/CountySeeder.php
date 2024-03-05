@@ -1916,7 +1916,7 @@ class CountySeeder extends Seeder
             ]);
 			//Luxembourg
 			//88
-			//luxembourg, bettembourg
+			//luxembourg, bettembourg, mensbourg
             DB::table('counties')->insert([
 				'county_name' => 'Methingau',
 				'county_category' => 'Feudal_Manor',
@@ -1935,7 +1935,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//89
-			//barrois, ligny
+			//barrois, ligny, gombervaux, gondrecourt
             DB::table('counties')->insert([
 				'county_name' => 'Barrois',
 				'county_category' => 'Feudal_Manor',
@@ -3482,7 +3482,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//170
-			//speyer, dudenhofen, wissembourg, klingenmunster
+			//speyer, dudenhofen, wissembourg, klingenmunster, fleckenstein
             DB::table('counties')->insert([
 				'county_name' => 'Speyergau',
 				'county_category' => 'Ecclesiastical_Manor',
@@ -7973,7 +7973,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//404
-			//limoges, ventadour, saint angel
+			//limoges, ventadour, saint angel, chalucet
             DB::table('counties')->insert([
 				'county_name' => 'Limousin',
 				'county_category' => 'Feudal_Manor',
@@ -8126,7 +8126,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//412
-			//clermont, montpensier, thiers
+			//clermont, montpensier, thiers, murol
             DB::table('counties')->insert([
 				'county_name' => 'Clermont',
 				'county_category' => 'Ecclesiastical_Manor',
@@ -9560,7 +9560,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Chickens'
             ]);
 			//487
-			//turenne, brive, tulle, noailhac, collonges, charroux, savigne, sarlat, puytignon, castelnaud
+			//turenne, brive, tulle, noailhac, collonges, charroux, savigne, sarlat, puytignon, castelnaud, beynac
             DB::table('counties')->insert([
 				'county_name' => 'Turenne',
 				'county_category' => 'Feudal_Manor',
@@ -10021,7 +10021,7 @@ class CountySeeder extends Seeder
 				'marke_poultry' => 'Ducks'
             ]);
 			//511
-			//rennes, fougeres
+			//rennes, fougeres, vitre
             DB::table('counties')->insert([
 				'county_name' => 'Rennais',
 				'county_category' => 'Feudal_Manor',
