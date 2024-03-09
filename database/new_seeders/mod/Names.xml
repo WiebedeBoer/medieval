@@ -872,17 +872,54 @@
     <title>Bohemian</title>
     <forenames>
         <masculine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Boleslaus</forename>
+            <forename>Borivoj</forename>
+            <forename>Bretislaus</forename>
+            <forename>Dusan</forename>
+            <forename>Frantisek</forename>
+            <forename>Jaroslav</forename>
+            <forename>Ladislav</forename>
+            <forename>Milan</forename>
+            <forename>Radek</forename>
+            <forename>Radoslav</forename>
+            <forename>Sobeslaus</forename>
+            <forename>Svatopluk</forename>
+            <forename>Vratislaus</forename>
+            <forename>Wenceslaus</forename>
         </masculine>
         <feminine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Angelika</forename>
+            <forename>Bozena</forename>
+            <forename>Drahomira</forename>
+            <forename>Karolina</forename>
+            <forename>Lenka</forename>
+            <forename>Ludmila</forename>
+            <forename>Milena</forename>
+            <forename>Pavla</forename>
+            <forename>Stanislava</forename>
+            <forename>Stefania</forename>
+            <forename>Venceslava</forename>
+            <forename>Zdenka</forename>
         </feminine>
     </forenames>
     <surnames>
-        <surname></surname>
-        <surname></surname>
+        <surname>Bavorove</surname>
+        <surname>Berka</surname>
+        <surname>Bubna</surname>
+        <surname>Czernin</surname>
+        <surname>Hronovci</surname>
+        <surname>Kameniczky</surname>
+        <surname>Kolowrat</surname>
+        <surname>Lichnovsky</surname>
+        <surname>Liebstein</surname>
+        <surname>Pernstein</surname>
+        <surname>Podebrady</surname>
+        <surname>Premyshl</surname>
+        <surname>Valdstein</surname>
+        <surname>Vlasimsky</surname>
+        <surname>Vitkovci</surname>
+        <surname>Zedtwitz</surname>
+        <surname>Zierotin</surname>
     </surnames>
     <nicknames>
         <nickname>the Black</nickname>
@@ -1064,7 +1101,7 @@
             <forename></forename>
         </masculine>
         <feminine>
-            <forename></forename>
+            <forename>Biagota</forename>
             <forename></forename>
         </feminine>
     </forenames>
