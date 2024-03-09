@@ -817,6 +817,7 @@
         <surname>Schmit</surname>
         <surname>von Taufkirchen</surname>
         <surname>von Waldkirchen</surname>
+        <surname>Wittelsbach</surname>
     </surnames>
     <nicknames>
         <nickname>the Black</nickname>
@@ -1097,17 +1098,41 @@
     <title>Bulgarian</title>
     <forenames>
         <masculine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Boris</forename>
+            <forename>Dukum</forename>
+            <forename>Gavril</forename>
+            <forename>Ivan</forename>
+            <forename>Kaliman</forename>
+            <forename>Krum</forename>
+            <forename>Malamir</forename>
+            <forename>Omurtag</forename>
+            <forename>Peter</forename>
+            <forename>Presian</forename>
+            <forename>Roman</forename>
+            <forename>Simeon</forename>
+            <forename>Tihomir</forename>
+            <forename>Vladimir</forename>
         </masculine>
         <feminine>
             <forename>Biagota</forename>
-            <forename></forename>
+            <forename>Boyanka</forename>
+            <forename>Darina</forename>
+            <forename>Milena</forename>
+            <forename>Nadezhda</forename>
+            <forename>Nikolina</forename>
+            <forename>Stefania</forename>
+            <forename>Yordanka</forename>
+            <forename>Yuliana</forename>
         </feminine>
     </forenames>
     <surnames>
-        <surname></surname>
-        <surname></surname>
+        <surname>Asenevtsi</surname>
+        <surname>Dulo</surname>
+        <surname>Shishmanovtsi</surname>
+        <surname>Smilets</surname>
+        <surname>Sratsimirovtsi</surname>
+        <surname>Teterovtsi</surname>
+        <surname>Tsamblak</surname>
     </surnames>
     <nicknames>
         <nickname>the Black</nickname>
@@ -1163,17 +1188,71 @@
     <title>Cantabrian</title>
     <forenames>
         <masculine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Alfonso</forename>
+            <forename>Antonio</forename>
+            <forename>Berenguer</forename>
+            <forename>Carlos</forename>
+            <forename>Enrique</forename>
+            <forename>Fadrique</forename>
+            <forename>Fernando</forename>
+            <forename>Garcia</forename>
+            <forename>Jaima</forename>
+            <forename>Jimeno</forename>
+            <forename>Juan</forename>
+            <forename>Luis</forename>
+            <forename>Miguel</forename>
+            <forename>Pascual</forename>
+            <forename>Pedro</forename>
+            <forename>Ramirez</forename>
+            <forename>Rodrigo</forename>
+            <forename>Sancho</forename>
         </masculine>
         <feminine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Acibella</forename>
+            <forename>Adosinda</forename>
+            <forename>Elvira</forename>
+            <forename>Ermesinda</forename>
+            <forename>Estefania</forename>
+            <forename>Isabella</forename>
+            <forename>Jimena</forename>
+            <forename>Leonor</forename>
+            <forename>Maria</forename>
+            <forename>Muniadona</forename>
+            <forename>Oneca</forename>
+            <forename>Sancha</forename>
+            <forename>Teresa</forename>
+            <forename>Urraca</forename>
+            <forename>Velasquita</forename>
+            <forename>Violante</forename>
         </feminine>
     </forenames>
     <surnames>
-        <surname></surname>
-        <surname></surname>
+        <surname>Abarca</surname>
+        <surname>de Aragon</surname>
+        <surname>de Asturias</surname>
+        <surname>de Alcaniz</surname>
+        <surname>Alvarez</surname>
+        <surname>Aznarez</surname>
+        <surname>de Barcelona</surname>
+        <surname>Cabrera</surname>
+        <surname>Enriquez</surname>
+        <surname>Entenca</surname>
+        <surname>Garces</surname>
+        <surname>Guzman</surname>
+        <surname>Iniguez</surname>
+        <surname>Jimenez</surname>
+        <surname>de Leon</surname>
+        <surname>de Moncada</surname>
+        <surname>Oropesa</surname>
+        <surname>Osorio</surname>
+        <surname>de Pamplona</surname>
+        <surname>Ramirez</surname>
+        <surname>Sanchez</surname>
+        <surname>Santcliment</surname>
+        <surname>de Silva</surname>
+        <surname>Traba</surname>
+        <surname>Trastamara</surname>
+        <surname>de Urgell</surname>
     </surnames>
     <nicknames>
         <nickname>the Black</nickname>
@@ -1469,17 +1548,76 @@
     <title>Croatian</title>
     <forenames>
         <masculine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Branimir</forename>
+            <forename>Braslav</forename>
+            <forename>Gojslav</forename>
+            <forename>Kresimir</forename>
+            <forename>Miroslav</forename>
+            <forename>Mislav</forename>
+            <forename>Muncimir</forename>
+            <forename>Raitimir</forename>
+            <forename>Tomislav</forename>
+            <forename>Trpimir</forename>
+            <forename>Vojnomir</forename>
+            <forename>Viseslav</forename>
+            <forename>Vladislav</forename>
+            <forename>Zdeslav</forename>
         </masculine>
         <feminine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Ankica</forename>
+            <forename>Biljana</forename>
+            <forename>Bozena</forename>
+            <forename>Danica</forename>
+            <forename>Dunja</forename>
+            <forename>Galina</forename>
+            <forename>Gordana</forename>
+            <forename>Jadranka</forename>
+            <forename>Ljuba</forename>
+            <forename>Lorena</forename>
+            <forename>Milena</forename>
+            <forename>Mira</forename>
+            <forename>Ruzica</forename>
+            <forename>Sladana</forename>
+            <forename>Stefania</forename>
+            <forename>Zeljka</forename>
         </feminine>
     </forenames>
     <surnames>
-        <surname></surname>
-        <surname></surname>
+        <surname>Babonic</surname>
+        <surname>Berislavic</surname>
+        <surname>Bozic</surname>
+        <surname>Bunic</surname>
+        <surname>Cesnegic</surname>
+        <surname>Crijevic</surname>
+        <surname>Cudomiric</surname>
+        <surname>Domagojevic</surname>
+        <surname>Durdevic</surname>
+        <surname>Frankopan</surname>
+        <surname>Getaldic</surname>
+        <surname>Gradic</surname>
+        <surname>Gusic</surname>
+        <surname>Jelacic</surname>
+        <surname>Kabuzic</surname>
+        <surname>Kacic</surname>
+        <surname>Knezevic</surname>
+        <surname>Kukar</surname>
+        <surname>Kurjakovic</surname>
+        <surname>Lapcan</surname>
+        <surname>Lukaric</surname>
+        <surname>Madi</surname>
+        <surname>Maretic</surname>
+        <surname>Mencetic</surname>
+        <surname>Nelipic</surname>
+        <surname>Palmotic</surname>
+        <surname>Pejacevic</surname>
+        <surname>Ranjina</surname>
+        <surname>Snacic</surname>
+        <surname>Sorkocevic</surname>
+        <surname>Subic</surname>
+        <surname>Trpimirovic</surname>
+        <surname>Ugrinic</surname>
+        <surname>Zapolya</surname>
+        <surname>Zrinyi</surname>
     </surnames>
     <nicknames>
         <nickname>the Black</nickname>
@@ -2594,8 +2732,8 @@
             <forename>Helena</forename>
             <forename>Irene</forename>
             <forename>Leontia</forename>
-            <forename>Maria</forename>  
-            <forename>Martina</forename>      
+            <forename>Maria</forename>
+            <forename>Martina</forename>
             <forename>Prokopia</forename>
             <forename>Sophia</forename>
             <forename>Thekla</forename>
@@ -2612,6 +2750,7 @@
         <surname>Diogenes</surname>
         <surname>Doukas</surname>
         <surname>Kantakousenos</surname>
+        <surname>Kaloghera</surname>
         <surname>Komnenos</surname>
         <surname>Laskaris</surname>
         <surname>Maniakes</surname>
@@ -2619,8 +2758,6 @@
         <surname>Rhangabe</surname>
         <surname>Slavos</surname>
         <surname>Vatatzes</surname>
-        <surname></surname>
-        <surname></surname>
     </surnames>
     <nicknames>
         <nickname>the Black</nickname>
@@ -3136,11 +3273,11 @@
         <surname>Machiavelli</surname>
         <surname>Mazarini</surname>
         <surname>Medici</surname>
+        <surname>Orsini</surname>
         <surname>Pazzi</surname>
         <surname>Sacchetti</surname>
         <surname>Salviati</surname>
         <surname>Strozzi</surname>
-        <surname></surname>
     </surnames>
     <nicknames>
         <nickname>the Black</nickname>
