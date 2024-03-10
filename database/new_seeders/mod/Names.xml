@@ -797,6 +797,7 @@
     <surnames>
         <surname>von Abensberg</surname>
         <surname>Adelshofen</surname>
+        <surname>Andechs</surname>
         <surname>von Breitenstein</surname>
         <surname>Engelshofen</surname>
         <surname>von Falkenstein</surname>
@@ -1673,17 +1674,58 @@
     <title>Danish</title>
     <forenames>
         <masculine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Bjorn</forename>
+            <forename>Cnut</forename>
+            <forename>Eric</forename>
+            <forename>Gorm</forename>
+            <forename>Hakon</forename>
+            <forename>Halsten</forename>
+            <forename>Harald</forename>
+            <forename>Nils</forename>
+            <forename>Olaf</forename>
+            <forename>Ragnar</forename>
+            <forename>Ragnvald</forename>
+            <forename>Svend</forename>
+            <forename>Sweyn</forename>
+            <forename>Ulf</forename>
+            <forename>Valdemar</forename>
         </masculine>
         <feminine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Agnes</forename>
+            <forename>Estrid</forename>
+            <forename>Gunhild</forename>
+            <forename>Gytha</forename>
+            <forename>Helena</forename>
+            <forename>Ingeborg</forename>
+            <forename>Ingrid</forename>
+            <forename>Jutta</forename>
+            <forename>Kristine</forename>
+            <forename>Mechthild</forename>
+            <forename>Ragnhild</forename>
+            <forename>Richeza</forename>
+            <forename>Sigrid</forename>
+            <forename>Sofie</forename>
+            <forename>Ulvhild</forename>
         </feminine>
     </forenames>
     <surnames>
-        <surname></surname>
-        <surname></surname>
+        <surname>Abilgaard</surname>
+        <surname>Ahlefeldt</surname>
+        <surname>Bjelke</surname>
+        <surname>Brahe</surname>
+        <surname>Brockenhuus</surname>
+        <surname>Dyre</surname>
+        <surname>Folkung</surname>
+        <surname>Holck</surname>
+        <surname>Huitfeldt</surname>
+        <surname>Kaas</surname>
+        <surname>Knytling</surname>
+        <surname>Lyksborg</surname>
+        <surname>Rosenkrantz</surname>
+        <surname>Ulfeldt</surname>
+        <surname>Ulfing</surname>
+        <surname>Yngling</surname>
+        <surname>Wedel</surname>
     </surnames>
     <nicknames>
         <nickname>the Black</nickname>
@@ -1739,17 +1781,70 @@
     <title>English</title>
     <forenames>
         <masculine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Alfred</forename>
+            <forename>Athelstan</forename>
+            <forename>Edgar</forename>
+            <forename>Edmund</forename>
+            <forename>Edward</forename>
+            <forename>Ethelred</forename>
+            <forename>Geoffrey</forename>
+            <forename>George</forename>
+            <forename>Harold</forename>
+            <forename>Henry</forename>
+            <forename>John</forename>
+            <forename>Offa</forename>
+            <forename>Richard</forename>
+            <forename>Robert</forename>
+            <forename>Stephen</forename>
+            <forename>Wigmund</forename>
+            <forename>Wigstan</forename>
+            <forename>William</forename>
         </masculine>
         <feminine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Adelaide</forename>
+            <forename>Agatha</forename>
+            <forename>Anne</forename>
+            <forename>Blanche</forename>
+            <forename>Catherine</forename>
+            <forename>Edith</forename>
+            <forename>Eleanor</forename>
+            <forename>Elizabeth</forename>
+            <forename>Emma</forename>
+            <forename>Isabel</forename>
+            <forename>Margaret</forename>
+            <forename>Mary</forename>
+            <forename>Matilda</forename>
         </feminine>
     </forenames>
     <surnames>
-        <surname></surname>
-        <surname></surname>
+        <surname>Arden</surname>
+        <surname>Audley</surname>
+        <surname>Berkeley</surname>
+        <surname>Boleyn</surname>
+        <surname>Cromwell</surname>
+        <surname>Egerton</surname>
+        <surname>Essex</surname>
+        <surname>Fleetwood</surname>
+        <surname>Grindlay</surname>
+        <surname>Godwin</surname>
+        <surname>Kent</surname>
+        <surname>Lancaster</surname>
+        <surname>Marshall</surname>
+        <surname>Mercia</surname>
+        <surname>Mitford</surname>
+        <surname>Selby</surname>
+        <surname>Shrewsbury</surname>
+        <surname>Stratford</surname>
+        <surname>Sussex</surname>
+        <surname>Tempest</surname>
+        <surname>Tollemache</surname>
+        <surname>Tyndale</surname>
+        <surname>Warwick</surname>
+        <surname>Wessex</surname>
+        <surname>Westmorland</surname>
+        <surname>Wiffing</surname>
+        <surname>Woodstock</surname>
+        <surname>York</surname>
     </surnames>
     <nicknames>
         <nickname>the Black</nickname>
@@ -1895,7 +1990,8 @@
     <surnames>
         <surname>van Altena</surname>
         <surname>van Artesie</surname>
-        <surname>van Avesnes</surname>
+        <surname>Avesnes</surname>
+        <surname>Balliol</surname>
         <surname>van Bethune</surname>
         <surname>van Bokhoven</surname>
         <surname>van den Bosch</surname>
@@ -2281,17 +2377,10 @@
         <surname>van Horne</surname>
         <surname>van Lockhorst</surname>
         <surname>van Nyenrode</surname>
-        <surname>van Renesse</surname> 
-        <surname>Unia</surname>   
-        <surname>van Vollenhove</surname>      
-        <surname></surname>
-        <surname></surname>
-        <surname></surname>
-        <surname></surname>
-        <surname></surname>
-        <surname></surname>
-        <surname></surname>
-        <surname></surname>
+        <surname>Oldenburg</surname>
+        <surname>van Renesse</surname>
+        <surname>Unia</surname>
+        <surname>van Vollenhove</surname>
     </surnames>
     <nicknames>
         <nickname>the Black</nickname>
@@ -2401,6 +2490,7 @@
         <surname>Douglas</surname>
         <surname>Drummond</surname>
         <surname>Dunbar</surname>
+        <surname>Dunkeld</surname>
         <surname>Farlane</surname>
         <surname>Fleming</surname>
         <surname>Forsyth</surname>
@@ -3934,10 +4024,13 @@
         </feminine>
     </forenames>
     <surnames>
+        <surname>Basset</surname>
         <surname>de Beauchamp</surname>
         <surname>de Beaumont</surname>
         <surname>de Clare</surname>
         <surname>Courtenay</surname>
+        <surname>de Cruelly</surname>
+        <surname>Ferrers</surname>
         <surname>de Harcourt</surname>
         <surname>de Heauteville</surname>
         <surname>de Lacey</surname>
@@ -3946,6 +4039,7 @@
         <surname>de Montfort</surname>
         <surname>de Mortimer</surname>
         <surname>de Normandie</surname>
+        <surname>de Percy</surname>
         <surname>de Ros</surname>
         <surname>de Valognes</surname>
         <surname>de Vaux</surname>
@@ -4007,17 +4101,59 @@
     <title>Norwegian</title>
     <forenames>
         <masculine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Bjorn</forename>
+            <forename>Crovan</forename>
+            <forename>Cnut</forename>
+            <forename>Eric</forename>
+            <forename>Gorm</forename>
+            <forename>Hakon</forename>
+            <forename>Halsten</forename>
+            <forename>Harald</forename>
+            <forename>Nils</forename>
+            <forename>Olaf</forename>
+            <forename>Ragnar</forename>
+            <forename>Ragnvald</forename>
+            <forename>Somhairle</forename>
+            <forename>Svend</forename>
+            <forename>Sweyn</forename>
+            <forename>Ulf</forename>
+            <forename>Valdemar</forename>
         </masculine>
         <feminine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Agnes</forename>
+            <forename>Estrid</forename>
+            <forename>Gunhild</forename>
+            <forename>Gytha</forename>
+            <forename>Helena</forename>
+            <forename>Ingeborg</forename>
+            <forename>Ingrid</forename>
+            <forename>Jutta</forename>
+            <forename>Kristine</forename>
+            <forename>Mechthild</forename>
+            <forename>Ragnhild</forename>
+            <forename>Richeza</forename>
+            <forename>Sigrid</forename>
+            <forename>Sofie</forename>
+            <forename>Ulvhild</forename>
         </feminine>
     </forenames>
     <surnames>
-        <surname></surname>
-        <surname></surname>
+        <surname>Asdal</surname>
+        <surname>Aspa</surname>
+        <surname>Bjarkoy</surname>
+        <surname>Botner</surname>
+        <surname>Fluga</surname>
+        <surname>Galte</surname>
+        <surname>Gille</surname>
+        <surname>Gjesling</surname>
+        <surname>Godwin</surname>
+        <surname>Knytling</surname>
+        <surname>Skanke</surname>
+        <surname>Smor</surname>
+        <surname>Stodle</surname>
+        <surname>Sudrheim</surname>
+        <surname>Sverre</surname>
+        <surname>Tornberg</surname>
     </surnames>
     <nicknames>
         <nickname>the Black</nickname>
@@ -4827,8 +4963,9 @@
 		<surname>van Asbeck</surname>
 		<surname>Brunswick</surname>
         <surname>van Galen</surname>
+        <surname>Holstein</surname>
         <surname>Luneburg</surname>
-        <surname></surname>
+        <surname>Reventlow</surname>
         <surname></surname>
         <surname></surname>
         <surname></surname>
@@ -5214,17 +5351,57 @@
     <title>Swedish</title>
     <forenames>
         <masculine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Bjorn</forename>
+            <forename>Cnut</forename>
+            <forename>Eric</forename>
+            <forename>Gorm</forename>
+            <forename>Hakon</forename>
+            <forename>Halsten</forename>
+            <forename>Harald</forename>
+            <forename>Nils</forename>
+            <forename>Olaf</forename>
+            <forename>Ragnar</forename>
+            <forename>Ragnvald</forename>
+            <forename>Svend</forename>
+            <forename>Sweyn</forename>
+            <forename>Ulf</forename>
+            <forename>Valdemar</forename>
         </masculine>
         <feminine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Agnes</forename>
+            <forename>Estrid</forename>
+            <forename>Gunhild</forename>
+            <forename>Gytha</forename>
+            <forename>Helena</forename>
+            <forename>Ingeborg</forename>
+            <forename>Ingrid</forename>
+            <forename>Jutta</forename>
+            <forename>Kristine</forename>
+            <forename>Mechthild</forename>
+            <forename>Ragnhild</forename>
+            <forename>Richeza</forename>
+            <forename>Sigrid</forename>
+            <forename>Sofie</forename>
+            <forename>Ulvhild</forename>
         </feminine>
     </forenames>
     <surnames>
-        <surname></surname>
-        <surname></surname>
+        <surname>Baat</surname>
+        <surname>Bjelbo</surname>
+        <surname>Bonde</surname>
+        <surname>Hjerne</surname>
+        <surname>Jagarhorn</surname>
+        <surname>Munso</surname>
+        <surname>Oxenstierna</surname>
+        <surname>Romer</surname>
+        <surname>Sparre</surname>
+        <surname>Stenkil</surname>
+        <surname>Stjerne</surname>
+        <surname>Sture</surname>
+        <surname>Sverker</surname>
+        <surname>Thott</surname>
+        <surname>Trolle</surname>
+        <surname>Vasa</surname>
     </surnames>
     <nicknames>
         <nickname>the Black</nickname>
@@ -5576,8 +5753,8 @@
         </feminine>
     </forenames>
     <surnames>
-        <surname></surname>
-        <surname></surname>
+        <surname>Griffin</surname>
+        <surname>Moltke</surname>
     </surnames>
     <nicknames>
         <nickname>the Black</nickname>
