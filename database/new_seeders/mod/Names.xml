@@ -757,6 +757,7 @@
     <title>Bavarian</title>
     <forenames>
         <masculine>
+            <forename>Adalbert</forename>
             <forename>Albrecht</forename>
             <forename>Bernhard</forename>
             <forename>Burchard</forename>
@@ -2067,11 +2068,22 @@
             <forename>Willem</forename>
         </masculine>
         <feminine>
-            <forename>Elisabeth</forename>
+            <forename>Anna</forename>
+            <forename>Eleanora</forename>
+            <forename>Elisabeth</forename>  
+            <forename>Geertruida</forename>
+            <forename>Isabella</forename>
+            <forename>Janne</forename>
             <forename>Johanna</forename>
+            <forename>Josine</forename>
+            <forename>Judith</forename>
+            <forename>Katlyne</forename>
+            <forename>Machtilde</forename>
             <forename>Margaretha</forename>
             <forename>Margriet</forename>
             <forename>Maria</forename>
+            <forename>Mathilde</forename>
+            <forename>Sibylle</forename>
         </feminine>
     </forenames>
     <surnames>
@@ -2082,15 +2094,21 @@
         <surname>van Bethune</surname>
         <surname>van Bokhoven</surname>
         <surname>van den Bosch</surname>
+        <surname>van Brussel</surname>
         <surname>van der Burch</surname>
         <surname>van Gavere</surname>
         <surname>van Gesseler</surname>
+        <surname>Hellebout</surname>
+        <surname>Hagen</surname>
         <surname>van Halewyn</surname>
+        <surname>van Keerbeke</surname>
         <surname>van Lannoy</surname>
         <surname>van Lichtervelde</surname>
         <surname>van Loon</surname>
         <surname>van Mierlo</surname>
+        <surname>Perloecx</surname>
         <surname>van Ravenstein</surname>
+        <surname>Schuts</surname>
         <surname>van Vlaanderen</surname>
     </surnames>
     <nicknames>
@@ -3486,6 +3504,7 @@
     <title>Livonian</title>
     <forenames>
         <masculine>
+            <forename>Adalbert</forename>
             <forename>Albrecht</forename>
             <forename>Bernhard</forename>
             <forename>Burchard</forename>
@@ -3621,12 +3640,42 @@
     <title>Lombard</title>
     <forenames>
         <masculine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Alessandro</forename>
+            <forename>Alfonso</forename>
+            <forename>Averardo</forename>
+            <forename>Carlo</forename>
+            <forename>Corrado</forename>
+            <forename>Cosimo</forename>
+            <forename>Enrico</forename>
+            <forename>Federico</forename>
+            <forename>Ferdinando</forename>
+            <forename>Francesco</forename>
+            <forename>Giacomo</forename>
+            <forename>Giovanni</forename>
+            <forename>Guido</forename>
+            <forename>Lorenzo</forename>
+            <forename>Luigi</forename>
+            <forename>Manfredi</forename>
+            <forename>Niccolo</forename>
+            <forename>Pietro</forename>
+            <forename>Roberto</forename>
+            <forename>Vincenzo</forename>
         </masculine>
         <feminine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Anastasia</forename>
+            <forename>Angelica</forename>
+            <forename>Bianca</forename>
+            <forename>Camilla</forename>
+            <forename>Caterina</forename>
+            <forename>Clarissa</forename>
+            <forename>Elena</forename>
+            <forename>Francesca</forename>
+            <forename>Giovanna</forename>
+            <forename>Giulia</forename>
+            <forename>Lucrezia</forename>
+            <forename>Luisa</forename>
+            <forename>Maddalena</forename>
+            <forename>Marie</forename>
         </feminine>
     </forenames>
     <surnames>
@@ -3640,6 +3689,7 @@
         <surname>Borromeo</surname>
         <surname>Canossa</surname>
         <surname>Chigi</surname>
+        <surname>Dandolo</surname>
         <surname>Este</surname>
         <surname>Grimaldi</surname>
         <surname>Ivrea</surname>
@@ -3712,12 +3762,29 @@
     <title>Mazovian</title>
     <forenames>
         <masculine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Bezprym</forename>
+            <forename>Boleslaw</forename>
+            <forename>Janusz</forename>
+            <forename>Kazimierz</forename>
+            <forename>Lestek</forename>
+            <forename>Mieszko</forename>
+            <forename>Siemowit</forename>
+            <forename>Siemomysl</forename>
+            <forename>Stanislaw</forename>
+            <forename>Wladislaw</forename>
+            <forename>Zbigniew</forename>
         </masculine>
         <feminine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Anna</forename>
+            <forename>Beatrycze</forename>
+            <forename>Elzbieta</forename>
+            <forename>Fenenna</forename>
+            <forename>Jadwiga</forename>
+            <forename>Karolina</forename>
+            <forename>Maria</forename>
+            <forename>Richeza</forename>
+            <forename>Salomea</forename>
+            <forename>Swietoslawa</forename>
         </feminine>
     </forenames>
     <surnames>
@@ -4253,21 +4320,42 @@
     <title>Neapolitan</title>
     <forenames>
         <masculine>
+            <forename>Alessandro</forename>
             <forename>Alfonso</forename>
+            <forename>Averardo</forename>
             <forename>Carlo</forename>
             <forename>Corrado</forename>
+            <forename>Cosimo</forename>
             <forename>Enrico</forename>
             <forename>Federico</forename>
             <forename>Ferdinando</forename>
+            <forename>Francesco</forename>
             <forename>Giacomo</forename>
+            <forename>Giovanni</forename>
+            <forename>Guido</forename>
+            <forename>Lorenzo</forename>
             <forename>Luigi</forename>
             <forename>Manfredi</forename>
+            <forename>Niccolo</forename>
             <forename>Pietro</forename>
             <forename>Roberto</forename>
+            <forename>Vincenzo</forename>
         </masculine>
         <feminine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Anastasia</forename>
+            <forename>Angelica</forename>
+            <forename>Bianca</forename>
+            <forename>Camilla</forename>
+            <forename>Caterina</forename>
+            <forename>Clarissa</forename>
+            <forename>Elena</forename>
+            <forename>Francesca</forename>
+            <forename>Giovanna</forename>
+            <forename>Giulia</forename>
+            <forename>Lucrezia</forename>
+            <forename>Luisa</forename>
+            <forename>Maddalena</forename>
+            <forename>Marie</forename>
         </feminine>
     </forenames>
     <surnames>
@@ -4281,6 +4369,7 @@
         <surname>Borromeo</surname>
         <surname>Canossa</surname>
         <surname>Chigi</surname>
+        <surname>Dandolo</surname>
         <surname>Este</surname>
         <surname>Grimaldi</surname>
         <surname>Ivrea</surname>
@@ -4934,12 +5023,29 @@
     <title>Polish</title>
     <forenames>
         <masculine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Bezprym</forename>
+            <forename>Boleslaw</forename>
+            <forename>Janusz</forename>
+            <forename>Kazimierz</forename>
+            <forename>Lestek</forename>
+            <forename>Mieszko</forename>
+            <forename>Siemowit</forename>
+            <forename>Siemomysl</forename>
+            <forename>Stanislaw</forename>
+            <forename>Wladislaw</forename>
+            <forename>Zbigniew</forename>
         </masculine>
         <feminine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Anna</forename>
+            <forename>Beatrycze</forename>
+            <forename>Elzbieta</forename>
+            <forename>Fenenna</forename>
+            <forename>Jadwiga</forename>
+            <forename>Karolina</forename>
+            <forename>Maria</forename>
+            <forename>Richeza</forename>
+            <forename>Salomea</forename>
+            <forename>Swietoslawa</forename>
         </feminine>
     </forenames>
     <surnames>
@@ -5107,6 +5213,7 @@
     <title>Prussian</title>
     <forenames>
         <masculine>
+            <forename>Adalbert</forename>
             <forename>Albrecht</forename>
             <forename>Bernhard</forename>
             <forename>Burchard</forename>
@@ -5443,21 +5550,42 @@
     <title>Sardinian</title>
     <forenames>
         <masculine>
+            <forename>Alessandro</forename>
             <forename>Alfonso</forename>
+            <forename>Averardo</forename>
             <forename>Carlo</forename>
             <forename>Corrado</forename>
+            <forename>Cosimo</forename>
             <forename>Enrico</forename>
             <forename>Federico</forename>
             <forename>Ferdinando</forename>
+            <forename>Francesco</forename>
             <forename>Giacomo</forename>
+            <forename>Giovanni</forename>
+            <forename>Guido</forename>
+            <forename>Lorenzo</forename>
             <forename>Luigi</forename>
             <forename>Manfredi</forename>
+            <forename>Niccolo</forename>
             <forename>Pietro</forename>
             <forename>Roberto</forename>
+            <forename>Vincenzo</forename>
         </masculine>
         <feminine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Anastasia</forename>
+            <forename>Angelica</forename>
+            <forename>Bianca</forename>
+            <forename>Camilla</forename>
+            <forename>Caterina</forename>
+            <forename>Clarissa</forename>
+            <forename>Elena</forename>
+            <forename>Francesca</forename>
+            <forename>Giovanna</forename>
+            <forename>Giulia</forename>
+            <forename>Lucrezia</forename>
+            <forename>Luisa</forename>
+            <forename>Maddalena</forename>
+            <forename>Marie</forename>
         </feminine>
     </forenames>
     <surnames>
@@ -5471,6 +5599,7 @@
         <surname>Borromeo</surname>
         <surname>Canossa</surname>
         <surname>Chigi</surname>
+        <surname>Dandolo</surname>
         <surname>Este</surname>
         <surname>Grimaldi</surname>
         <surname>Ivrea</surname>
@@ -5544,23 +5673,76 @@
     <forenames>
         <masculine>
             <forename>Adalbert</forename>
-            <forename></forename>
+            <forename>Albrecht</forename>
+            <forename>Bernhard</forename>
+            <forename>Burchard</forename>
+            <forename>Eberhard</forename>
+            <forename>Ernst</forename>
+            <forename>Friedrich</forename>
+            <forename>Gebhardt</forename>
+            <forename>Georg</forename>
+            <forename>Gerhard</forename>
+            <forename>Heinrich</forename>
+            <forename>Jakob</forename>
+            <forename>Joachim</forename>
+            <forename>Jobst</forename>
+            <forename>Johann</forename>
+            <forename>Karl</forename>
+            <forename>Konrad</forename>
+            <forename>Lothar</forename>
+            <forename>Ludwig</forename>
+            <forename>Meinhard</forename>
+            <forename>Rudolf</forename>
+            <forename>Ruprecht</forename>
+            <forename>Sighard</forename>
+            <forename>Sigismund</forename>
+            <forename>Ulrich</forename>
+            <forename>Walram</forename>
+            <forename>Wenzel</forename>
+            <forename>Wilhelm</forename>
+            <forename>Wolfgang</forename>
         </masculine>
         <feminine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Adelheid</forename>
+            <forename>Agnes</forename>
+            <forename>Anna</forename>
+            <forename>Barbara</forename>
+            <forename>Beatrix</forename>
+            <forename>Berta</forename>
+            <forename>Bianca</forename>
+            <forename>Elisabeth</forename>
+            <forename>Emma</forename>
+            <forename>Ermengarde</forename>
+            <forename>Ermesinde</forename>
+            <forename>Gertrude</forename>
+            <forename>Gisela</forename>
+            <forename>Henriette</forename>
+            <forename>Hildegard</forename>
+            <forename>Ida</forename>
+            <forename>Isabella</forename>
+            <forename>Judith</forename>
+            <forename>Margarethe</forename>
+            <forename>Maria</forename>
+            <forename>Mathilde</forename>
+            <forename>Mechthild</forename>
+            <forename>Sibylle</forename>
+            <forename>Sophie</forename>
+            <forename>Rosine</forename>
         </feminine>
     </forenames>
     <surnames>
-		<surname>van Asbeck</surname>
-        <surname>van Bremen</surname>
-		<surname>van Brunswick</surname>
-        <surname>van Essen</surname>
-        <surname>van Fresendorp</surname>
-        <surname>van Galen</surname>
-        <surname>van Holstein</surname>
-        <surname>van Luneburg</surname>
+		<surname>von Asbeck</surname>
+        <surname>Ascania</surname>
+        <surname>Billung</surname>
+        <surname>von Bremen</surname>
+		<surname>von Brunswick</surname>
+        <surname>von Essen</surname>
+        <surname>von Fresendorp</surname>
+        <surname>von Galen</surname>
+        <surname>von Holstein</surname>
+        <surname>von Luneburg</surname>
         <surname>Reventlow</surname>
+        <surname>Wettin</surname>
     </surnames>
     <nicknames>
         <nickname>the Black</nickname>
@@ -5728,21 +5910,42 @@
     <title>Sicilian</title>
     <forenames>
         <masculine>
+            <forename>Alessandro</forename>
             <forename>Alfonso</forename>
+            <forename>Averardo</forename>
             <forename>Carlo</forename>
             <forename>Corrado</forename>
+            <forename>Cosimo</forename>
             <forename>Enrico</forename>
             <forename>Federico</forename>
             <forename>Ferdinando</forename>
+            <forename>Francesco</forename>
             <forename>Giacomo</forename>
+            <forename>Giovanni</forename>
+            <forename>Guido</forename>
+            <forename>Lorenzo</forename>
             <forename>Luigi</forename>
             <forename>Manfredi</forename>
+            <forename>Niccolo</forename>
             <forename>Pietro</forename>
             <forename>Roberto</forename>
+            <forename>Vincenzo</forename>
         </masculine>
         <feminine>
+            <forename>Anastasia</forename>
+            <forename>Angelica</forename>
+            <forename>Bianca</forename>
+            <forename>Camilla</forename>
+            <forename>Caterina</forename>
+            <forename>Clarissa</forename>
+            <forename>Elena</forename>
+            <forename>Francesca</forename>
             <forename>Giovanna</forename>
-            <forename></forename>
+            <forename>Giulia</forename>
+            <forename>Lucrezia</forename>
+            <forename>Luisa</forename>
+            <forename>Maddalena</forename>
+            <forename>Marie</forename>
         </feminine>
     </forenames>
     <surnames>
@@ -5756,6 +5959,7 @@
         <surname>Borromeo</surname>
         <surname>Canossa</surname>
         <surname>Chigi</surname>
+        <surname>Dandolo</surname>
         <surname>Este</surname>
         <surname>Grimaldi</surname>
         <surname>Ivrea</surname>
@@ -5828,12 +6032,29 @@
     <title>Silesian</title>
     <forenames>
         <masculine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Bezprym</forename>
+            <forename>Boleslaw</forename>
+            <forename>Janusz</forename>
+            <forename>Kazimierz</forename>
+            <forename>Lestek</forename>
+            <forename>Mieszko</forename>
+            <forename>Siemowit</forename>
+            <forename>Siemomysl</forename>
+            <forename>Stanislaw</forename>
+            <forename>Wladislaw</forename>
+            <forename>Zbigniew</forename>
         </masculine>
         <feminine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Anna</forename>
+            <forename>Beatrycze</forename>
+            <forename>Elzbieta</forename>
+            <forename>Fenenna</forename>
+            <forename>Jadwiga</forename>
+            <forename>Karolina</forename>
+            <forename>Maria</forename>
+            <forename>Richeza</forename>
+            <forename>Salomea</forename>
+            <forename>Swietoslawa</forename>
         </feminine>
     </forenames>
     <surnames>
@@ -5904,6 +6125,7 @@
     <title>Swabian</title>
     <forenames>
         <masculine>
+            <forename>Adalbert</forename>
             <forename>Albrecht</forename>
             <forename>Bernhard</forename>
             <forename>Burchard</forename>
@@ -6247,21 +6469,39 @@
     <title>Wallachian</title>
     <forenames>
         <masculine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Alexandru</forename>
+            <forename>Basarab</forename>
+            <forename>Bogdan</forename>
+            <forename>Dan</forename>
+            <forename>Dragos</forename>
+            <forename>Ilias</forename>
+            <forename>Ioan</forename>
+            <forename>Mihail</forename>
+            <forename>Mircea</forename>
+            <forename>Nicolae</forename>
+            <forename>Petru</forename>
+            <forename>Radu</forename>
+            <forename>Vladislav</forename>
         </masculine>
         <feminine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Ana</forename>
+            <forename>Anastasia</forename>
+            <forename>Clara</forename>
+            <forename>Emilia</forename>
+            <forename>Margaretha</forename>
+            <forename>Maria</forename>
+            <forename>Natalia</forename>
+            <forename>Stefania</forename>
+            <forename>Vasilica</forename>
+            <forename>Zina</forename>
         </feminine>
     </forenames>
     <surnames>
-        <surname>Basarab</surname>
+        <surname>Basarabilor</surname>
         <surname>Cantemir</surname>
         <surname>Craiovesti</surname>
         <surname>Danesti</surname>
         <surname>Draculesti</surname>
-        <surname>Dragos</surname>
         <surname>Movila</surname>
         <surname>Musat</surname>
         <surname>Soldanesti</surname>
@@ -6427,12 +6667,62 @@
     <title>Wendish</title>
     <forenames>
         <masculine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Adalbert</forename>
+            <forename>Albrecht</forename>
+            <forename>Bernhard</forename>
+            <forename>Burchard</forename>
+            <forename>Eberhard</forename>
+            <forename>Ernst</forename>
+            <forename>Friedrich</forename>
+            <forename>Gebhardt</forename>
+            <forename>Georg</forename>
+            <forename>Gerhard</forename>
+            <forename>Heinrich</forename>
+            <forename>Jakob</forename>
+            <forename>Joachim</forename>
+            <forename>Jobst</forename>
+            <forename>Johann</forename>
+            <forename>Karl</forename>
+            <forename>Konrad</forename>
+            <forename>Lothar</forename>
+            <forename>Ludwig</forename>
+            <forename>Meinhard</forename>
+            <forename>Rudolf</forename>
+            <forename>Ruprecht</forename>
+            <forename>Sighard</forename>
+            <forename>Sigismund</forename>
+            <forename>Ulrich</forename>
+            <forename>Walram</forename>
+            <forename>Wenzel</forename>
+            <forename>Wilhelm</forename>
+            <forename>Wolfgang</forename>
         </masculine>
         <feminine>
-            <forename></forename>
-            <forename></forename>
+            <forename>Adelheid</forename>
+            <forename>Agnes</forename>
+            <forename>Anna</forename>
+            <forename>Barbara</forename>
+            <forename>Beatrix</forename>
+            <forename>Berta</forename>
+            <forename>Bianca</forename>
+            <forename>Elisabeth</forename>
+            <forename>Emma</forename>
+            <forename>Ermengarde</forename>
+            <forename>Ermesinde</forename>
+            <forename>Gertrude</forename>
+            <forename>Gisela</forename>
+            <forename>Henriette</forename>
+            <forename>Hildegard</forename>
+            <forename>Ida</forename>
+            <forename>Isabella</forename>
+            <forename>Judith</forename>
+            <forename>Margarethe</forename>
+            <forename>Maria</forename>
+            <forename>Mathilde</forename>
+            <forename>Mechthild</forename>
+            <forename>Sibylle</forename>
+            <forename>Sophie</forename>
+            <forename>Rosine</forename>
         </feminine>
     </forenames>
     <surnames>
