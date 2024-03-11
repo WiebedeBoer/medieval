@@ -3095,7 +3095,93 @@
     </literature>
   <cycle>
   <cycle>
-    <culture>Lombard</culture>
+    <culture>Ligurian</culture>
+    <type>Matter_Lombard</type>
+    <literature>
+      <book>
+        <title>Bible</title>
+        <genre>Scriptures</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Life of Cetheus of Pescara</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Life of Vigilius of Trent</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Golden Legend</title>
+        <genre>Hagiography</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Verona Gospels</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Brescia Gospels</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Book of Milan</title>
+        <genre>Gospel</genre>
+        <religion>Christian</religion>
+      </book>
+      <book>
+        <title>Entry to Spain</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Charlemagne and Elegast</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Floris and Blancheflour</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Aesop Fables</title>
+        <genre>Epic</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Divine Comedy</title>
+        <genre>Satire</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Decameron</title>
+        <genre>Satire</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Chronicle of Fredegar</title>
+        <genre>Chronicle</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>Mirror for Princes</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+      <book>
+        <title>From Mathematical Games</title>
+        <genre>Treatise</genre>
+        <religion>none</religion>
+      </book>
+    </literature>
+  <cycle>
+  <cycle>
+    <culture>Tuscan</culture>
     <type>Matter_Tuscan</type>
     <literature>
       <book>
@@ -3196,7 +3282,7 @@
     </literature>
   <cycle>
   <cycle>
-    <culture>Lombard</culture>
+    <culture>Tuscan</culture>
     <type>Matter_Rome</type>
     <literature>
       <book>
@@ -3247,7 +3333,7 @@
     </literature>
   <cycle>
   <cycle>
-    <culture>Lombard</culture>
+    <culture>Venetian</culture>
     <type>Matter_Venice</type>
     <literature>
       <book>

@@ -173,9 +173,9 @@
             <siege>Mangonel</siege>
             <company>none</company>
             <auxiliary>none</auxiliary>
-            <crusader>none</crusader> 
-            <type>lombard</type>      
-        </merovingian> 
+            <crusader>none</crusader>
+            <type>lombard</type>
+        </merovingian>
         <carolingian>
             <rabble_projectile>Rabble_Francisca</rabble_projectile>
             <infantry_skirmisher>Militia_Archer</infantry_skirmisher>
@@ -188,8 +188,8 @@
             <company>none</company>
             <auxiliary>none</auxiliary>
             <crusader>none</crusader>
-            <type>lombard</type>    
-        </carolingian> 
+            <type>lombard</type>
+        </carolingian>
         <viking>
             <rabble_projectile>Rabble_Francisca</rabble_projectile>
             <infantry_skirmisher>Militia_Archer</infantry_skirmisher>

@@ -673,6 +673,30 @@
     <region>Leon</region>
   </culture>
   <culture>
+    <type>Ligurian</type>
+    <recruitment>lombard</recruitment>
+    <heraldry>
+      <banners>
+        <country>
+          <caparison>italian</caparison>
+          <tabard>italian</tabard>
+          <banner>italian</banner>
+          <banderole>italian</banderole>
+          <gonfalon>italian</gonfalon>
+        </country>
+        <military>
+          <caparison>italian</caparison>
+          <tabard>italian</tabard>
+          <banner>italian</banner>
+          <banderole>italian</banderole>
+          <gonfalon>italian</gonfalon>
+        </military>
+      </banners>  
+    </heraldry>
+    <religion>Catholic</religion>
+    <region>Liguria</region>
+  </culture>
+  <culture>
     <type>Lithuanian</type>
     <recruitment>german</recruitment>
     <heraldry>
@@ -730,14 +754,14 @@
           <tabard>italian</tabard>
           <banner>italian</banner>
           <banderole>italian</banderole>
-          <gonfalon>italian</gonfalon>    
+          <gonfalon>italian</gonfalon>
         </country>
         <military>
           <caparison>italian</caparison>
           <tabard>italian</tabard>
           <banner>italian</banner>
           <banderole>italian</banderole>
-          <gonfalon>italian</gonfalon>   
+          <gonfalon>italian</gonfalon>
         </military>
       </banners>  
     </heraldry>
@@ -1319,6 +1343,54 @@
     </heraldry>
     <religion>Muslim_Sunni</religion>
     <region>Khazaria</region>
+  </culture>
+  <culture>
+    <type>Tuscan</type>
+    <recruitment>lombard</recruitment>
+    <heraldry>
+      <banners>
+        <country>
+          <caparison>italian</caparison>
+          <tabard>italian</tabard>
+          <banner>italian</banner>
+          <banderole>italian</banderole>
+          <gonfalon>italian</gonfalon>
+        </country>
+        <military>
+          <caparison>italian</caparison>
+          <tabard>italian</tabard>
+          <banner>italian</banner>
+          <banderole>italian</banderole>
+          <gonfalon>italian</gonfalon>
+        </military>
+      </banners>  
+    </heraldry>
+    <religion>Catholic</religion>
+    <region>Tuscany</region>
+  </culture>
+  <culture>
+    <type>Venetian</type>
+    <recruitment>lombard</recruitment>
+    <heraldry>
+      <banners>
+        <country>
+          <caparison>italian</caparison>
+          <tabard>italian</tabard>
+          <banner>italian</banner>
+          <banderole>italian</banderole>
+          <gonfalon>italian</gonfalon>
+        </country>
+        <military>
+          <caparison>italian</caparison>
+          <tabard>italian</tabard>
+          <banner>italian</banner>
+          <banderole>italian</banderole>
+          <gonfalon>italian</gonfalon>
+        </military>
+      </banners>  
+    </heraldry>
+    <religion>Catholic</religion>
+    <region>Veneto</region>
   </culture>
   <culture>
     <type>Wallachian</type>
