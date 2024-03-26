@@ -24,6 +24,10 @@ class DuchySeeder extends Seeder
 				'vegetation' => '',					//Desert_Oasis (21), Desert_Marshland (7), Steppe (34), Mediterranean_Shrubland (2), Mediterranean_Marshland (13), Mediterranean_Woodland (84), Temperate_Grassland (3), Temperate_Shrubland (30), Temperate_Woodland (112), Temperate_Marshland (16)
 				'transport' => '',					//Donkey_Train (250), Oxen_Cart (), Camel_Caravan (44), Dog_Cart (30)
 				'altitude' => '',					//Lowland (9), Montane (303), Highland (10)
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => '',
 				'levy_feudal' => '',				//minimal, normal, large, maximal; default=large
 				'levy_ecclesiastical' => '',		//minimal, normal, large, maximal; default=normal
 				'levy_burgher' => '',				//minimal, normal, large, maximal; default=normal
@@ -70,7 +74,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Shrubland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Highland'
+				'altitude' => 'Highland',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//2 
 			//Donaugau, Folkfeld, Isengau, Mattiggau, Nordgau, Radenzgau, Rottgau, Schweinachgau, Westergau
@@ -83,7 +91,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//3 
 			//Brabant, Haspengau, Hennegau, Kamerykgau, Toxandria, Waasgau
@@ -96,7 +108,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Marshland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Lowland'	
+				'altitude' => 'Lowland',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//4
 			//Hengistgau, Ingeringtal, Jauntal, Kroatengau, Lavanttal, Leobental, Lurngau, Murztal, Sanntal
@@ -109,7 +125,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);	
 			//5 
 			//Krainmark, Histria
@@ -122,7 +142,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);	
 			//6
 			//Grabfeld, Gollachgau, Gotzfeld, Jagstgau, Saalgau, Sualafeld, Sulmgau, Taubergau, Waldsassengau
@@ -135,7 +159,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//7 
 			//Ammergau, Auricherland, Beveland, Bornegau, Drenthe, Dithmarschen, Emsigerland, Fivelgau, Hadeln, Holtland, Hunsingau, Kennemerland, Maasland, Nifterlake, Norderland, Ostringen, Oostergau, Rhineland, Rustringen, Salland, Sudergau, Teisterbant, Twente, Veluwe, Vollenhove, Walcheren, Westergau, Westflinge, Wursten
@@ -148,7 +176,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Marshland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Lowland'	
+				'altitude' => 'Lowland',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//8 
 			//Hettergau, Betuwe, Cleveland, Hamaland, Mulgau, Ruhrgau
@@ -161,7 +193,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Marshland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Lowland'	
+				'altitude' => 'Lowland',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);	
 			//9
 			//Julichgau, Eifelgau, Zulpichgau
@@ -174,7 +210,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//10
 			//Luttichgau, Ardennengau, Condrustgau, Lommegau, Maasgau
@@ -187,7 +227,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);	
 			//11 
 			//Metzgau, Bleisgau, Chaumontois, Saargau, Salingau, Soulossois, Toullois
@@ -200,7 +244,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//12
 			//Methingau, Barrois, Moselgau, Verdungau, Wavergau
@@ -213,7 +261,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);	
 			//13
 			//Bardengau, Derlingau, Eastfalagau, Gretingau, Gudingau, Harzgau, Wenzengau
@@ -226,7 +278,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Shrubland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);	
 			//14
 			//Traungau, Attergau, Ennstal, Norital, Vinschgau
@@ -239,7 +295,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Shrubland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Highland'	
+				'altitude' => 'Highland',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);	
 			//15 
 			//Ortengau, Albegau, Augstgau, Breisgau, Churgau, Hegau, Linzgau, Neckargau, Nordgau, Riesgau, Schwerzgau, Schwyzgau, Sundgau, Turgau, Zurichgau  
@@ -252,7 +312,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Dog_Cart',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//16
 			//Thuringgau, Altgau, Eichsfeld, Helmegau, Langwitzgau, Nabelgau, Orlagau, Ostergau, Zwickaugau
@@ -265,7 +329,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//17 
 			//Largau, Agradingau, Angerngau, Augau, Bukkigau, Bursibant, Dervegau, Dreingau, Gronegau, Hasegau, Heilangau, Holsteingau, Leinegau, Mosidegau, Padergau, Stevergau, Stormarngau, Sturmigau, Sudergau, Werregau, Westfaliagau      
@@ -278,7 +346,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',		
 				'vegetation' => 'Temperate_Marshland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Lowland'
+				'altitude' => 'Lowland',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//18
 			//Gillgau, Auelgau, Bonngau, Deutzgau
@@ -291,7 +363,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Marshland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);	
 			//19
 			//Nordthuringgau, Balsamgau, Friesenfeld, Hartingau, Hassegau, Osterwalde, Schwabengau
@@ -304,7 +380,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//20
 			//Wormsfeld, Engersgau, Hessengau, Lahngau, Lobdengau, Maingau, Nahegau, Niddagau, Speyergau, Ufgau, Wettergau, Wurmgau
@@ -317,7 +397,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//21
 			//Salzburggau, Chiemgau, Lungau, Pinzgau, Sundergau
@@ -330,7 +414,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Shrubland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Highland'
+				'altitude' => 'Highland',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);	
 			//22
 			//Bitgau, Maifeld, Hunsruckgau, Trechirgau
@@ -343,7 +431,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);	
 			//Lombardy
 			//23 
@@ -357,7 +449,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Marshland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);	
 			//24 
 			//Alba, Asti, Auriate, Canavese, Casale, Cuneo, Montferrat, Pragelato, Susa, Turino, Vercelli, Vigevano
@@ -370,7 +466,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Marshland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//25 
 			//Siena, Grosseto, Piombino, Sovana
@@ -383,7 +483,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);	
 			//26 
 			//Verona, Padova, Rovigo, Vicenza, Trent
@@ -396,7 +500,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Marshland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);	
 			//27 
 			//Friuli, Gorizia, Pordenone
@@ -409,7 +517,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Marshland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//28 
 			//Florence, Arezzo, Cortona, Perugia, Prato
@@ -422,7 +534,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//29 
 			//Genoa, Lunigiana, Massa
@@ -435,7 +551,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);	
 			//30 
 			//Noli, Albenga, Finale
@@ -448,7 +568,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);	
 			//31 
 			//Oneglia, Monaco, Ventimiglia
@@ -461,7 +585,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);	
 			//32 
 			//Lucca, Pistoia
@@ -474,7 +602,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);	
 			//33 
 			//Pisa, Corsica, Livorno, Volterra
@@ -487,7 +619,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',		
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);	
 			//34 
 			//Dogado, Belluno, Treviso
@@ -500,7 +636,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Marshland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Lowland'	
+				'altitude' => 'Lowland',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);	
 			//bohemia
 			//35 
@@ -514,7 +654,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);	
 			//36 
 			//Meissengau, Milzenigau, Nisangau, Lusizigau, Selpuligau
@@ -527,7 +671,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//37 
 			//Brunn, Iglau, Olmutz, Prerau, Velingrad, Znaim
@@ -540,7 +688,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);	
 			//38 
 			//Jauer, Glogau, Leubus, Liegnitz, Oels, Schweidnitz
@@ -553,7 +705,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);	
 			//39
 			//Oppeln, Breslau, Brieg, Ratibor, Teschen, Troppau
@@ -566,7 +722,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//Burgundy
 			//40
@@ -580,7 +740,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',		
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);	
 			//41
 			//Dauphine, Albon, Belinois, Embrunnais, Forcalquier, Lyonnais, Mauronais, Valentinois, Viennois
@@ -593,7 +757,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Marshland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//42 
 			//Amosenais, Aargau, Bargenais, Genevanais, Lausonnais, Portenais, Vaudenais
@@ -606,7 +774,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Shrubland',
 				'transport' => 'Dog_Cart',
-				'altitude' => 'Highland'	
+				'altitude' => 'Highland',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//43
 			//Orange, Venaissin, Vivarais
@@ -619,7 +791,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Marshland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);	
 			//44
 			//Provence, Arles, Baux, Marseille, Nice, Toulon 
@@ -632,7 +808,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Marshland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);	
 			//45 
 			//Savoia, Aosta, Chablais, Genevanais, Tarantais, Valais
@@ -645,7 +825,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Shrubland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Highland'	
+				'altitude' => 'Highland',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);	
 			//Papal States
 			//46 
@@ -659,7 +843,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//47 
 			//Ferrara, Bologna, Carpegna, Ravenna
@@ -672,7 +860,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//48 
 			//Ancona, Chieti, Fermo, Pescara, Spoleto
@@ -685,8 +877,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//49
 			//Urbino, Pesaro
             DB::table('duchies')->insert([
@@ -698,7 +894,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//teutonic order state
 			//50 
@@ -712,7 +912,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//51
 			//Reval, Pernau
@@ -725,8 +929,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//52
 			//Pomesanengau, Bartengau, Ermland, Memelland, Nadrauengau, Natangergau, Pogesanengau, Samland
             DB::table('duchies')->insert([
@@ -738,8 +946,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//53
 			//Danzig, Butow, Dirschau, Karthaus, Kulmerland, Lauenburg, Putzig, Schlochau, Schwetz, Thorn, Tuchel
             DB::table('duchies')->insert([
@@ -751,8 +963,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//54 
 			//Kammin, Arnswalde, Gollnow, Greifenhagen, Greifenberg, Pyritz, Kessinigau, Kolberg, Koslin, Neustettin, Schivelbein, Slupsk, Schlawe, Stettin, Wostrosegau
             DB::table('duchies')->insert([
@@ -764,8 +980,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Marshland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//55
 			//Havelland, Dossegau, Linaggau, Nelitzigau, Retschanengau, Uckermark
             DB::table('duchies')->insert([
@@ -777,8 +997,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//56
 			//Circipanigau, Obotritegau, Polabigau, Wagrigau
             DB::table('duchies')->insert([
@@ -790,7 +1014,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//France
 			//France
@@ -805,8 +1033,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Marshland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Lowland'	
-            ]);	
+				'altitude' => 'Lowland',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//58
 			//Bordelais, Agenais, Angoumois, Bazadais, Limousin, Lomagne, Perigord, Saintogne
             DB::table('duchies')->insert([
@@ -818,7 +1050,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);	
 			//59
 			//Auvergne, Aurillac, Brioude, Carlat, Clermont, Forez, Murat
@@ -831,7 +1067,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//60
 			//Berry, Sancerre
@@ -844,7 +1084,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//61 
 			//Bourbonnais, Montlucon
@@ -857,8 +1101,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//62
 			//Armagnac, Astarac, Bearn, Bigorre, Comminges, Couserans, Dax, Fezensac, Marsan, Tursan 
             DB::table('duchies')->insert([
@@ -870,8 +1118,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Shrubland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Highland'	
-            ]);	
+				'altitude' => 'Highland',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//63
 			//Remois, Brenois, Chalonnais, Duesmois, Langres, Meaux, Perthois, Provins, Rethelois, Senois, Troyes
             DB::table('duchies')->insert([
@@ -883,8 +1135,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Grassland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//64 
 			//Pay de France, Beauvaisis, Beaumont, Brie, Clermont, Gatinais, Hurepoix, Mantois, Senlis, Soissonnais, Valois, Vexin 
             DB::table('duchies')->insert([
@@ -896,8 +1152,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Marshland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//65
 			//Roumois, Alencon, Avranches, Bayeux, Caux, Coutances, Evreux, Eu, Lisieux, Mortainais
             DB::table('duchies')->insert([
@@ -909,8 +1169,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Marshland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//66
 			//Orleanais, Blaisois, Chartres, Dreux, Dunois, Etampois, Nemours 
             DB::table('duchies')->insert([
@@ -922,8 +1186,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//67 
 			//Artois, Amienois, Boulognois, Flanders, Guines, Laonnais, Montreuil, Noyonnais, Ponthieu, Ternois, Tournais, Vermandois 
             DB::table('duchies')->insert([
@@ -935,7 +1203,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Marshland',
 				'transport' => 'Dog_Cart',
-				'altitude' => 'Lowland'	
+				'altitude' => 'Lowland',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);	
 			//68
 			//Poitou, Aunis, Briancais, Chatellerault, Marche, Thouarsais, Turenne
@@ -948,7 +1220,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);	
 			//69 
 			//Toulouse, Albi, Carcasonne, Foix, Gevaudan, Melgueil, Millau, Narbonne, Nimes, Quercy, Rouergue, Velay
@@ -961,7 +1237,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//Brittany
 			//70
@@ -975,8 +1255,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//71
 			//Penthievre, Alet, Tregor
             DB::table('duchies')->insert([
@@ -988,8 +1272,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//72
 			//Retz, Nantais, Rennais
             DB::table('duchies')->insert([
@@ -1001,7 +1289,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Marshland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//Britain
 			//Ireland
@@ -1016,8 +1308,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Dog_Cart',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//74
 			//Carlow, Kildare, Kilkenny, Leix, Tipperary, Waterford, Wexford, Wicklow
             DB::table('duchies')->insert([
@@ -1029,7 +1325,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Dog_Cart',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);	
 			//75
 			//Dublin, Longford, Meath, Offaly
@@ -1042,8 +1342,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Dog_Cart',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//76
 			//Clare, Cork, Kerry, Limerick
             DB::table('duchies')->insert([
@@ -1055,8 +1359,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Dog_Cart',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//77
 			//Antrim, Armagh, Cavan, Derry, Donegal, Down, Fermanagh, Leitrim, Louth, Monaghan, Tyrone
             DB::table('duchies')->insert([
@@ -1068,8 +1376,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Dog_Cart',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//England
 			//78
 			//Norfolk, Suffolk
@@ -1082,8 +1394,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Marshland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//79
 			//Essex, Hertfordshire, Middlesex
             DB::table('duchies')->insert([
@@ -1095,8 +1411,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//80
 			//Gloucestershire, Warwickshire, Winchcombeshire, Worcestershire
             DB::table('duchies')->insert([
@@ -1108,7 +1428,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Marshland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//81
 			//Aylesfordshire, Kent, Shepwayshire
@@ -1121,7 +1445,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Marshland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//82
 			//Derbyshire, Leicestershire, Lincolnshire, Nothinghamshire, Rutland
@@ -1134,8 +1462,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//83
 			//Cheshire, Herefordshire, Shropshire, Staffordshire
             DB::table('duchies')->insert([
@@ -1147,8 +1479,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//84
 			//Bedfordshire, Buckinghamshire, Cambridgeshire, Huntingdonshire, Northamptonshire, Oxfordshire
             DB::table('duchies')->insert([
@@ -1160,7 +1496,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Marshland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Lowland'	
+				'altitude' => 'Lowland',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);	
 			//85
 			//Allertonshire, Burghshire, Cumberland, Durham, Hallamshire, Hexhamshire, Howdenshire, Northumberland, Lancashire, Richmondshire, Yorkshire
@@ -1173,8 +1513,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Shrubland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//86
 			//Arundelshire, Brambershire, Chichestershire, Leweshire, Pevenshire, Sussex
             DB::table('duchies')->insert([
@@ -1186,7 +1530,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//87
 			//Berkshire, Dorsetshire, Hampshire, Somersetshire, Surrey, Wiltshire
@@ -1199,7 +1547,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Dog_Cart',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//Wales
 			//88
@@ -1213,8 +1565,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//89
 			//Cardiganshire, Carmarthenshire, Pembrokeshire
             DB::table('duchies')->insert([
@@ -1226,7 +1582,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);	
 			//90
 			//Glamorgan, Monmouthshire
@@ -1239,7 +1599,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);	
 			//91
 			//Anglesey, Caernarvonshire, Denbighshire, Flintshire
@@ -1252,7 +1616,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Shrubland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);	
 			//92
 			//Brecknockshire, Montgomeryshire, Radnorshire
@@ -1265,7 +1633,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Shrubland',
 				'transport' => 'Oxen_Cart',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);	
 			//Scotland
 			//93
@@ -1279,7 +1651,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Dog_Cart',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//94
 			//Berwickshire, Edinburghshire, Haddingtonshire, Lothian, Stirlingshire
@@ -1292,7 +1668,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Dog_Cart',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//95
 			//Argyll, Bute, Mann
@@ -1305,7 +1685,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Shrubland',
 				'transport' => 'Dog_Cart',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//96
 			//Cromartyshire, Elginshire, Invernessshire, Nairnshire, Sutherland
@@ -1318,7 +1702,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Shrubland',
 				'transport' => 'Dog_Cart',
-				'altitude' => 'Highland'
+				'altitude' => 'Highland',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//97
 			//Kirkcudbrightshire, Wigtownshire
@@ -1331,7 +1719,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Dog_Cart',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//98
 			//Dumfriesshire, Peeblesshire, Roxburghshire, Selkirkshire
@@ -1344,7 +1736,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Dog_Cart',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//99
 			//Ayrshire, Dunbartonshire, Lanarkshire, Renfrewshire
@@ -1357,7 +1753,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Dog_Cart',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//Aragon
 			//Aragon
@@ -1372,7 +1772,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Steppe',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);	
 			//101
 			//Bages, Barcelona, Bergueda, Llobregat, Maresme, Osona, Valles
@@ -1385,7 +1789,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//102
 			//Cerdanya, Conflent, Emporda, Girones, Razes, Ripolles, Rosello, Selva
@@ -1398,8 +1806,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//103
 			//Huesca, Jacetania, Ribagorza, Sobrarbe
             DB::table('duchies')->insert([
@@ -1411,8 +1823,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Shrubland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Highland'	
-            ]);	
+				'altitude' => 'Highland',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//104
 			//Lleida, Pallars, Urgell
             DB::table('duchies')->insert([
@@ -1424,7 +1840,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Shrubland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//105
 			//Montsia, Tarragona, Tortosa
@@ -1437,7 +1857,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//106
 			//Albarracin, Teruel
@@ -1450,7 +1874,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Steppe',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//107
 			//Aranda, Calatayud, Zaragoza
@@ -1463,7 +1891,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Steppe',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//Navarre
 			//108
@@ -1477,7 +1909,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Steppe',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);	
 			//109
 			//Donostialdea, Leitzaldea, Mungialdea, Tolosaldea
@@ -1490,8 +1926,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Shrubland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//110
 			//Estella, Irunerria, Sanguesa, Tafalla, Tudela, Ultzamaldea
             DB::table('duchies')->insert([
@@ -1503,8 +1943,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Shrubland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//111
 			//Busturialdea, Bilbaoldea, Uribe
             DB::table('duchies')->insert([
@@ -1516,8 +1960,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Shrubland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//Castile
 			//Castile
 			//112
@@ -1531,8 +1979,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Steppe',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//113
 			//Arlanza, Bureba, Burgos
             DB::table('duchies')->insert([
@@ -1544,7 +1996,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Steppe',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//114
 			//Campos, Cerrato, Valdivia
@@ -1557,7 +2013,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Steppe',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//115
 			//Coca, Riaza, Segovia, Sepulveda
@@ -1570,7 +2030,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Steppe',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//116
 			//Almazan, Berlanga, Gomara, Osma, Soria
@@ -1583,7 +2047,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Steppe',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//117
 			//Jara, Madrid, Ocana, Sagra, Talavera, Toledo, Torrijos, Vegas
@@ -1596,7 +2064,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Steppe',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//118
 			//Esgueva, Medina, Pinares, Penafiel, Pisuerga, Rioseco
@@ -1609,7 +2081,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Steppe',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//Galicia
 			//119
@@ -1623,7 +2099,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Shrubland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);	
 			//120
 			//Lugo, Marina, Meira, Sarria, Ulloa
@@ -1636,7 +2116,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Shrubland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);	
 			//121
 			//Carbalino, Celanova, Ourense, Valdeorras, Viana
@@ -1649,8 +2133,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Shrubland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//122
 			//Caldas, Pontevedra, Vigo
             DB::table('duchies')->insert([
@@ -1662,8 +2150,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Shrubland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//Leon
 			//123
 			//Alcantara, Caceres, Plasencia, Trujillo
@@ -1676,8 +2168,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//124
 			//Astorga, Baneza, Bierzo, Leon, Sahagun
             DB::table('duchies')->insert([
@@ -1689,8 +2185,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Shrubland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//125
 			//Alba, Caceres, Cantalapiedra, Guijielo, Ledesma, Penaranda, Rodrigo, Salamanca, Vitigudino
             DB::table('duchies')->insert([
@@ -1702,8 +2202,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Steppe',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//126
 			//Aliste, Carballeda, Guarena, Sanabria, Sayago, Tabara
             DB::table('duchies')->insert([
@@ -1715,8 +2219,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Steppe',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//Asturias
 			//127
 			//Aviles, Gijon, Navia, Oviedo
@@ -1729,8 +2237,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Shrubland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//128
 			//Campoo, Liebana, Santander, Trasmiera
             DB::table('duchies')->insert([
@@ -1742,8 +2254,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Shrubland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//Portugal
 			//129
 			//Aveiro, Braga, Porto, Viana
@@ -1756,8 +2272,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//130
 			//Branco, Coimbra, Guarda, Viseu
             DB::table('duchies')->insert([
@@ -1769,8 +2289,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Shrubland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//131
 			//Braganca, Vila Real
             DB::table('duchies')->insert([
@@ -1782,8 +2306,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Shrubland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//132
 			//Leiria, Lisboa, Ribatejo, Setubal
             DB::table('duchies')->insert([
@@ -1795,8 +2323,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//Danelagen
 			//Denmark
 			//133
@@ -1810,7 +2342,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Grassland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//134
 			//Blekinge, Bornholm, Halland, Rugen, Scania
@@ -1823,7 +2359,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//135
 			//Funen, Lolland, Roskilde, Sjaeland, Soro
@@ -1836,7 +2376,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Grassland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//Norway
 			//136
@@ -1850,7 +2394,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Shrubland',
 				'transport' => 'Dog_Cart',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//137
 			//Islay, Lewis, Mull, Skye, Uist
@@ -1863,7 +2411,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Shrubland',
 				'transport' => 'Dog_Cart',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//138
 			//Hadeland, Hedmark, Romerike
@@ -1876,7 +2428,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Shrubland',
 				'transport' => 'Dog_Cart',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//139
 			//Jamtland, Namdal, Oppland, Trondelag
@@ -1889,7 +2445,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Shrubland',
 				'transport' => 'Dog_Cart',
-				'altitude' => 'Highland'	
+				'altitude' => 'Highland',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//140
 			//Dalane, Haugeland, Jaeren, Rogaland
@@ -1902,7 +2462,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Shrubland',
 				'transport' => 'Dog_Cart',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//141
 			//Agder, Grenland, Telemark
@@ -1915,7 +2479,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Dog_Cart',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//142
 			//Hordaland, Romsdal, Vestland
@@ -1928,7 +2496,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Shrubland',
 				'transport' => 'Dog_Cart',
-				'altitude' => 'Highland'	
+				'altitude' => 'Highland',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//143
 			//Akershus, Buskerud, Ostfold, Ranrike, Vestfold, Vingulmark
@@ -1941,7 +2513,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Dog_Cart',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//Sweden
 			//144
@@ -1955,8 +2531,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Dog_Cart',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//145
 			//Angermanland, Gastrikland, Halsingland
             DB::table('duchies')->insert([
@@ -1968,8 +2548,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Dog_Cart',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//146
 			//Aland, Finland, Karelia, Nyland, Ostrobothnia, Satakunta, Savonia, Tavastland
             DB::table('duchies')->insert([
@@ -1981,8 +2565,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Dog_Cart',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//147
 			//Oland, Smaland
             DB::table('duchies')->insert([
@@ -1994,8 +2582,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Dog_Cart',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//148
 			//Dalarna, Narke, Sodermanland, Uppland, Varmland, Vastmanland
             DB::table('duchies')->insert([
@@ -2007,7 +2599,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Dog_Cart',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//Poland
 			//Poland
@@ -2022,8 +2618,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//150
 			//Auswitz, Chrzanow, Sandez, Tarnow, Wadowitz, Lublin, Lukow, Sandomierz
             DB::table('duchies')->insert([
@@ -2035,7 +2635,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//151
 			//Gnesen, Kolo, Kunau, Slupca, Turek, Znin
@@ -2048,7 +2652,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);	
 			//152
 			//Kalisz, Pleschen, Schildberg, Wielun, Wreschen
@@ -2061,7 +2669,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//153
 			//Krakow, Olkusz, Czestochowa, Gorlitz
@@ -2074,7 +2686,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//154
 			//Brodnica, Inowroclaw, Leipe, Mogilno, Naklo, Radziejow
@@ -2087,7 +2703,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);	
 			//155
 			//Losice, Makow, Minsk, Zuromin, Rawa, Wizna
@@ -2100,8 +2720,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//156
 			//Plock, Gostynin, Mlawa
             DB::table('duchies')->insert([
@@ -2113,8 +2737,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//157
 			//Posen, Chodziez, Pila, Rogasen, Samter, Scharnikau, Schrim
             DB::table('duchies')->insert([
@@ -2126,7 +2754,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//158
 			//Sieradz, Radom, Lentschitz
@@ -2139,7 +2771,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//159
 			//Warsaw, Czersk
@@ -2152,7 +2788,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//Lithuania
 			//160
@@ -2166,7 +2806,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//161
 			//Lahoysk, Barysaw
@@ -2179,7 +2823,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//162
 			//Panevezys, Schaulen, Redau
@@ -2192,7 +2840,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//163
 			//Alytus, Kauen, Tracken 
@@ -2205,7 +2857,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//164
 			//Vilnius, Kernave
@@ -2218,7 +2874,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//Hungary
 			//Balaton
@@ -2233,8 +2893,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Steppe',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//166
 			//Baranya, Esztergom, Fejer, Heves, Pest, Szolnok
             DB::table('duchies')->insert([
@@ -2246,7 +2910,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Steppe',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//167
 			//Nitra, Arva, Bars, Hont, Komarom, Lipto, Orava, Pozsony, Trencsen, Zolyom
@@ -2259,7 +2927,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//168
 			//Temesvar, Arad, Bihar, Caransebes
@@ -2272,8 +2944,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//169
 			//Ungvar, Bereg, Borsod, Hajdu, Szabolcs, Szatmar, Szepes, Zemplen
             DB::table('duchies')->insert([
@@ -2285,7 +2961,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Steppe',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//170
 			//Aranyosszek, Csikszek, Haromzsek, Koloszvar, Marosszek, Udvarhelyszek
@@ -2298,7 +2978,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//Croatia
 			//171
@@ -2312,8 +2996,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//172
 			//Ragusa, Cetina, Kotor
             DB::table('duchies')->insert([
@@ -2325,8 +3013,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//173
 			//Zagreb, Bjelovar, Pozega, Syrmia, Varazdin, Veroce
             DB::table('duchies')->insert([
@@ -2338,7 +3030,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Steppe',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//174
 			//Split, Trogir
@@ -2351,8 +3047,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//175
 			//Zadar, Cres, Veglia
             DB::table('duchies')->insert([
@@ -2364,8 +3064,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//Trinacria
 			//Sicily
 			//176
@@ -2379,7 +3083,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Marshland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//177
 			//Trapani
@@ -2392,7 +3100,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Marshland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//178
 			//Messina
@@ -2405,7 +3117,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//179
 			//Agrigento
@@ -2418,7 +3134,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//180
 			//Catania
@@ -2431,7 +3151,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Marshland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//181
 			//Siracusa
@@ -2444,7 +3168,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//Naples
 			//182
@@ -2458,7 +3186,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//183
 			//Volturno, Capua, Caserta
@@ -2471,7 +3203,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//184
 			//Amalfi, Sorrento
@@ -2484,7 +3220,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//185
 			//Catanzaro, Cosenza, Crotone, Reggio
@@ -2497,7 +3237,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//186
 			//Matera, Potenza
@@ -2510,7 +3254,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//187
 			//Taranto, Bari, Brindisi, Lecce
@@ -2523,7 +3271,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//188
 			//Foggia, Sangro, Lesina, Termoli
@@ -2536,7 +3288,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//189
 			//Benevento, Bojano, Isernia, Molise, Alife, Celano, Mignano
@@ -2549,7 +3305,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//190
 			//Salerno, Castiglione, Cilento
@@ -2562,7 +3322,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//Sardinia
 			//191
@@ -2576,7 +3340,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//192
 			//Torres, Sassari
@@ -2589,7 +3357,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//193
 			//Oristano, Campadino
@@ -2602,7 +3374,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//194
 			//Cagliari, Oglistria, Sarrabus
@@ -2615,7 +3391,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//Byzantine
 			//Thrace
@@ -2630,7 +3410,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);	
 			//196
 			//Adrianople, Bergule, Traianopolis
@@ -2643,7 +3427,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//Thessalonica
 			//197
@@ -2657,7 +3445,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//198
 			//Corinthia, Argos, Patras, Laconia
@@ -2670,7 +3462,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//199
 			//Heraklion, Chania
@@ -2683,7 +3479,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//200
 			//Chios, Naxos
@@ -2696,7 +3496,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//201
 			//Naupaktos, Nicopolis, Arta, Hadrianopolis
@@ -2709,7 +3513,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//202
 			//Cephalonia, Korkyra, Zakynthos, Leucadia
@@ -2722,7 +3530,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//203
 			//Thessalonica, Athos
@@ -2735,7 +3547,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//204
 			//Serres, Christoupolis
@@ -2748,7 +3564,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//Trebizond
 			//205
@@ -2762,7 +3582,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//206
 			//Amasia, Amisos, Sinope
@@ -2775,7 +3599,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//207
 			//Trapezus, Polemonion
@@ -2788,7 +3616,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//208
 			//Chersonesus, Theodosia, Theodoro
@@ -2801,7 +3633,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//Anatolia
 			//209
@@ -2815,7 +3651,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//210
 			//Sardes, Chonae
@@ -2828,7 +3668,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//211
 			//Ancyra, Sarmalius
@@ -2841,7 +3685,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//212
 			//Iconium, Laranda
@@ -2854,7 +3702,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//213
 			//Caesarea, Neapolis, Garsaura
@@ -2867,7 +3719,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Steppe',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//214
 			//Seleucea, Adana, Tarsos
@@ -2880,7 +3736,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//215
 			//Cyzicus, Prousa, Abydos, Kotyaion
@@ -2893,7 +3753,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//216
 			//Nicaea, Nicomedia, Malagina
@@ -2906,7 +3770,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//217
 			//Rhodes, Xanthos
@@ -2919,7 +3787,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//218
 			//Attaleia, Saporda
@@ -2932,7 +3804,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//Georgia
 			//219
@@ -2946,7 +3822,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//220
 			//Akhalkalaki, Akhaltsikhe, Tori
@@ -2959,7 +3839,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//221
 			//Bolnisi, Tiblisi, Rustavi, Gori
@@ -2972,7 +3856,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//222
 			//Telavi, Gurjaani
@@ -2985,7 +3873,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//Armenia
 			//223
@@ -2999,7 +3891,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//224
 			//Acilisene, Karapet
@@ -3012,7 +3908,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//225
 			//Kars, Ani, Sardarabad, Yerevan
@@ -3025,7 +3925,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//226
 			//Baku, Rasht
@@ -3038,8 +3942,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//Kievan Rus
 			//Kyiv
 			//227
@@ -3053,7 +3961,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//228
 			//Pereyaslavl
@@ -3066,7 +3978,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//Chernigov
 			//229
@@ -3080,7 +3996,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//230
 			//Ryazan, Murom, Tula, Kaluga, Vorotynsk
@@ -3093,7 +4013,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//Ruthenia
 			//231
@@ -3107,8 +4031,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//232
 			//Podolia, Terebovlia
             DB::table('duchies')->insert([
@@ -3120,7 +4048,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//233
 			//Volhynia, Brest, Kremenets, Lutsk
@@ -3133,7 +4065,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//234
 			//Turov, Slutsk
@@ -3146,7 +4082,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//Vladimir
 			//235
@@ -3160,7 +4100,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//236
 			//Moscow, Dmitrov, Volokolamsk, Zvenigorod
@@ -3173,7 +4117,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//237
 			//Suzdal, Yuryev
@@ -3186,7 +4134,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//Smolensk
 			//238
@@ -3200,7 +4152,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//239
 			//Rzhev, Zubtsov
@@ -3213,7 +4169,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//240
 			//Tver, Galich, Kostroma, Pereslavl, Rostov, Yaroslavl
@@ -3226,7 +4186,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//Novgorod
 			//241
@@ -3240,7 +4204,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//242
 			//Polotsk, Zaslawye, Vitebsk
@@ -3253,7 +4221,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//243
 			//Pleskov, Kholm
@@ -3266,7 +4238,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//Bulgaria
 			//Bulgaria
@@ -3281,7 +4257,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//245
 			//Tarnovo, Kopsis, Seuthopolis
@@ -3294,7 +4274,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//246
 			//Philippopolis, Stanimaka
@@ -3307,7 +4291,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//247
 			//Ohrid, Bitola, Kastoria
@@ -3320,7 +4308,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//Wallachia
 			//248
@@ -3334,7 +4326,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//249
 			//Suceava, Neamt, Akkerman, Soroca, Vaslui, Lapusna, Iasi, Orhei
@@ -3347,7 +4343,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//Serbia
 			//Serbia
@@ -3362,7 +4362,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//251
 			//Bar, Scodra, Lezhe, Sape
@@ -3375,7 +4379,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//252
 			//Borac, Pavlovac
@@ -3388,7 +4396,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//Bosnia
 			//253
@@ -3402,7 +4414,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//254
 			//Tuzla, Zvornik
@@ -3415,7 +4431,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//255
 			//Blagaj, Ston, Dabar, Popovo
@@ -3428,7 +4448,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//Cordoba
 			//Andalucia
@@ -3443,7 +4467,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//257
 			//Almeria, Baza, Alpujarra, Dalias
@@ -3456,7 +4484,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Mediterranean_Marshland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//258
 			//Cadiz, Jerez, Sanlucar
@@ -3469,7 +4501,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Mediterranean_Marshland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Lowland'
+				'altitude' => 'Lowland',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//259
 			//Carmona, Ecija
@@ -3482,8 +4518,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Mediterranean_Marshland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//260
 			//Andujar, Carpio, Cordoba, Martos, Pedroche
             DB::table('duchies')->insert([
@@ -3495,8 +4535,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Mediterranean_Marshland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//261
 			//Alpujarra, Baeza, Morena, Granada, Guadix, Jaen, Lecrin, Motril, Torvizcon, Ubeda
             DB::table('duchies')->insert([
@@ -3508,8 +4552,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//262
 			//Alhama, Antequera, Loja, Malaga
             DB::table('duchies')->insert([
@@ -3521,8 +4569,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//263
 			//Marbella, Ronda
             DB::table('duchies')->insert([
@@ -3534,8 +4586,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//264
 			//Aljarafe, Estepa, Sevilla
             DB::table('duchies')->insert([
@@ -3547,7 +4603,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//Algarves
 			//265
@@ -3561,7 +4621,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//266
 			//Badajoz, Beja, Evora, Guadiana, Llerena, Merida, Olivenza, Portalegre, Serena
@@ -3574,8 +4638,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//267
 			//Aracena, Huelva, Niebla
             DB::table('duchies')->insert([
@@ -3587,7 +4655,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//Levante
 			//268
@@ -3601,8 +4673,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//269
 			//Ibiza, Mallorca, Menorca
             DB::table('duchies')->insert([
@@ -3614,8 +4690,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//270
 			//Albacete, Alcaraz, Alcira, Alcoy, Alicante, Almagro, Chinchilla, Cofrentes, Denia, Jativa, Montesa
             DB::table('duchies')->insert([
@@ -3627,8 +4707,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//271
 			//Cartagena, Cieza, Hellin, Lorca, Murcia, Orihuela, Segura
             DB::table('duchies')->insert([
@@ -3640,8 +4724,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Mediterranean_Marshland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//272
 			//Castellon, Morella, Peniscola, San Clemente, Valencia
             DB::table('duchies')->insert([
@@ -3653,8 +4741,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Mediterranean_Marshland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//Almohad
 			//Marrakesh
 			//273
@@ -3668,7 +4760,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//274
 			//Khenifra, Mellal
@@ -3681,7 +4777,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//275
 			//Tafilalt, Merzouga, Erfoud
@@ -3694,7 +4794,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Desert_Oasis',
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//276
 			//Ouarzazate, Zagora, Tinghir
@@ -3707,7 +4811,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Desert_Oasis',
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//Fez
 			//277
@@ -3721,8 +4829,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//278
 			//Rabat, Mehdya
             DB::table('duchies')->insert([
@@ -3734,8 +4846,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Mediterranean_Marshland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//279
 			//Tangier, Tetouan, Kebir, Ouazzane
             DB::table('duchies')->insert([
@@ -3747,7 +4863,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Mediterranean_Marshland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//Kairouan
 			//280
@@ -3761,8 +4881,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//281
 			//Tunis, Bizerte
             DB::table('duchies')->insert([
@@ -3774,8 +4898,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Mediterranean_Marshland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//282
 			//Djerid, Tozeur
             DB::table('duchies')->insert([
@@ -3787,8 +4915,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Steppe',
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//283
 			//Tripoli, Misrata
             DB::table('duchies')->insert([
@@ -3800,7 +4932,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Steppe',
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//284
 			//Sirte, Cyrene
@@ -3813,7 +4949,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Desert_Oasis',
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//Tlemcen
 			//285
@@ -3827,8 +4967,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//286
 			//Oujda, Nador
             DB::table('duchies')->insert([
@@ -3840,8 +4984,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Mediterranean_Marshland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//287
 			//Oran, Mostaganem, Mascara
             DB::table('duchies')->insert([
@@ -3853,8 +5001,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//288
 			//Algiers, Hadjar, Lamdia, Titteri
             DB::table('duchies')->insert([
@@ -3866,8 +5018,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Mediterranean_Marshland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//289
 			//Tiaret, Saida
             DB::table('duchies')->insert([
@@ -3879,8 +5035,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//290
 			//Mzab, Bounoura
             DB::table('duchies')->insert([
@@ -3892,7 +5052,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Desert_Oasis',
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//291
 			//Laghouat, Madhi
@@ -3905,8 +5069,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Desert_Oasis',
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//292
 			//Djelfa, Airene
             DB::table('duchies')->insert([
@@ -3918,7 +5086,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Steppe',
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//293
 			//Tuggert, Ouargla
@@ -3931,7 +5103,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Steppe',
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//Ifni
 			//294
@@ -3945,8 +5121,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Steppe',
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//295
 			//Taroudant, Agadir, Tinmel
             DB::table('duchies')->insert([
@@ -3958,7 +5138,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Steppe',
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//Figuig
 			//296
@@ -3972,8 +5156,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Desert_Oasis',
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//297
 			//Tuat, Tademait
             DB::table('duchies')->insert([
@@ -3985,7 +5173,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Desert_Oasis',
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//Abbasid
 			//Baghdad
@@ -4000,7 +5192,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Desert_Marshland',
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//299
 			//Erbil, Kirkuk
@@ -4013,7 +5209,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Steppe',
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//Syria
 			//Damascus
@@ -4028,7 +5228,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Desert_Oasis',
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);	
 			//301
 			//Aleppo, Idlib
@@ -4041,7 +5245,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Steppe',
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//302
 			//Homs, Tripoli, Beirut, Sidon, Tyre
@@ -4054,7 +5262,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//303
 			//Mosul, Tikrit, Hatra, Mardin
@@ -4067,7 +5279,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Steppe',
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//304
 			//Amida, Siirt
@@ -4080,7 +5296,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Steppe',
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//Najd
 			//305
@@ -4094,7 +5314,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Desert_Oasis',
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//306
 			//Tawam, Uqair
@@ -4107,7 +5331,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Desert_Oasis',
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//Antioch
 			//307
@@ -4121,7 +5349,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
 			]);
 			//308
 			//Edessa, Harran
@@ -4134,7 +5366,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Steppe',
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//Fatimid
 			//Cairo
@@ -4149,7 +5385,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Desert_Marshland',
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);	
 			//310
 			//Alexandria, Damanhur, Rosetta
@@ -4162,8 +5402,12 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Desert_Marshland',
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'
-            ]);	
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
+            ]);
 			//311
 			//Mansoura, Dekernes
             DB::table('duchies')->insert([
@@ -4175,7 +5419,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Desert_Marshland',
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//312
 			//Damietta, Tinnis
@@ -4188,7 +5436,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Desert_Marshland',
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//313
 			//Minya, Mallawi
@@ -4201,7 +5453,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Desert_Marshland',
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//314
 			//Asyut, Abnub, Abu
@@ -4214,7 +5470,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Desert_Marshland',
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//315
 			//Kharga, Dakhla
@@ -4227,7 +5487,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Desert_Oasis',
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//316
 			//Baritun, Siwa, Natrun
@@ -4240,7 +5504,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Desert_Oasis',
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//317
 			//Boula, Hammamat
@@ -4253,7 +5521,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Desert_Oasis',
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//Jerusalem
 			//318
@@ -4267,7 +5539,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//319
 			//Tiberias, Banias, Haifa 
@@ -4280,7 +5556,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//Hejaz
 			//320
@@ -4294,7 +5574,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Desert_Oasis',
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//321
 			//Medina, Yanbu, Khaybar
@@ -4307,7 +5591,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Desert_Oasis',
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//322
 			//Tabuk, Sharat, Hegra
@@ -4320,7 +5608,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Desert_Oasis',
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//Khazar
 			//Khazaria
@@ -4335,7 +5627,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Steppe',
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//324
 			//Sarkel, Mayaki
@@ -4348,7 +5644,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Steppe',
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//325
 			//Sarayberke, Sarayjuk
@@ -4361,7 +5661,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Steppe',
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//326
 			//Bolghar, Suar, Bilar
@@ -4374,7 +5678,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Steppe',
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//Alania
 			//327
@@ -4388,7 +5696,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Steppe',
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//328
 			//Azov, Karcha, Maghas
@@ -4401,7 +5713,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Steppe',
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//Cumania
 			//329
@@ -4415,7 +5731,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Steppe',
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//330
 			//Sibir, Bashkor
@@ -4428,7 +5748,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Steppe',
 				'transport' => 'Dog_Cart',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//Seljuk
 			//Kwarezm
@@ -4443,7 +5767,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Desert_Oasis',
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//332
 			//Khiva, Durghan
@@ -4456,7 +5784,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Desert_Oasis',
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//333
 			//Merv, Sarakhs, Bereket
@@ -4469,7 +5801,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Desert_Oasis',
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//Isfahan
 			//334
@@ -4483,7 +5819,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Desert_Oasis',
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//335
 			//Shiraz, Fasa, Darab
@@ -4496,7 +5836,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Desert_Oasis',
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//336
 			//Gorgan, Amol
@@ -4509,7 +5853,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Mediterranean_Woodland',
 				'transport' => 'Donkey_Train',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//Hormuz
 			//337
@@ -4523,7 +5871,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Desert_Marshland',
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
 			//338
 			//Kerman, Bam, Rafsinjan
@@ -4536,8 +5888,11 @@ class DuchySeeder extends Seeder
 				'law_court' => 'Palatial',
 				'vegetation' => 'Desert_Oasis',
 				'transport' => 'Camel_Caravan',
-				'altitude' => 'Montane'
+				'altitude' => 'Montane',
+				'cattle_breed' => '',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => ''
             ]);
-			
     }
 }
