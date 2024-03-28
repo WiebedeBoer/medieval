@@ -66,7 +66,7 @@ class DuchySeeder extends Seeder
 			
 			//holy roman empire
 			//germany
-			//1 
+			//1
 			//Grunsweit, Ostmark, Vienna
             DB::table('duchies')->insert([
 				'duchy_name' => 'Austria',
@@ -79,14 +79,14 @@ class DuchySeeder extends Seeder
 				'transport' => 'Oxen_Cart',
 				'altitude' => 'Highland',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Fleckvieh',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//2 
+			//2
 			//Donaugau, Folkfeld, Isengau, Mattiggau, Nordgau, Radenzgau, Rottgau, Schweinachgau, Westergau
             DB::table('duchies')->insert([
 				'duchy_name' => 'Bavaria',
@@ -99,14 +99,14 @@ class DuchySeeder extends Seeder
 				'transport' => 'Oxen_Cart',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Fleckvieh',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//3 
+			//3
 			//Brabant, Haspengau, Hennegau, Kamerykgau, Toxandria, Waasgau
             DB::table('duchies')->insert([
 				'duchy_name' => 'Brabant',
@@ -145,8 +145,8 @@ class DuchySeeder extends Seeder
 				'pig_breed' => '',
 				'chicken_breed' => '',
 				'duck_breed' => ''
-            ]);	
-			//5 
+            ]);
+			//5
 			//Krainmark, Histria
             DB::table('duchies')->insert([
 				'duchy_name' => 'Carniola',
@@ -165,7 +165,7 @@ class DuchySeeder extends Seeder
 				'pig_breed' => '',
 				'chicken_breed' => '',
 				'duck_breed' => ''
-            ]);	
+            ]);
 			//6
 			//Grabfeld, Gollachgau, Gotzfeld, Jagstgau, Saalgau, Sualafeld, Sulmgau, Taubergau, Waldsassengau
             DB::table('duchies')->insert([
@@ -186,7 +186,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//7 
+			//7
 			//Ammergau, Auricherland, Beveland, Bornegau, Drenthe, Dithmarschen, Emsigerland, Fivelgau, Hadeln, Holtland, Hunsingau, Kennemerland, Maasland, Nifterlake, Norderland, Ostringen, Oostergau, Rhineland, Rustringen, Salland, Sudergau, Teisterbant, Twente, Veluwe, Vollenhove, Walcheren, Westergau, Westflinge, Wursten
             DB::table('duchies')->insert([
 				'duchy_name' => 'Frisia',
@@ -198,15 +198,15 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Temperate_Marshland',
 				'transport' => 'Oxen_Cart',
 				'altitude' => 'Lowland',
-				'horse_breed' => '',
-				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'horse_breed' => 'Friesian',
+				'cattle_breed' => 'Friesian',
+				'sheep_breed' => 'East_Friesian',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//8 
+			//8
 			//Hettergau, Betuwe, Cleveland, Hamaland, Mulgau, Ruhrgau
             DB::table('duchies')->insert([
 				'duchy_name' => 'Guelders',
@@ -225,7 +225,7 @@ class DuchySeeder extends Seeder
 				'pig_breed' => '',
 				'chicken_breed' => '',
 				'duck_breed' => ''
-            ]);	
+            ]);
 			//9
 			//Julichgau, Eifelgau, Zulpichgau
             DB::table('duchies')->insert([
@@ -265,8 +265,8 @@ class DuchySeeder extends Seeder
 				'pig_breed' => '',
 				'chicken_breed' => '',
 				'duck_breed' => ''
-            ]);	
-			//11 
+            ]);
+			//11
 			//Metzgau, Bleisgau, Chaumontois, Saargau, Salingau, Soulossois, Toullois
             DB::table('duchies')->insert([
 				'duchy_name' => 'Lorraine',
@@ -305,7 +305,7 @@ class DuchySeeder extends Seeder
 				'pig_breed' => '',
 				'chicken_breed' => '',
 				'duck_breed' => ''
-            ]);	
+            ]);
 			//13
 			//Bardengau, Derlingau, Eastfalagau, Gretingau, Gudingau, Harzgau, Wenzengau
             DB::table('duchies')->insert([
@@ -319,13 +319,13 @@ class DuchySeeder extends Seeder
 				'transport' => 'Oxen_Cart',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Rotvieh',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
 				'duck_breed' => ''
-            ]);	
+            ]);
 			//14
 			//Traungau, Attergau, Ennstal, Norital, Vinschgau
             DB::table('duchies')->insert([
@@ -339,14 +339,14 @@ class DuchySeeder extends Seeder
 				'transport' => 'Oxen_Cart',
 				'altitude' => 'Highland',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Fleckvieh',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
 				'duck_breed' => ''
-            ]);	
-			//15 
+            ]);
+			//15
 			//Ortengau, Albegau, Augstgau, Breisgau, Churgau, Hegau, Linzgau, Neckargau, Nordgau, Riesgau, Schwerzgau, Schwyzgau, Sundgau, Turgau, Zurichgau  
             DB::table('duchies')->insert([
 				'duchy_name' => 'Swabia',
@@ -359,8 +359,8 @@ class DuchySeeder extends Seeder
 				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'cattle_breed' => 'Braunvieh',
+				'sheep_breed' => 'Zaupelschaf',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -379,14 +379,14 @@ class DuchySeeder extends Seeder
 				'transport' => 'Oxen_Cart',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Rotvieh',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//17 
+			//17
 			//Largau, Agradingau, Angerngau, Augau, Bukkigau, Bursibant, Dervegau, Dreingau, Gronegau, Hasegau, Heilangau, Holsteingau, Leinegau, Mosidegau, Padergau, Stevergau, Stormarngau, Sturmigau, Sudergau, Werregau, Westfaliagau      
             DB::table('duchies')->insert([
 				'duchy_name' => 'Bremen',
@@ -399,7 +399,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Oxen_Cart',
 				'altitude' => 'Lowland',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Angeln',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
@@ -425,7 +425,7 @@ class DuchySeeder extends Seeder
 				'pig_breed' => '',
 				'chicken_breed' => '',
 				'duck_breed' => ''
-            ]);	
+            ]);
 			//19
 			//Nordthuringgau, Balsamgau, Friesenfeld, Hartingau, Hassegau, Osterwalde, Schwabengau
             DB::table('duchies')->insert([
@@ -485,7 +485,7 @@ class DuchySeeder extends Seeder
 				'pig_breed' => '',
 				'chicken_breed' => '',
 				'duck_breed' => ''
-            ]);	
+            ]);
 			//22
 			//Bitgau, Maifeld, Hunsruckgau, Trechirgau
             DB::table('duchies')->insert([
@@ -505,9 +505,9 @@ class DuchySeeder extends Seeder
 				'pig_breed' => '',
 				'chicken_breed' => '',
 				'duck_breed' => ''
-            ]);	
+            ]);
 			//Lombardy
-			//23 
+			//23
 			//Milano, Bergamo, Brescia, Crema, Cremona, Frignana, Lodi, Mantua, Modena, Novara, Parma, Pavia, Piacenza, Reggio, Tortona, Vernio
             DB::table('duchies')->insert([
 				'duchy_name' => 'Milan',
@@ -526,8 +526,8 @@ class DuchySeeder extends Seeder
 				'pig_breed' => '',
 				'chicken_breed' => '',
 				'duck_breed' => ''
-            ]);	
-			//24 
+            ]);
+			//24
 			//Alba, Asti, Auriate, Canavese, Casale, Cuneo, Montferrat, Pragelato, Susa, Turino, Vercelli, Vigevano
             DB::table('duchies')->insert([
 				'duchy_name' => 'Piedmont',
@@ -540,14 +540,14 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Piedmontese',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//25 
+			//25
 			//Siena, Grosseto, Piombino, Sovana
             DB::table('duchies')->insert([
 				'duchy_name' => 'Tuscany',
@@ -566,8 +566,8 @@ class DuchySeeder extends Seeder
 				'pig_breed' => '',
 				'chicken_breed' => '',
 				'duck_breed' => ''
-            ]);	
-			//26 
+            ]);
+			//26
 			//Verona, Padova, Rovigo, Vicenza, Trent
             DB::table('duchies')->insert([
 				'duchy_name' => 'Verona',
@@ -586,8 +586,8 @@ class DuchySeeder extends Seeder
 				'pig_breed' => '',
 				'chicken_breed' => '',
 				'duck_breed' => ''
-            ]);	
-			//27 
+            ]);
+			//27
 			//Friuli, Gorizia, Pordenone
             DB::table('duchies')->insert([
 				'duchy_name' => 'Aquileia',
@@ -607,7 +607,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//28 
+			//28
 			//Florence, Arezzo, Cortona, Perugia, Prato
             DB::table('duchies')->insert([
 				'duchy_name' => 'Florence',
@@ -627,7 +627,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//29 
+			//29
 			//Genoa, Lunigiana, Massa
             DB::table('duchies')->insert([
 				'duchy_name' => 'Genoa',
@@ -646,8 +646,8 @@ class DuchySeeder extends Seeder
 				'pig_breed' => '',
 				'chicken_breed' => '',
 				'duck_breed' => ''
-            ]);	
-			//30 
+            ]);
+			//30
 			//Noli, Albenga, Finale
             DB::table('duchies')->insert([
 				'duchy_name' => 'Noli',
@@ -666,8 +666,8 @@ class DuchySeeder extends Seeder
 				'pig_breed' => '',
 				'chicken_breed' => '',
 				'duck_breed' => ''
-            ]);	
-			//31 
+            ]);
+			//31
 			//Oneglia, Monaco, Ventimiglia
             DB::table('duchies')->insert([
 				'duchy_name' => 'Oneglia',
@@ -686,8 +686,8 @@ class DuchySeeder extends Seeder
 				'pig_breed' => '',
 				'chicken_breed' => '',
 				'duck_breed' => ''
-            ]);	
-			//32 
+            ]);
+			//32
 			//Lucca, Pistoia
             DB::table('duchies')->insert([
 				'duchy_name' => 'Lucca',
@@ -706,8 +706,8 @@ class DuchySeeder extends Seeder
 				'pig_breed' => '',
 				'chicken_breed' => '',
 				'duck_breed' => ''
-            ]);	
-			//33 
+            ]);
+			//33
 			//Pisa, Corsica, Livorno, Volterra
             DB::table('duchies')->insert([
 				'duchy_name' => 'Pisa',
@@ -726,8 +726,8 @@ class DuchySeeder extends Seeder
 				'pig_breed' => '',
 				'chicken_breed' => '',
 				'duck_breed' => ''
-            ]);	
-			//34 
+            ]);
+			//34
 			//Dogado, Belluno, Treviso
             DB::table('duchies')->insert([
 				'duchy_name' => 'Venice',
@@ -746,9 +746,9 @@ class DuchySeeder extends Seeder
 				'pig_breed' => '',
 				'chicken_breed' => '',
 				'duck_breed' => ''
-            ]);	
+            ]);
 			//bohemia
-			//35 
+			//35
 			//Prague, Bechin, Bunzlau, Elbogen, Glatzerland, Koniggratz, Leitmeritz, Pilsen, Rakonitz, Schlan, Saaz, Tschaslawsko
             DB::table('duchies')->insert([
 				'duchy_name' => 'Bohemia',
@@ -767,8 +767,8 @@ class DuchySeeder extends Seeder
 				'pig_breed' => '',
 				'chicken_breed' => '',
 				'duck_breed' => ''
-            ]);	
-			//36 
+            ]);
+			//36
 			//Meissengau, Milzenigau, Nisangau, Lusizigau, Selpuligau
             DB::table('duchies')->insert([
 				'duchy_name' => 'Lusatia',
@@ -788,7 +788,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//37 
+			//37
 			//Brunn, Iglau, Olmutz, Prerau, Velingrad, Znaim
             DB::table('duchies')->insert([
 				'duchy_name' => 'Moravia',
@@ -807,8 +807,8 @@ class DuchySeeder extends Seeder
 				'pig_breed' => '',
 				'chicken_breed' => '',
 				'duck_breed' => ''
-            ]);	
-			//38 
+            ]);
+			//38
 			//Jauer, Glogau, Leubus, Liegnitz, Oels, Schweidnitz
             DB::table('duchies')->insert([
 				'duchy_name' => 'Lower Silesia',
@@ -827,7 +827,7 @@ class DuchySeeder extends Seeder
 				'pig_breed' => '',
 				'chicken_breed' => '',
 				'duck_breed' => ''
-            ]);	
+            ]);
 			//39
 			//Oppeln, Breslau, Brieg, Ratibor, Teschen, Troppau
             DB::table('duchies')->insert([
@@ -857,18 +857,18 @@ class DuchySeeder extends Seeder
 				'de_jure_kingdom' => '4',
 				'law_succession' => 'Salic_Primogeniture',
 				'vernacular_architecture' => 'Half_Timbered_Fachwerk',
-				'law_court' => 'Itinerant',		
+				'law_court' => 'Itinerant',
 				'vegetation' => 'Temperate_Woodland',
 				'transport' => 'Oxen_Cart',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Charolais',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
 				'duck_breed' => ''
-            ]);	
+            ]);
 			//41
 			//Dauphine, Albon, Belinois, Embrunnais, Forcalquier, Lyonnais, Mauronais, Valentinois, Viennois
             DB::table('duchies')->insert([
@@ -889,7 +889,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//42 
+			//42
 			//Amosenais, Aargau, Bargenais, Genevanais, Lausonnais, Portenais, Vaudenais
             DB::table('duchies')->insert([
 				'duchy_name' => 'Transjurania',
@@ -902,7 +902,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Dog_Cart',
 				'altitude' => 'Highland',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Simmental',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
@@ -921,14 +921,14 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Mediterranean_Marshland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
-				'horse_breed' => '',
-				'cattle_breed' => '',
+				'horse_breed' => 'Camarque',
+				'cattle_breed' => 'Camarque',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
 				'duck_breed' => ''
-            ]);	
+            ]);
 			//44
 			//Provence, Arles, Baux, Marseille, Nice, Toulon 
             DB::table('duchies')->insert([
@@ -941,15 +941,15 @@ class DuchySeeder extends Seeder
 				'vegetation' => 'Mediterranean_Marshland',
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
-				'horse_breed' => '',
-				'cattle_breed' => '',
+				'horse_breed' => 'Camarque',
+				'cattle_breed' => 'Camarque',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
 				'duck_breed' => ''
-            ]);	
-			//45 
+            ]);
+			//45
 			//Savoia, Aosta, Chablais, Genevanais, Tarantais, Valais
             DB::table('duchies')->insert([
 				'duchy_name' => 'Savoy',
@@ -962,15 +962,15 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Highland',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Chablaisien',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
 				'duck_breed' => ''
-            ]);	
+            ]);
 			//Papal States
-			//46 
+			//46
 			//Rome, Frosinone, Latina, Rieti, Viterbo
             DB::table('duchies')->insert([
 				'duchy_name' => 'Rome',
@@ -1125,7 +1125,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane',
 				'horse_breed' => '',
 				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'sheep_breed' => 'Pomeranian',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -1145,7 +1145,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane',
 				'horse_breed' => '',
 				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'sheep_breed' => 'Pomeranian',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -1207,7 +1207,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Lowland',
 				'horse_breed' => '',
 				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'sheep_breed' => 'Maine',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -1226,7 +1226,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Limousine',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
@@ -1246,7 +1246,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Aubrac',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
@@ -1306,7 +1306,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Highland',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Aubrac',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
@@ -1366,7 +1366,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Normande',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
@@ -1393,7 +1393,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//67 
+			//67
 			//Artois, Amienois, Boulognois, Flanders, Guines, Laonnais, Montreuil, Noyonnais, Ponthieu, Ternois, Tournais, Vermandois 
             DB::table('duchies')->insert([
 				'duchy_name' => 'Picardy',
@@ -1412,7 +1412,7 @@ class DuchySeeder extends Seeder
 				'pig_breed' => '',
 				'chicken_breed' => '',
 				'duck_breed' => ''
-            ]);	
+            ]);
 			//68
 			//Poitou, Aunis, Briancais, Chatellerault, Marche, Thouarsais, Turenne
             DB::table('duchies')->insert([
@@ -1426,14 +1426,14 @@ class DuchySeeder extends Seeder
 				'transport' => 'Oxen_Cart',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Parthenaise',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
 				'duck_breed' => ''
-            ]);	
-			//69 
+            ]);
+			//69
 			//Toulouse, Albi, Carcasonne, Foix, Gevaudan, Melgueil, Millau, Narbonne, Nimes, Quercy, Rouergue, Velay
             DB::table('duchies')->insert([
 				'duchy_name' => 'Toulouse',
@@ -1446,8 +1446,8 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'cattle_breed' => 'Aubrac',
+				'sheep_breed' => 'Lacaune',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -1529,7 +1529,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Irish_Moiled',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
@@ -1549,13 +1549,13 @@ class DuchySeeder extends Seeder
 				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Irish_Moiled',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
 				'duck_breed' => ''
-            ]);	
+            ]);
 			//75
 			//Dublin, Longford, Meath, Offaly
             DB::table('duchies')->insert([
@@ -1569,7 +1569,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Irish_Moiled',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
@@ -1589,7 +1589,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Irish_Moiled',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
@@ -1609,7 +1609,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Irish_Moiled',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
@@ -1670,7 +1670,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Oxen_Cart',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Gloucester',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
@@ -1711,7 +1711,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane',
 				'horse_breed' => '',
 				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'sheep_breed' => 'Lincoln',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -1731,7 +1731,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane',
 				'horse_breed' => '',
 				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'sheep_breed' => 'Ryeland',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -1771,7 +1771,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane',
 				'horse_breed' => '',
 				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'sheep_breed' => 'Herdwick',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -1932,7 +1932,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Highland',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
@@ -1952,7 +1952,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Highland',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
@@ -1972,7 +1972,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Highland',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
@@ -1992,7 +1992,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Dog_Cart',
 				'altitude' => 'Highland',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Highland',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
@@ -2012,7 +2012,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Highland',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
@@ -2032,7 +2032,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Highland',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
@@ -2052,7 +2052,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Highland',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
@@ -2074,13 +2074,13 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'cattle_breed' => 'Pirenaica',
+				'sheep_breed' => 'Churra',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
 				'duck_breed' => ''
-            ]);	
+            ]);
 			//101
 			//Bages, Barcelona, Bergueda, Llobregat, Maresme, Osona, Valles
             DB::table('duchies')->insert([
@@ -2094,8 +2094,8 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'cattle_breed' => 'Pirenaica',
+				'sheep_breed' => 'Churra',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -2114,8 +2114,8 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'cattle_breed' => 'Pirenaica',
+				'sheep_breed' => 'Churra',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -2134,8 +2134,8 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Highland',
 				'horse_breed' => '',
-				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'cattle_breed' => 'Pirenaica',
+				'sheep_breed' => 'Churra',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -2154,8 +2154,8 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'cattle_breed' => 'Pirenaica',
+				'sheep_breed' => 'Churra',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -2174,8 +2174,8 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'cattle_breed' => 'Pirenaica',
+				'sheep_breed' => 'Churra',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -2194,8 +2194,8 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'cattle_breed' => 'Pirenaica',
+				'sheep_breed' => 'Churra',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -2214,8 +2214,8 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'cattle_breed' => 'Pirenaica',
+				'sheep_breed' => 'Churra',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -2235,8 +2235,8 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'cattle_breed' => 'Pirenaica',
+				'sheep_breed' => 'Churra',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -2255,8 +2255,8 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'cattle_breed' => 'Pirenaica',
+				'sheep_breed' => 'Churra',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -2275,8 +2275,8 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'cattle_breed' => 'Pirenaica',
+				'sheep_breed' => 'Churra',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -2295,8 +2295,8 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'cattle_breed' => 'Pirenaica',
+				'sheep_breed' => 'Churra',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -2317,8 +2317,8 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'cattle_breed' => 'Pirenaica',
+				'sheep_breed' => 'Merino',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -2337,8 +2337,8 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'cattle_breed' => 'Pirenaica',
+				'sheep_breed' => 'Merino',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -2357,8 +2357,8 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'cattle_breed' => 'Pirenaica',
+				'sheep_breed' => 'Merino',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -2377,8 +2377,8 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'cattle_breed' => 'Pirenaica',
+				'sheep_breed' => 'Merino',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -2397,8 +2397,8 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'cattle_breed' => 'Pirenaica',
+				'sheep_breed' => 'Merino',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -2417,8 +2417,8 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'cattle_breed' => 'Pirenaica',
+				'sheep_breed' => 'Merino',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -2437,8 +2437,8 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'cattle_breed' => 'Pirenaica',
+				'sheep_breed' => 'Merino',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -2459,7 +2459,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane',
 				'horse_breed' => '',
 				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'sheep_breed' => 'Merino',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -2479,12 +2479,12 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane',
 				'horse_breed' => '',
 				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'sheep_breed' => 'Merino',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
 				'duck_breed' => ''
-            ]);	
+            ]);
 			//121
 			//Carbalino, Celanova, Ourense, Valdeorras, Viana
             DB::table('duchies')->insert([
@@ -2499,7 +2499,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane',
 				'horse_breed' => '',
 				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'sheep_breed' => 'Merino',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -2519,7 +2519,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane',
 				'horse_breed' => '',
 				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'sheep_breed' => 'Merino',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -2539,8 +2539,8 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'cattle_breed' => 'Pirenaica',
+				'sheep_breed' => 'Merino',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -2559,8 +2559,8 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'cattle_breed' => 'Pirenaica',
+				'sheep_breed' => 'Merino',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -2579,8 +2579,8 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'cattle_breed' => 'Pirenaica',
+				'sheep_breed' => 'Merino',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -2599,8 +2599,8 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'cattle_breed' => 'Pirenaica',
+				'sheep_breed' => 'Merino',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -2620,8 +2620,8 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'cattle_breed' => 'Pirenaica',
+				'sheep_breed' => 'Churra',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -2640,8 +2640,8 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'cattle_breed' => 'Pirenaica',
+				'sheep_breed' => 'Churra',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -2662,7 +2662,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane',
 				'horse_breed' => '',
 				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'sheep_breed' => 'Merino',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -2682,7 +2682,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane',
 				'horse_breed' => '',
 				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'sheep_breed' => 'Merino',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -2702,7 +2702,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane',
 				'horse_breed' => '',
 				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'sheep_breed' => 'Merino',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -2722,7 +2722,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane',
 				'horse_breed' => '',
 				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'sheep_breed' => 'Merino',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -2743,7 +2743,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Fjall',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
@@ -2763,7 +2763,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Fjall',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
@@ -2783,7 +2783,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Fjall',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
@@ -2804,7 +2804,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Shetland',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
@@ -2824,7 +2824,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Shetland',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
@@ -2844,7 +2844,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Fjall',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
@@ -2864,7 +2864,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Dog_Cart',
 				'altitude' => 'Highland',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Fjall',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
@@ -2884,7 +2884,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Fjall',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
@@ -2904,7 +2904,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Fjall',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
@@ -2924,7 +2924,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Dog_Cart',
 				'altitude' => 'Highland',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Fjall',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
@@ -2944,7 +2944,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Fjall',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
@@ -2965,7 +2965,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Fjall',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
@@ -2985,7 +2985,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Fjall',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
@@ -3005,7 +3005,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Fjall',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
@@ -3025,7 +3025,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Fjall',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
@@ -3045,7 +3045,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Dog_Cart',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Fjall',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
@@ -3390,7 +3390,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Hungarian_Grey',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
@@ -3410,7 +3410,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Hungarian_Grey',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
@@ -3430,7 +3430,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Hungarian_Grey',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
@@ -3450,7 +3450,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Hungarian_Grey',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
@@ -3470,7 +3470,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Hungarian_Grey',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
@@ -3490,7 +3490,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Hungarian_Grey',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
@@ -3916,7 +3916,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane',
 				'horse_breed' => '',
 				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'sheep_breed' => 'Sarda',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -4003,7 +4003,7 @@ class DuchySeeder extends Seeder
 				'pig_breed' => '',
 				'chicken_breed' => '',
 				'duck_breed' => ''
-            ]);	
+            ]);
 			//196
 			//Adrianople, Bergule, Traianopolis
             DB::table('duchies')->insert([
@@ -4039,7 +4039,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane',
 				'horse_breed' => '',
 				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'sheep_breed' => 'Serrai',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -4059,7 +4059,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane',
 				'horse_breed' => '',
 				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'sheep_breed' => 'Serrai',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -4079,7 +4079,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane',
 				'horse_breed' => '',
 				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'sheep_breed' => 'Serrai',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -4099,7 +4099,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane',
 				'horse_breed' => '',
 				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'sheep_breed' => 'Serrai',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -4119,7 +4119,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane',
 				'horse_breed' => '',
 				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'sheep_breed' => 'Serrai',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -4139,7 +4139,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane',
 				'horse_breed' => '',
 				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'sheep_breed' => 'Serrai',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -4159,7 +4159,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane',
 				'horse_breed' => '',
 				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'sheep_breed' => 'Serrai',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -4179,7 +4179,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane',
 				'horse_breed' => '',
 				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'sheep_breed' => 'Serrai',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -4199,7 +4199,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Anatolian',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
@@ -4219,7 +4219,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Anatolian',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
@@ -4239,7 +4239,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Anatolian',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
@@ -4259,7 +4259,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Anatolian',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
@@ -4280,7 +4280,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Anatolian',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
@@ -4300,7 +4300,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Anatolian',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
@@ -4320,7 +4320,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Anatolian',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
@@ -4340,7 +4340,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Anatolian',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
@@ -4360,7 +4360,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Anatolian',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
@@ -4380,7 +4380,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Anatolian',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
@@ -4400,7 +4400,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Anatolian',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
@@ -4420,7 +4420,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Anatolian',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
@@ -4440,7 +4440,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Anatolian',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
@@ -4460,7 +4460,7 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
+				'cattle_breed' => 'Anatolian',
 				'sheep_breed' => '',
 				'goat_breed' => '',
 				'pig_breed' => '',
@@ -5115,7 +5115,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane',
 				'horse_breed' => '',
 				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'sheep_breed' => 'Bardoka',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -5135,7 +5135,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane',
 				'horse_breed' => '',
 				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'sheep_breed' => 'Bardoka',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -5155,7 +5155,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane',
 				'horse_breed' => '',
 				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'sheep_breed' => 'Bardoka',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -5176,7 +5176,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane',
 				'horse_breed' => '',
 				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'sheep_breed' => 'Bardoka',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -5196,7 +5196,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane',
 				'horse_breed' => '',
 				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'sheep_breed' => 'Bardoka',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -5216,7 +5216,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane',
 				'horse_breed' => '',
 				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'sheep_breed' => 'Bardoka',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -5237,8 +5237,8 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'cattle_breed' => 'Andalusian',
+				'sheep_breed' => 'Churra',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -5257,8 +5257,8 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'cattle_breed' => 'Andalusian',
+				'sheep_breed' => 'Churra',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -5277,8 +5277,8 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Lowland',
 				'horse_breed' => '',
-				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'cattle_breed' => 'Andalusian',
+				'sheep_breed' => 'Churra',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -5297,8 +5297,8 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'cattle_breed' => 'Andalusian',
+				'sheep_breed' => 'Churra',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -5317,8 +5317,8 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'cattle_breed' => 'Andalusian',
+				'sheep_breed' => 'Churra',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -5337,8 +5337,8 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'cattle_breed' => 'Andalusian',
+				'sheep_breed' => 'Churra',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -5357,8 +5357,8 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'cattle_breed' => 'Andalusian',
+				'sheep_breed' => 'Churra',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -5377,8 +5377,8 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'cattle_breed' => 'Andalusian',
+				'sheep_breed' => 'Churra',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -5397,8 +5397,8 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'cattle_breed' => 'Andalusian',
+				'sheep_breed' => 'Churra',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -5418,8 +5418,8 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'cattle_breed' => 'Andalusian',
+				'sheep_breed' => 'Churra',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -5438,8 +5438,8 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'cattle_breed' => 'Andalusian',
+				'sheep_breed' => 'Churra',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -5458,8 +5458,8 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'cattle_breed' => 'Andalusian',
+				'sheep_breed' => 'Churra',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -5479,8 +5479,8 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'cattle_breed' => 'Andalusian',
+				'sheep_breed' => 'Churra',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -5499,8 +5499,8 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'cattle_breed' => 'Andalusian',
+				'sheep_breed' => 'Churra',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -5519,8 +5519,8 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'cattle_breed' => 'Andalusian',
+				'sheep_breed' => 'Churra',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -5539,8 +5539,8 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'cattle_breed' => 'Andalusian',
+				'sheep_breed' => 'Churra',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -5559,8 +5559,8 @@ class DuchySeeder extends Seeder
 				'transport' => 'Donkey_Train',
 				'altitude' => 'Montane',
 				'horse_breed' => '',
-				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'cattle_breed' => 'Andalusian',
+				'sheep_breed' => 'Churra',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -6089,7 +6089,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane',
 				'horse_breed' => '',
 				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'sheep_breed' => 'Arabi',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -6109,7 +6109,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane',
 				'horse_breed' => '',
 				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'sheep_breed' => 'Arabi',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -6131,7 +6131,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane',
 				'horse_breed' => '',
 				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'sheep_breed' => 'Awassi',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -6151,7 +6151,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane',
 				'horse_breed' => '',
 				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'sheep_breed' => 'Awassi',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -6171,7 +6171,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane',
 				'horse_breed' => '',
 				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'sheep_breed' => 'Awassi',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -6191,7 +6191,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane',
 				'horse_breed' => '',
 				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'sheep_breed' => 'Awassi',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -6211,7 +6211,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane',
 				'horse_breed' => '',
 				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'sheep_breed' => 'Awassi',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -6232,7 +6232,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane',
 				'horse_breed' => '',
 				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'sheep_breed' => 'Awassi',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -6252,7 +6252,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane',
 				'horse_breed' => '',
 				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'sheep_breed' => 'Awassi',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -6273,7 +6273,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane',
 				'horse_breed' => '',
 				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'sheep_breed' => 'Awassi',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -6293,7 +6293,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane',
 				'horse_breed' => '',
 				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'sheep_breed' => 'Awassi',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -6537,7 +6537,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane',
 				'horse_breed' => '',
 				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'sheep_breed' => 'Hajaz',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -6557,7 +6557,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane',
 				'horse_breed' => '',
 				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'sheep_breed' => 'Hajaz',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -6577,7 +6577,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane',
 				'horse_breed' => '',
 				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'sheep_breed' => 'Hajaz',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -6763,7 +6763,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane',
 				'horse_breed' => '',
 				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'sheep_breed' => 'Arabi',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -6783,7 +6783,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane',
 				'horse_breed' => '',
 				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'sheep_breed' => 'Arabi',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -6803,7 +6803,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane',
 				'horse_breed' => '',
 				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'sheep_breed' => 'Arabi',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -6824,7 +6824,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane',
 				'horse_breed' => '',
 				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'sheep_breed' => 'Arabi',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -6844,7 +6844,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane',
 				'horse_breed' => '',
 				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'sheep_breed' => 'Arabi',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -6864,7 +6864,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane',
 				'horse_breed' => '',
 				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'sheep_breed' => 'Arabi',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -6885,7 +6885,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane',
 				'horse_breed' => '',
 				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'sheep_breed' => 'Arabi',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
@@ -6905,7 +6905,7 @@ class DuchySeeder extends Seeder
 				'altitude' => 'Montane',
 				'horse_breed' => '',
 				'cattle_breed' => '',
-				'sheep_breed' => '',
+				'sheep_breed' => 'Arabi',
 				'goat_breed' => '',
 				'pig_breed' => '',
 				'chicken_breed' => '',
