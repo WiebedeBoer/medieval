@@ -427,7 +427,7 @@ class KingdomSeeder extends Seeder
 				'law_court' => 'Itinerant'
             ]);
 			//Anatolia
-			//Thracesia, Bucellaria, Anatolia, Cappadocia, Seleucia, Opsicia, Nicaea, Lycia, Pamphylia
+			//Thracesia, Bucellaria, Anatolia, Cappadocia, Seleucia, Opsicia, Nicaea, Lycia, Pamphylia, Cyprus
 			//33
             DB::table('kingdoms')->insert([
 				'kingdom_name' => 'Kingdom of Anatolia',

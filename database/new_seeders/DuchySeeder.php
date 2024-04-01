@@ -4467,8 +4467,28 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//Georgia
 			//219
+			//Nicosia, Limassol, Famagusta
+            DB::table('duchies')->insert([
+				'duchy_name' => 'Cyprus',
+				'duchy_category' => 'Feudal_Estate',
+				'de_jure_kingdom' => '33',
+				'law_succession' => 'Salic_Primogeniture',
+				'vernacular_architecture' => 'Stone_Romanesque',
+				'law_court' => 'Itinerant',
+				'vegetation' => 'Mediterranean_Woodland',
+				'transport' => 'Donkey_Train',
+				'altitude' => 'Montane',
+				'horse_breed' => '',
+				'cattle_breed' => 'Anatolian',
+				'sheep_breed' => '',
+				'goat_breed' => '',
+				'pig_breed' => '',
+				'chicken_breed' => '',
+				'duck_breed' => ''
+            ]);
+			//Georgia
+			//220
 			//Phasis, Guria, Abkhazia, Imereti, Adjar
             DB::table('duchies')->insert([
 				'duchy_name' => 'Colchis',
@@ -4488,7 +4508,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//220
+			//221
 			//Akhalkalaki, Akhaltsikhe, Tori
             DB::table('duchies')->insert([
 				'duchy_name' => 'Javakheti',
@@ -4508,7 +4528,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//221
+			//222
 			//Bolnisi, Tiblisi, Rustavi, Gori
             DB::table('duchies')->insert([
 				'duchy_name' => 'Kartli',
@@ -4528,7 +4548,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//222
+			//223
 			//Telavi, Gurjaani
             DB::table('duchies')->insert([
 				'duchy_name' => 'Kakheti',
@@ -4549,7 +4569,7 @@ class DuchySeeder extends Seeder
 				'duck_breed' => ''
             ]);
 			//Armenia
-			//223
+			//224
 			//Van, Artamet, Hadamakert, Berkri
             DB::table('duchies')->insert([
 				'duchy_name' => 'Vaspurakan',
@@ -4569,7 +4589,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//224
+			//225
 			//Acilisene, Karapet
             DB::table('duchies')->insert([
 				'duchy_name' => 'Taron',
@@ -4589,7 +4609,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//225
+			//226
 			//Kars, Ani, Sardarabad, Yerevan
             DB::table('duchies')->insert([
 				'duchy_name' => 'Kars',
@@ -4609,7 +4629,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//226
+			//227
 			//Baku, Rasht
             DB::table('duchies')->insert([
 				'duchy_name' => 'Azerbaijan',
@@ -4631,7 +4651,7 @@ class DuchySeeder extends Seeder
             ]);
 			//Kievan Rus
 			//Kyiv
-			//227
+			//228
 			//Kyiv, Bratslav, Cherkasy, Korosten
             DB::table('duchies')->insert([
 				'duchy_name' => 'Kyiv',
@@ -4651,7 +4671,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//228
+			//229
 			//Pereyaslavl
             DB::table('duchies')->insert([
 				'duchy_name' => 'Pereyaslavl',
@@ -4672,7 +4692,7 @@ class DuchySeeder extends Seeder
 				'duck_breed' => ''
             ]);
 			//Chernigov
-			//229
+			//230
 			//Chernigov, Bryansk, Lyubech, Mozhaysk, Novosil
             DB::table('duchies')->insert([
 				'duchy_name' => 'Chernigov',
@@ -4692,7 +4712,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//230
+			//231
 			//Ryazan, Murom, Tula, Kaluga, Vorotynsk
             DB::table('duchies')->insert([
 				'duchy_name' => 'Ryazan',
@@ -4713,7 +4733,7 @@ class DuchySeeder extends Seeder
 				'duck_breed' => ''
             ]);
 			//Ruthenia
-			//231
+			//232
 			//Halych, Peremyshl, Lviv, Belz
             DB::table('duchies')->insert([
 				'duchy_name' => 'Halych',
@@ -4733,7 +4753,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//232
+			//233
 			//Podolia, Terebovlia
             DB::table('duchies')->insert([
 				'duchy_name' => 'Podolia',
@@ -4753,7 +4773,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//233
+			//234
 			//Volhynia, Brest, Kremenets, Lutsk
             DB::table('duchies')->insert([
 				'duchy_name' => 'Volhynia',
@@ -4773,7 +4793,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//234
+			//235
 			//Turov, Slutsk
             DB::table('duchies')->insert([
 				'duchy_name' => 'Turov',
@@ -4794,7 +4814,7 @@ class DuchySeeder extends Seeder
 				'duck_breed' => ''
             ]);
 			//Vladimir
-			//235
+			//236
 			//Vladimir, Vyazniki, Nizhny Novgorod
             DB::table('duchies')->insert([
 				'duchy_name' => 'Vladimir',
@@ -4814,7 +4834,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//236
+			//237
 			//Moscow, Dmitrov, Volokolamsk, Zvenigorod
             DB::table('duchies')->insert([
 				'duchy_name' => 'Moscow',
@@ -4834,7 +4854,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//237
+			//238
 			//Suzdal, Yuryev
             DB::table('duchies')->insert([
 				'duchy_name' => 'Suzdal',
@@ -4855,7 +4875,7 @@ class DuchySeeder extends Seeder
 				'duck_breed' => ''
             ]);
 			//Smolensk
-			//238
+			//239
 			//Smolensk, Roslavl, Toropets, Mstislavl
             DB::table('duchies')->insert([
 				'duchy_name' => 'Smolensk',
@@ -4875,7 +4895,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//239
+			//240
 			//Rzhev, Zubtsov
             DB::table('duchies')->insert([
 				'duchy_name' => 'Rzhev',
@@ -4895,7 +4915,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//240
+			//241
 			//Tver, Galich, Kostroma, Pereslavl, Rostov, Yaroslavl
             DB::table('duchies')->insert([
 				'duchy_name' => 'Tver',
@@ -4916,7 +4936,7 @@ class DuchySeeder extends Seeder
 				'duck_breed' => ''
             ]);
 			//Novgorod
-			//241
+			//242
 			//Novgorod, Ladoga
             DB::table('duchies')->insert([
 				'duchy_name' => 'Novgorod',
@@ -4936,7 +4956,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//242
+			//243
 			//Polotsk, Zaslawye, Vitebsk
             DB::table('duchies')->insert([
 				'duchy_name' => 'Polotsk',
@@ -4956,7 +4976,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//243
+			//244
 			//Pleskov, Kholm
             DB::table('duchies')->insert([
 				'duchy_name' => 'Pleskov',
@@ -4978,7 +4998,7 @@ class DuchySeeder extends Seeder
             ]);
 			//Bulgaria
 			//Bulgaria
-			//244
+			//245
 			//Preslav, Simeonis, Provat, Karvuna
             DB::table('duchies')->insert([
 				'duchy_name' => 'Preslav',
@@ -4998,7 +5018,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//245
+			//246
 			//Tarnovo, Kopsis, Seuthopolis
             DB::table('duchies')->insert([
 				'duchy_name' => 'Tarnovo',
@@ -5018,7 +5038,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//246
+			//247
 			//Philippopolis, Stanimaka
             DB::table('duchies')->insert([
 				'duchy_name' => 'Philippopolis',
@@ -5038,7 +5058,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//247
+			//248
 			//Ohrid, Bitola, Kastoria
             DB::table('duchies')->insert([
 				'duchy_name' => 'Ohrid',
@@ -5059,7 +5079,7 @@ class DuchySeeder extends Seeder
 				'duck_breed' => ''
             ]);
 			//Wallachia
-			//248
+			//249
 			//Targoviste, Omurtag, Arges
             DB::table('duchies')->insert([
 				'duchy_name' => 'Wallachia',
@@ -5079,7 +5099,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//249
+			//250
 			//Suceava, Neamt, Akkerman, Soroca, Vaslui, Lapusna, Iasi, Orhei
             DB::table('duchies')->insert([
 				'duchy_name' => 'Moldavia',
@@ -5101,7 +5121,7 @@ class DuchySeeder extends Seeder
             ]);
 			//Serbia
 			//Serbia
-			//250
+			//251
 			//Rashka, Kraljevo
             DB::table('duchies')->insert([
 				'duchy_name' => 'Rashka',
@@ -5121,7 +5141,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//251
+			//252
 			//Bar, Scodra, Lezhe, Sape
             DB::table('duchies')->insert([
 				'duchy_name' => 'Dioclea',
@@ -5141,7 +5161,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//252
+			//253
 			//Borac, Pavlovac
             DB::table('duchies')->insert([
 				'duchy_name' => 'Podrinje',
@@ -5162,7 +5182,7 @@ class DuchySeeder extends Seeder
 				'duck_breed' => ''
             ]);
 			//Bosnia
-			//253
+			//254
 			//Srebrenik, Tesanj
             DB::table('duchies')->insert([
 				'duchy_name' => 'Usora',
@@ -5182,7 +5202,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//254
+			//255
 			//Tuzla, Zvornik
             DB::table('duchies')->insert([
 				'duchy_name' => 'Soli',
@@ -5202,7 +5222,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//255
+			//256
 			//Blagaj, Ston, Dabar, Popovo
             DB::table('duchies')->insert([
 				'duchy_name' => 'Zachumlia',
@@ -5224,7 +5244,7 @@ class DuchySeeder extends Seeder
             ]);
 			//Cordoba
 			//Andalucia
-			//256
+			//257
 			//Algeciras, Gibraltar
             DB::table('duchies')->insert([
 				'duchy_name' => 'Algeciras',
@@ -5244,7 +5264,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//257
+			//258
 			//Almeria, Baza, Alpujarra, Dalias
             DB::table('duchies')->insert([
 				'duchy_name' => 'Almeria',
@@ -5264,7 +5284,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//258
+			//259
 			//Cadiz, Jerez, Sanlucar
             DB::table('duchies')->insert([
 				'duchy_name' => 'Arcos',
@@ -5284,7 +5304,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//259
+			//260
 			//Carmona, Ecija
             DB::table('duchies')->insert([
 				'duchy_name' => 'Carmona',
@@ -5304,7 +5324,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//260
+			//261
 			//Andujar, Carpio, Cordoba, Martos, Pedroche
             DB::table('duchies')->insert([
 				'duchy_name' => 'Cordoba',
@@ -5324,7 +5344,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//261
+			//262
 			//Alpujarra, Baeza, Morena, Granada, Guadix, Jaen, Lecrin, Motril, Torvizcon, Ubeda
             DB::table('duchies')->insert([
 				'duchy_name' => 'Granada',
@@ -5344,7 +5364,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//262
+			//263
 			//Alhama, Antequera, Loja, Malaga
             DB::table('duchies')->insert([
 				'duchy_name' => 'Malaga',
@@ -5364,7 +5384,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//263
+			//264
 			//Marbella, Ronda
             DB::table('duchies')->insert([
 				'duchy_name' => 'Ronda',
@@ -5384,7 +5404,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//264
+			//265
 			//Aljarafe, Estepa, Sevilla
             DB::table('duchies')->insert([
 				'duchy_name' => 'Sevilla',
@@ -5405,7 +5425,7 @@ class DuchySeeder extends Seeder
 				'duck_breed' => ''
             ]);
 			//Algarves
-			//265
+			//266
 			//Faro, Mertola, Silves
             DB::table('duchies')->insert([
 				'duchy_name' => 'Algarves',
@@ -5425,7 +5445,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//266
+			//267
 			//Badajoz, Beja, Evora, Guadiana, Llerena, Merida, Olivenza, Portalegre, Serena
             DB::table('duchies')->insert([
 				'duchy_name' => 'Badajoz',
@@ -5445,7 +5465,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//267
+			//268
 			//Aracena, Huelva, Niebla
             DB::table('duchies')->insert([
 				'duchy_name' => 'Huelva',
@@ -5466,7 +5486,7 @@ class DuchySeeder extends Seeder
 				'duck_breed' => ''
             ]);
 			//Levante
-			//268
+			//269
 			//Alcarria, Almarza, Henares, Medinaceli, Molina, Serrania
             DB::table('duchies')->insert([
 				'duchy_name' => 'Alpuente',
@@ -5486,7 +5506,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//269
+			//270
 			//Ibiza, Mallorca, Menorca
             DB::table('duchies')->insert([
 				'duchy_name' => 'Baleares',
@@ -5506,7 +5526,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//270
+			//271
 			//Albacete, Alcaraz, Alcira, Alcoy, Alicante, Almagro, Chinchilla, Cofrentes, Denia, Jativa, Montesa
             DB::table('duchies')->insert([
 				'duchy_name' => 'Denia',
@@ -5526,7 +5546,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//271
+			//272
 			//Cartagena, Cieza, Hellin, Lorca, Murcia, Orihuela, Segura
             DB::table('duchies')->insert([
 				'duchy_name' => 'Murcia',
@@ -5546,7 +5566,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//272
+			//273
 			//Castellon, Morella, Peniscola, San Clemente, Valencia
             DB::table('duchies')->insert([
 				'duchy_name' => 'Valencia',
@@ -5568,7 +5588,7 @@ class DuchySeeder extends Seeder
             ]);
 			//Almohad
 			//Marrakesh
-			//273
+			//274
 			//Marrakesh, Safi, Mogador
             DB::table('duchies')->insert([
 				'duchy_name' => 'Marrakesh',
@@ -5588,7 +5608,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//274
+			//275
 			//Khenifra, Mellal
             DB::table('duchies')->insert([
 				'duchy_name' => 'Tadla',
@@ -5608,7 +5628,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//275
+			//276
 			//Tafilalt, Merzouga, Erfoud
             DB::table('duchies')->insert([
 				'duchy_name' => 'Sijilmassa',
@@ -5628,7 +5648,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//276
+			//277
 			//Ouarzazate, Zagora, Tinghir
             DB::table('duchies')->insert([
 				'duchy_name' => 'Ouarzazate',
@@ -5649,7 +5669,7 @@ class DuchySeeder extends Seeder
 				'duck_breed' => ''
             ]);
 			//Fez
-			//277
+			//278
 			//Fez, Meknes
             DB::table('duchies')->insert([
 				'duchy_name' => 'Fez',
@@ -5669,7 +5689,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//278
+			//279
 			//Rabat, Mehdya
             DB::table('duchies')->insert([
 				'duchy_name' => 'Rabat',
@@ -5689,7 +5709,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//279
+			//280
 			//Tangier, Tetouan, Kebir, Ouazzane
             DB::table('duchies')->insert([
 				'duchy_name' => 'Tangier',
@@ -5710,7 +5730,7 @@ class DuchySeeder extends Seeder
 				'duck_breed' => ''
             ]);
 			//Kairouan
-			//280
+			//281
 			//Kairouan, Mahdia, Susa, Taparura
             DB::table('duchies')->insert([
 				'duchy_name' => 'Kairouan',
@@ -5730,7 +5750,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//281
+			//282
 			//Tunis, Bizerte
             DB::table('duchies')->insert([
 				'duchy_name' => 'Tunis',
@@ -5750,7 +5770,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//282
+			//283
 			//Djerid, Tozeur
             DB::table('duchies')->insert([
 				'duchy_name' => 'Djerid',
@@ -5770,7 +5790,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//283
+			//284
 			//Tripoli, Misrata
             DB::table('duchies')->insert([
 				'duchy_name' => 'Tripoli',
@@ -5790,7 +5810,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//284
+			//285
 			//Sirte, Cyrene
             DB::table('duchies')->insert([
 				'duchy_name' => 'Sirte',
@@ -5811,7 +5831,7 @@ class DuchySeeder extends Seeder
 				'duck_breed' => ''
             ]);
 			//Tlemcen
-			//285
+			//286
 			//Tlemcen, Rachgoun
             DB::table('duchies')->insert([
 				'duchy_name' => 'Tlemcen',
@@ -5831,7 +5851,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//286
+			//287
 			//Oujda, Nador
             DB::table('duchies')->insert([
 				'duchy_name' => 'Oujda',
@@ -5851,7 +5871,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//287
+			//288
 			//Oran, Mostaganem, Mascara
             DB::table('duchies')->insert([
 				'duchy_name' => 'Oran',
@@ -5871,7 +5891,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//288
+			//289
 			//Algiers, Hadjar, Lamdia, Titteri
             DB::table('duchies')->insert([
 				'duchy_name' => 'Algiers',
@@ -5891,7 +5911,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//289
+			//290
 			//Tiaret, Saida
             DB::table('duchies')->insert([
 				'duchy_name' => 'Tiaret',
@@ -5911,7 +5931,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//290
+			//291
 			//Mzab, Bounoura
             DB::table('duchies')->insert([
 				'duchy_name' => 'Mzab',
@@ -5931,7 +5951,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//291
+			//292
 			//Laghouat, Madhi
             DB::table('duchies')->insert([
 				'duchy_name' => 'Laghouat',
@@ -5951,7 +5971,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//292
+			//293
 			//Djelfa, Airene
             DB::table('duchies')->insert([
 				'duchy_name' => 'Djelfa',
@@ -5971,7 +5991,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//293
+			//294
 			//Tuggert, Ouargla
             DB::table('duchies')->insert([
 				'duchy_name' => 'Tuggert',
@@ -5992,7 +6012,7 @@ class DuchySeeder extends Seeder
 				'duck_breed' => ''
             ]);
 			//Ifni
-			//294
+			//295
 			//Ifni, Tiznit
             DB::table('duchies')->insert([
 				'duchy_name' => 'Ifni',
@@ -6012,7 +6032,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//295
+			//296
 			//Taroudant, Agadir, Tinmel
             DB::table('duchies')->insert([
 				'duchy_name' => 'Taroudant',
@@ -6033,7 +6053,7 @@ class DuchySeeder extends Seeder
 				'duck_breed' => ''
             ]);
 			//Figuig
-			//296
+			//297
 			//Figuig, Bechar, Moghrar
             DB::table('duchies')->insert([
 				'duchy_name' => 'Figuig',
@@ -6053,7 +6073,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//297
+			//298
 			//Tuat, Tademait
             DB::table('duchies')->insert([
 				'duchy_name' => 'Adrar',
@@ -6075,7 +6095,7 @@ class DuchySeeder extends Seeder
             ]);
 			//Abbasid
 			//Baghdad
-			//298
+			//299
 			//Baghdad, Shareban, Anbar, Basra, Karbala, Najaf
             DB::table('duchies')->insert([
 				'duchy_name' => 'Baghdad',
@@ -6095,7 +6115,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//299
+			//300
 			//Erbil, Kirkuk
             DB::table('duchies')->insert([
 				'duchy_name' => 'Erbil',
@@ -6117,7 +6137,7 @@ class DuchySeeder extends Seeder
             ]);
 			//Syria
 			//Damascus
-			//300
+			//301
 			//Damascus, Qalamoun, Jayrud, Dumayr, Suada
             DB::table('duchies')->insert([
 				'duchy_name' => 'Damascus',
@@ -6136,8 +6156,8 @@ class DuchySeeder extends Seeder
 				'pig_breed' => '',
 				'chicken_breed' => '',
 				'duck_breed' => ''
-            ]);	
-			//301
+            ]);
+			//302
 			//Aleppo, Idlib
             DB::table('duchies')->insert([
 				'duchy_name' => 'Jabal',
@@ -6157,7 +6177,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//302
+			//303
 			//Homs, Tripoli, Beirut, Sidon, Tyre
             DB::table('duchies')->insert([
 				'duchy_name' => 'Homs',
@@ -6177,7 +6197,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//303
+			//304
 			//Mosul, Tikrit, Hatra, Mardin
             DB::table('duchies')->insert([
 				'duchy_name' => 'Rabia',
@@ -6197,7 +6217,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//304
+			//305
 			//Amida, Siirt
             DB::table('duchies')->insert([
 				'duchy_name' => 'Bakr',
@@ -6218,7 +6238,7 @@ class DuchySeeder extends Seeder
 				'duck_breed' => ''
             ]);
 			//Najd
-			//305
+			//306
 			//Kharj, Turaif
             DB::table('duchies')->insert([
 				'duchy_name' => 'Najd',
@@ -6238,7 +6258,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//306
+			//307
 			//Tawam, Uqair
             DB::table('duchies')->insert([
 				'duchy_name' => 'Khatt',
@@ -6259,7 +6279,7 @@ class DuchySeeder extends Seeder
 				'duck_breed' => ''
             ]);
 			//Antioch
-			//307
+			//308
 			//Antioch, Alexandretta, Laodicea, Zardana, Apamea
             DB::table('duchies')->insert([
 				'duchy_name' => 'Antioch',
@@ -6279,7 +6299,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
 			]);
-			//308
+			//309
 			//Edessa, Harran
             DB::table('duchies')->insert([
 				'duchy_name' => 'Mudar',
@@ -6301,7 +6321,7 @@ class DuchySeeder extends Seeder
             ]);
 			//Fatimid
 			//Cairo
-			//309
+			//310
 			//Cairo, Helwan
             DB::table('duchies')->insert([
 				'duchy_name' => 'Cairo',
@@ -6320,8 +6340,8 @@ class DuchySeeder extends Seeder
 				'pig_breed' => '',
 				'chicken_breed' => '',
 				'duck_breed' => ''
-            ]);	
-			//310
+            ]);
+			//311
 			//Alexandria, Damanhur, Rosetta
             DB::table('duchies')->insert([
 				'duchy_name' => 'Alexandria',
@@ -6341,7 +6361,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//311
+			//312
 			//Mansoura, Dekernes
             DB::table('duchies')->insert([
 				'duchy_name' => 'Mansoura',
@@ -6361,7 +6381,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//312
+			//313
 			//Damietta, Tinnis
             DB::table('duchies')->insert([
 				'duchy_name' => 'Damietta',
@@ -6381,7 +6401,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//313
+			//314
 			//Minya, Mallawi
             DB::table('duchies')->insert([
 				'duchy_name' => 'Minya',
@@ -6401,7 +6421,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//314
+			//315
 			//Asyut, Abnub, Abu
             DB::table('duchies')->insert([
 				'duchy_name' => 'Asyut',
@@ -6421,7 +6441,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//315
+			//316
 			//Kharga, Dakhla
             DB::table('duchies')->insert([
 				'duchy_name' => 'Kharga',
@@ -6441,7 +6461,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//316
+			//317
 			//Baritun, Siwa, Natrun
             DB::table('duchies')->insert([
 				'duchy_name' => 'Baritun',
@@ -6461,7 +6481,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//317
+			//318
 			//Boula, Hammamat
             DB::table('duchies')->insert([
 				'duchy_name' => 'Boula',
@@ -6482,7 +6502,7 @@ class DuchySeeder extends Seeder
 				'duck_breed' => ''
             ]);
 			//Jerusalem
-			//318
+			//319
 			//Jerusalem, Ascolon, Jericho
             DB::table('duchies')->insert([
 				'duchy_name' => 'Jerusalem',
@@ -6502,7 +6522,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//319
+			//320
 			//Tiberias, Banias, Haifa 
             DB::table('duchies')->insert([
 				'duchy_name' => 'Galilee',
@@ -6523,7 +6543,7 @@ class DuchySeeder extends Seeder
 				'duck_breed' => ''
             ]);
 			//Hejaz
-			//320
+			//321
 			//Mecca, Jeddah, Taif
             DB::table('duchies')->insert([
 				'duchy_name' => 'Mecca',
@@ -6543,7 +6563,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//321
+			//322
 			//Medina, Yanbu, Khaybar
             DB::table('duchies')->insert([
 				'duchy_name' => 'Medina',
@@ -6563,7 +6583,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//322
+			//323
 			//Tabuk, Sharat, Hegra
             DB::table('duchies')->insert([
 				'duchy_name' => 'Tabuk',
@@ -6585,7 +6605,7 @@ class DuchySeeder extends Seeder
             ]);
 			//Khazar
 			//Khazaria
-			//323
+			//324
 			//Aqtobe, Araltobe
             DB::table('duchies')->insert([
 				'duchy_name' => 'Aqtobe',
@@ -6605,7 +6625,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//324
+			//325
 			//Sarkel, Mayaki
             DB::table('duchies')->insert([
 				'duchy_name' => 'Sarkel',
@@ -6625,7 +6645,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//325
+			//326
 			//Sarayberke, Sarayjuk
             DB::table('duchies')->insert([
 				'duchy_name' => 'Khazaran',
@@ -6645,7 +6665,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//326
+			//327
 			//Bolghar, Suar, Bilar
             DB::table('duchies')->insert([
 				'duchy_name' => 'Tatar',
@@ -6666,7 +6686,7 @@ class DuchySeeder extends Seeder
 				'duck_breed' => ''
             ]);
 			//Alania
-			//327
+			//328
 			//Derbent, Tarki
             DB::table('duchies')->insert([
 				'duchy_name' => 'Derbent',
@@ -6686,7 +6706,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//328
+			//329
 			//Azov, Karcha, Maghas
             DB::table('duchies')->insert([
 				'duchy_name' => 'Alania',
@@ -6707,7 +6727,7 @@ class DuchySeeder extends Seeder
 				'duck_breed' => ''
             ]);
 			//Cumania
-			//329
+			//330
 			//Sighnaq, Sozak
             DB::table('duchies')->insert([
 				'duchy_name' => 'Kazakh',
@@ -6727,7 +6747,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//330
+			//331
 			//Sibir, Bashkor
             DB::table('duchies')->insert([
 				'duchy_name' => 'Sibir',
@@ -6749,7 +6769,7 @@ class DuchySeeder extends Seeder
             ]);
 			//Seljuk
 			//Kwarezm
-			//331
+			//332
 			//Gurganj, Khorezm
             DB::table('duchies')->insert([
 				'duchy_name' => 'Gurganj',
@@ -6769,7 +6789,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//332
+			//333
 			//Khiva, Durghan
             DB::table('duchies')->insert([
 				'duchy_name' => 'Khiva',
@@ -6789,7 +6809,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//333
+			//334
 			//Merv, Sarakhs, Bereket
             DB::table('duchies')->insert([
 				'duchy_name' => 'Merv',
@@ -6810,7 +6830,7 @@ class DuchySeeder extends Seeder
 				'duck_breed' => ''
             ]);
 			//Isfahan
-			//334
+			//335
 			//Isfahan, Kashan, Qom, Yazd, Karaj, Qazvin
             DB::table('duchies')->insert([
 				'duchy_name' => 'Jibal',
@@ -6830,7 +6850,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//335
+			//336
 			//Shiraz, Fasa, Darab
             DB::table('duchies')->insert([
 				'duchy_name' => 'Fars',
@@ -6850,7 +6870,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//336
+			//337
 			//Gorgan, Amol
             DB::table('duchies')->insert([
 				'duchy_name' => 'Daylam',
@@ -6871,7 +6891,7 @@ class DuchySeeder extends Seeder
 				'duck_breed' => ''
             ]);
 			//Hormuz
-			//337
+			//338
 			//Hormuz, Minab, Bandar, Lengeh
             DB::table('duchies')->insert([
 				'duchy_name' => 'Hormuz',
@@ -6891,7 +6911,7 @@ class DuchySeeder extends Seeder
 				'chicken_breed' => '',
 				'duck_breed' => ''
             ]);
-			//338
+			//339
 			//Kerman, Bam, Rafsinjan
             DB::table('duchies')->insert([
 				'duchy_name' => 'Kerman',
