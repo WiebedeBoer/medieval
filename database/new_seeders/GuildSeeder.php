@@ -27516,7 +27516,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '220',
-			'county' => '1112',
+			'county' => '1115',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -27526,7 +27526,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '220',
-			'county' => '1112',
+			'county' => '1115',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -27536,7 +27536,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '220',
-			'county' => '1112',
+			'county' => '1115',
 			'hundred' => ''
 		]);
 		//Guria
@@ -27558,7 +27558,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '220',
-			'county' => '1113',
+			'county' => '1116',
 			'hundred' => ''
 		]);
 		//Pityus
@@ -27570,7 +27570,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '220',
-			'county' => '1114',
+			'county' => '1117',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -27580,7 +27580,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '220',
-			'county' => '1114',
+			'county' => '1117',
 			'hundred' => ''
 		]);
 		//Imereti
@@ -27592,7 +27592,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '220',
-			'county' => '1115',
+			'county' => '1118',
 			'hundred' => ''
 		]);
 		//Batumi
@@ -27604,7 +27604,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '220',
-			'county' => '1116',
+			'county' => '1119',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -27614,7 +27614,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '220',
-			'county' => '1116',
+			'county' => '1119',
 			'hundred' => ''
 		]);
 		//Javakheti
@@ -27637,7 +27637,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '221',
-			'county' => '1117',
+			'county' => '1120',
 			'hundred' => ''
 		]);
 		//Akhaltsikhe
@@ -27649,7 +27649,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '221',
-			'county' => '1118',
+			'county' => '1121',
 			'hundred' => ''
 		]);
 		//Kartli
@@ -27662,7 +27662,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '222',
-			'county' => '1120',
+			'county' => '1123',
 			'hundred' => ''
 		]);
 		//Tiblisi
@@ -27684,7 +27684,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '222',
-			'county' => '1121',
+			'county' => '1124',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -27694,7 +27694,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '222',
-			'county' => '1121',
+			'county' => '1124',
 			'hundred' => ''
 		]);
 		//Kakheti
@@ -27707,7 +27707,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '223',
-			'county' => '1124',
+			'county' => '1127',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -27729,7 +27729,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '223',
-			'county' => '1125',
+			'county' => '1128',
 			'hundred' => ''
 		]);
 		//Kingdom of Armenia
@@ -27753,7 +27753,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '224',
-			'county' => '1126',
+			'county' => '1129',
 			'hundred' => ''
 		]);
 		//Taron
@@ -27776,7 +27776,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '225',
-			'county' => '1130',
+			'county' => '1133',
 			'hundred' => ''
 		]);
 		//Tercan
@@ -27787,7 +27787,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '225',
-			'county' => '1130',
+			'county' => '1133',
 			'hundred' => ''
 		]);
 		//Kars
@@ -27800,7 +27800,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '226',
-			'county' => '1132',
+			'county' => '1135',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -27820,7 +27820,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '226',
-			'county' => '1132',
+			'county' => '1135',
 			'hundred' => ''
 		]);
 		//Ani
@@ -27832,7 +27832,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '226',
-			'county' => '1133',
+			'county' => '1136',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -27842,7 +27842,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '226',
-			'county' => '1133',
+			'county' => '1136',
 			'hundred' => ''
 		]);
 		//Yerevan
@@ -27854,7 +27854,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '226',
-			'county' => '1135',
+			'county' => '1138',
 			'hundred' => ''
 		]);
 		//Azerbaijan
@@ -27877,7 +27877,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '227',
-			'county' => '1136',
+			'county' => '1139',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -27887,7 +27887,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '227',
-			'county' => '1136',
+			'county' => '1139',
 			'hundred' => ''
 		]);
 		//Khojasan
@@ -27898,7 +27898,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '227',
-			'county' => '1136',
+			'county' => '1139',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -27908,7 +27908,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '227',
-			'county' => '1136',
+			'county' => '1139',
 			'hundred' => ''
 		]);
 		//Sabail
@@ -27919,7 +27919,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '227',
-			'county' => '1136',
+			'county' => '1139',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -27929,7 +27929,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '227',
-			'county' => '1136',
+			'county' => '1139',
 			'hundred' => ''
 		]);
 		//Rasht
@@ -27941,7 +27941,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '227',
-			'county' => '1137',
+			'county' => '1140',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -27951,7 +27951,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '227',
-			'county' => '1137',
+			'county' => '1140',
 			'hundred' => ''
 		]);
 		//Kievan Russia
@@ -27976,7 +27976,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '228',
-			'county' => '1138',
+			'county' => '1141',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -27986,7 +27986,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '228',
-			'county' => '1138',
+			'county' => '1141',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -27996,7 +27996,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '228',
-			'county' => '1138',
+			'county' => '1141',
 			'hundred' => ''
 		]);
 		//Podil
@@ -28007,7 +28007,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '228',
-			'county' => '1138',
+			'county' => '1141',
 			'hundred' => ''
 		]);
 		//Chernobyl
@@ -28018,7 +28018,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '228',
-			'county' => '1138',
+			'county' => '1141',
 			'hundred' => ''
 		]);
 		//Lyutizh
@@ -28029,7 +28029,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '228',
-			'county' => '1138',
+			'county' => '1141',
 			'hundred' => ''
 		]);
 		//Chabany
@@ -28040,7 +28040,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '228',
-			'county' => '1138',
+			'county' => '1141',
 			'hundred' => ''
 		]);
 		//Kozyn
@@ -28051,7 +28051,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '228',
-			'county' => '1138',
+			'county' => '1141',
 			'hundred' => ''
 		]);
 		//Pereyaslavl
@@ -28074,7 +28074,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '229',
-			'county' => '1142',
+			'county' => '1145',
 			'hundred' => ''
 		]);
 		//Grand Principality of Chernigov
@@ -28100,7 +28100,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '230',
-			'county' => '1145',
+			'county' => '1148',
 			'hundred' => ''
 		]);
 		//Oryol
@@ -28111,7 +28111,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '230',
-			'county' => '1145',
+			'county' => '1148',
 			'hundred' => ''
 		]);
 		//Lyubech
@@ -28123,7 +28123,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '230',
-			'county' => '1146',
+			'county' => '1149',
 			'hundred' => ''
 		]);
 		//Ryazan
@@ -28148,7 +28148,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '231',
-			'county' => '1153',
+			'county' => '1156',
 			'hundred' => ''
 		]);
 		//Grand Principality of Ruthenia
@@ -28172,7 +28172,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '38',
-			'county' => '232',
+			'county' => '1157',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -28182,7 +28182,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '232',
-			'county' => '1154',
+			'county' => '1157',
 			'hundred' => ''
 		]);
 		//Peremyshl
@@ -28194,7 +28194,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '232',
-			'county' => '1155',
+			'county' => '1158',
 			'hundred' => ''
 		]);
 		//Sambir
@@ -28205,7 +28205,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '232',
-			'county' => '1155',
+			'county' => '1158',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -28215,7 +28215,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '232',
-			'county' => '1155',
+			'county' => '1158',
 			'hundred' => ''
 		]);
 		//Lviv
@@ -28227,7 +28227,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '232',
-			'county' => '1156',
+			'county' => '1159',
 			'hundred' => ''
 		]);
 		//Podolia
@@ -28252,7 +28252,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '233',
-			'county' => '1159',
+			'county' => '1162',
 			'hundred' => ''
 		]);
 		//Volhynia
@@ -28275,7 +28275,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '234',
-			'county' => '1160',
+			'county' => '1163',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -28285,7 +28285,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '234',
-			'county' => '1160',
+			'county' => '1163',
 			'hundred' => ''
 		]);
 		//Brest
@@ -28297,7 +28297,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '234',
-			'county' => '1161',
+			'county' => '1164',
 			'hundred' => ''
 		]);
 		//Lutsk
@@ -28309,7 +28309,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '234',
-			'county' => '1163',
+			'county' => '1166',
 			'hundred' => ''
 		]);
 		//Turov
@@ -28332,7 +28332,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '235',
-			'county' => '1164',
+			'county' => '1167',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -28342,7 +28342,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '235',
-			'county' => '1164',
+			'county' => '1167',
 			'hundred' => ''
 		]);
 		//Grand Principality of Vladimir
@@ -28366,7 +28366,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '236',
-			'county' => '1166',
+			'county' => '1169',
 			'hundred' => ''
 		]);
 		//Gavrilov
@@ -28377,7 +28377,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '236',
-			'county' => '1166',
+			'county' => '1169',
 			'hundred' => ''
 		]);
 		//Vyazniki
@@ -28389,7 +28389,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '236',
-			'county' => '1166',
+			'county' => '1169',
 			'hundred' => ''
 		]);
 		//Nizhny Novgorod
@@ -28401,7 +28401,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '236',
-			'county' => '1168',
+			'county' => '1171',
 			'hundred' => ''
 		]);
 		//Moscow
@@ -28424,7 +28424,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '237',
-			'county' => '1169',
+			'county' => '1172',
 			'hundred' => ''
 		]);
 		//Suzdal
@@ -28447,7 +28447,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '238',
-			'county' => '1173',
+			'county' => '1176',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -28457,7 +28457,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '238',
-			'county' => '1173',
+			'county' => '1176',
 			'hundred' => ''
 		]);
 		//Grand Principality of Smolensk
@@ -28481,7 +28481,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '239',
-			'county' => '1176',
+			'county' => '1179',
 			'hundred' => ''
 		]);
 		//Gnezdovo
@@ -28492,7 +28492,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '239',
-			'county' => '1176',
+			'county' => '1179',
 			'hundred' => ''
 		]);
 		//Rzhev
@@ -28515,7 +28515,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '240',
-			'county' => '1180',
+			'county' => '1183',
 			'hundred' => ''
 		]);
 		//Tver
@@ -28540,7 +28540,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '241',
-			'county' => '1183',
+			'county' => '1186',
 			'hundred' => ''
 		]);
 		//Rostov
@@ -28552,7 +28552,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '241',
-			'county' => '1186',
+			'county' => '1189',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -28562,7 +28562,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '241',
-			'county' => '1186',
+			'county' => '1189',
 			'hundred' => ''
 		]);
 		//Yaroslavl
@@ -28574,7 +28574,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '241',
-			'county' => '1187',
+			'county' => '1190',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -28584,7 +28584,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '241',
-			'county' => '1187',
+			'county' => '1190',
 			'hundred' => ''
 		]);
 		//Uglich
@@ -28595,7 +28595,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '241',
-			'county' => '1187',
+			'county' => '1190',
 			'hundred' => ''
 		]);
 		//Vologda
@@ -28606,7 +28606,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '241',
-			'county' => '1187',
+			'county' => '1190',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -28616,7 +28616,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '241',
-			'county' => '1187',
+			'county' => '1190',
 			'hundred' => ''
 		]);
 		//Principality of Novgorod
@@ -28640,7 +28640,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '242',
-			'county' => '1188',
+			'county' => '1191',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -28650,7 +28650,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '242',
-			'county' => '1188',
+			'county' => '1191',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -28660,7 +28660,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '242',
-			'county' => '1188',
+			'county' => '1191',
 			'hundred' => ''
 		]);
 		//Kresttsy
@@ -28671,7 +28671,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '242',
-			'county' => '1188',
+			'county' => '1191',
 			'hundred' => ''
 		]);
 		//Lyubytino
@@ -28682,7 +28682,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '242',
-			'county' => '1188',
+			'county' => '1191',
 			'hundred' => ''
 		]);
 		//Ladoga
@@ -28694,7 +28694,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '242',
-			'county' => '1189',
+			'county' => '1192',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -28704,7 +28704,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '242',
-			'county' => '1189',
+			'county' => '1192',
 			'hundred' => ''
 		]);
 		//Keksholm
@@ -28715,7 +28715,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '242',
-			'county' => '1189',
+			'county' => '1192',
 			'hundred' => ''
 		]);
 		//Polotsk
@@ -28738,7 +28738,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '243',
-			'county' => '1190',
+			'county' => '1193',
 			'hundred' => ''
 		]);
 		//Vitebsk
@@ -28750,7 +28750,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '243',
-			'county' => '1192',
+			'county' => '1195',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -28760,7 +28760,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '243',
-			'county' => '1192',
+			'county' => '1195',
 			'hundred' => ''
 		]);
 		//Pleskov
@@ -28783,7 +28783,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '244',
-			'county' => '1193',
+			'county' => '1196',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -28793,7 +28793,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '244',
-			'county' => '1193',
+			'county' => '1196',
 			'hundred' => ''
 		]);
 		//Kholm
@@ -28805,7 +28805,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '244',
-			'county' => '1194',
+			'county' => '1197',
 			'hundred' => ''
 		]);
 		//Velikiye Luki
@@ -28816,7 +28816,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '244',
-			'county' => '1194',
+			'county' => '1197',
 			'hundred' => ''
 		]);
 		//Bulgarian Empire
@@ -28841,7 +28841,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '245',
-			'county' => '1195',
+			'county' => '1198',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -28851,7 +28851,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '245',
-			'county' => '1195',
+			'county' => '1198',
 			'hundred' => ''
 		]);
 		//Karvuna
@@ -28863,7 +28863,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '245',
-			'county' => '1198',
+			'county' => '1201',
 			'hundred' => ''
 		]);
 		//Tarnovo
@@ -28886,7 +28886,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '246',
-			'county' => '1199',
+			'county' => '1202',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -28896,7 +28896,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '246',
-			'county' => '1199',
+			'county' => '1202',
 			'hundred' => ''
 		]);
 		//Kopsis
@@ -28908,7 +28908,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '246',
-			'county' => '1200',
+			'county' => '1203',
 			'hundred' => ''
 		]);
 		//Seuthopolis
@@ -28920,7 +28920,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '246',
-			'county' => '1201',
+			'county' => '1204',
 			'hundred' => ''
 		]);
 		//Philippopolis
@@ -28943,7 +28943,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '247',
-			'county' => '1202',
+			'county' => '1205',
 			'hundred' => ''
 		]);
 		//Ohrid
@@ -28966,7 +28966,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '248',
-			'county' => '1204',
+			'county' => '1207',
 			'hundred' => ''
 		]);
 		//Kastoria
@@ -28978,7 +28978,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '248',
-			'county' => '1206',
+			'county' => '1209',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -28988,7 +28988,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '248',
-			'county' => '1206',
+			'county' => '1209',
 			'hundred' => ''
 		]);
 		//Tsetiraki
@@ -28999,7 +28999,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '248',
-			'county' => '1206',
+			'county' => '1209',
 			'hundred' => ''
 		]);
 		//Principality of Wallachia
@@ -29013,7 +29013,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '249',
-			'county' => '1207',
+			'county' => '1210',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -29033,7 +29033,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '249',
-			'county' => '1207',
+			'county' => '1210',
 			'hundred' => ''
 		]);
 		//Omurtag
@@ -29045,7 +29045,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '249',
-			'county' => '1208',
+			'county' => '1211',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -29055,7 +29055,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '249',
-			'county' => '1208',
+			'county' => '1211',
 			'hundred' => ''
 		]);
 		//Moldavia
@@ -29078,7 +29078,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '250',
-			'county' => '1210',
+			'county' => '1213',
 			'hundred' => ''
 		]);
 		//Neamt
@@ -29090,7 +29090,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '250',
-			'county' => '1211',
+			'county' => '1214',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -29100,7 +29100,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '250',
-			'county' => '1211',
+			'county' => '1214',
 			'hundred' => ''
 		]);
 		//Akkerman
@@ -29112,7 +29112,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '250',
-			'county' => '1212',
+			'county' => '1215',
 			'hundred' => ''
 		]);
 		//Soroca
@@ -29124,7 +29124,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '250',
-			'county' => '1213',
+			'county' => '1216',
 			'hundred' => ''
 		]);
 		//Serbian Empire
@@ -29149,7 +29149,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '251',
-			'county' => '1218',
+			'county' => '1221',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -29159,7 +29159,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '251',
-			'county' => '1218',
+			'county' => '1221',
 			'hundred' => ''
 		]);
 		//Dioclea
@@ -29182,7 +29182,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '252',
-			'county' => '1221',
+			'county' => '1224',
 			'hundred' => ''
 		]);
 		//Podrinje
@@ -29206,7 +29206,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '253',
-			'county' => '1224',
+			'county' => '1227',
 			'hundred' => ''
 		]);
 		//Principality of Bosnia
@@ -29232,7 +29232,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '254',
-			'county' => '1227',
+			'county' => '1230',
 			'hundred' => ''
 		]);
 		//Soli
@@ -29257,7 +29257,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '255',
-			'county' => '1229',
+			'county' => '1232',
 			'hundred' => ''
 		]);
 		//Zachumlia
@@ -29280,7 +29280,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '256',
-			'county' => '1230',
+			'county' => '1233',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -29290,7 +29290,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '256',
-			'county' => '1230',
+			'county' => '1233',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -29300,7 +29300,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '256',
-			'county' => '1230',
+			'county' => '1233',
 			'hundred' => ''
 		]);
 		//Mostar
@@ -29311,7 +29311,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '256',
-			'county' => '1230',
+			'county' => '1233',
 			'hundred' => ''
 		]);
 		//Dabar
@@ -29323,7 +29323,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '256',
-			'county' => '1232',
+			'county' => '1235',
 			'hundred' => ''
 		]);
 		//Nevesinje
@@ -29334,7 +29334,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '256',
-			'county' => '1232',
+			'county' => '1235',
 			'hundred' => ''
 		]);
 		//Cordoba
@@ -29359,7 +29359,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '257',
-			'county' => '1234',
+			'county' => '1237',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -29369,7 +29369,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '257',
-			'county' => '1234',
+			'county' => '1237',
 			'hundred' => ''
 		]);
 		//Almeria
@@ -29392,7 +29392,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '258',
-			'county' => '1236',
+			'county' => '1239',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -29402,7 +29402,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '258',
-			'county' => '1236',
+			'county' => '1239',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -29412,7 +29412,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '258',
-			'county' => '1236',
+			'county' => '1239',
 			'hundred' => ''
 		]);
 		//Pechina
@@ -29423,7 +29423,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '258',
-			'county' => '1236',
+			'county' => '1239',
 			'hundred' => ''
 		]);
 		//Gador
@@ -29434,7 +29434,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '258',
-			'county' => '1236',
+			'county' => '1239',
 			'hundred' => ''
 		]);
 		//Santa Fe
@@ -29445,7 +29445,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '258',
-			'county' => '1236',
+			'county' => '1239',
 			'hundred' => ''
 		]);
 		//Alpujarra
@@ -29457,7 +29457,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '258',
-			'county' => '1238',
+			'county' => '1241',
 			'hundred' => ''
 		]);
 		//Dalias
@@ -29469,7 +29469,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '258',
-			'county' => '1239',
+			'county' => '1242',
 			'hundred' => ''
 		]);
 		//Adra
@@ -29480,7 +29480,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '258',
-			'county' => '1239',
+			'county' => '1242',
 			'hundred' => ''
 		]);
 		//Arcos
@@ -29493,7 +29493,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '259',
-			'county' => '1240',
+			'county' => '1243',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -29503,7 +29503,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '259',
-			'county' => '1240',
+			'county' => '1243',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -29513,7 +29513,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '259',
-			'county' => '1240',
+			'county' => '1243',
 			'hundred' => ''
 		]);
 		//Arcos
@@ -29535,7 +29535,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '259',
-			'county' => '1240',
+			'county' => '1243',
 			'hundred' => ''
 		]);
 		//Jerez
@@ -29547,7 +29547,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '259',
-			'county' => '1241',
+			'county' => '1244',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -29557,7 +29557,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '259',
-			'county' => '1241',
+			'county' => '1244',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -29567,7 +29567,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '259',
-			'county' => '1241',
+			'county' => '1244',
 			'hundred' => ''
 		]);
 		//Sanlucar
@@ -29579,7 +29579,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '259',
-			'county' => '1242',
+			'county' => '1245',
 			'hundred' => ''
 		]);
 		//Tarbasana
@@ -29590,7 +29590,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '259',
-			'county' => '1242',
+			'county' => '1245',
 			'hundred' => ''
 		]);
 		//Carmona
@@ -29614,7 +29614,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '260',
-			'county' => '1243',
+			'county' => '1246',
 			'hundred' => ''
 		]);
 		//Ecija
@@ -29626,7 +29626,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '260',
-			'county' => '1244',
+			'county' => '1247',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -29636,7 +29636,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '260',
-			'county' => '1244',
+			'county' => '1247',
 			'hundred' => ''
 		]);
 		//Cordoba
@@ -29649,7 +29649,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '261',
-			'county' => '1245',
+			'county' => '1248',
 			'hundred' => ''
 		]);
 		//Carpio
@@ -29661,7 +29661,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '261',
-			'county' => '1246',
+			'county' => '1249',
 			'hundred' => ''
 		]);
 		//Cordoba
@@ -29683,7 +29683,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '261',
-			'county' => '1247',
+			'county' => '1250',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -29693,7 +29693,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '261',
-			'county' => '1247',
+			'county' => '1250',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -29703,7 +29703,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '261',
-			'county' => '1247',
+			'county' => '1250',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -29713,7 +29713,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '261',
-			'county' => '1247',
+			'county' => '1250',
 			'hundred' => ''
 		]);
 		//Azahara
@@ -29724,7 +29724,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '261',
-			'county' => '1247',
+			'county' => '1250',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -29734,7 +29734,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '261',
-			'county' => '1247',
+			'county' => '1250',
 			'hundred' => ''
 		]);
 		//Santa Cruz
@@ -29745,7 +29745,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '261',
-			'county' => '1247',
+			'county' => '1250',
 			'hundred' => ''
 		]);
 		//Santa Isabel
@@ -29756,7 +29756,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '261',
-			'county' => '1247',
+			'county' => '1250',
 			'hundred' => ''
 		]);
 		//Subbetica
@@ -29768,7 +29768,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '261',
-			'county' => '1248',
+			'county' => '1251',
 			'hundred' => ''
 		]);
 		//Baena
@@ -29780,7 +29780,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '261',
-			'county' => '1249',
+			'county' => '1252',
 			'hundred' => ''
 		]);
 		//Cordobesa
@@ -29792,7 +29792,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '261',
-			'county' => '1250',
+			'county' => '1253',
 			'hundred' => ''
 		]);
 		//Martos
@@ -29804,7 +29804,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '261',
-			'county' => '1251',
+			'county' => '1254',
 			'hundred' => ''
 		]);
 		//Higuera
@@ -29815,7 +29815,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '261',
-			'county' => '1251',
+			'county' => '1254',
 			'hundred' => ''
 		]);
 		//Pedroche
@@ -29827,7 +29827,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '261',
-			'county' => '1252',
+			'county' => '1255',
 			'hundred' => ''
 		]);
 		//Santa Eufemia
@@ -29838,7 +29838,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '261',
-			'county' => '1252',
+			'county' => '1255',
 			'hundred' => ''
 		]);
 		//Granada
@@ -29851,7 +29851,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '262',
-			'county' => '1253',
+			'county' => '1256',
 			'hundred' => ''
 		]);
 		//Juviles
@@ -29862,7 +29862,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '262',
-			'county' => '1253',
+			'county' => '1256',
 			'hundred' => ''
 		]);
 		//Trevelez
@@ -29873,7 +29873,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '262',
-			'county' => '1253',
+			'county' => '1256',
 			'hundred' => ''
 		]);
 		//Valor
@@ -29884,7 +29884,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '262',
-			'county' => '1253',
+			'county' => '1256',
 			'hundred' => ''
 		]);
 		//Portugos
@@ -29895,7 +29895,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '262',
-			'county' => '1253',
+			'county' => '1256',
 			'hundred' => ''
 		]);
 		//Baeza
@@ -29907,7 +29907,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '262',
-			'county' => '1254',
+			'county' => '1257',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -29917,7 +29917,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '262',
-			'county' => '1254',
+			'county' => '1257',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -29927,7 +29927,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '262',
-			'county' => '1254',
+			'county' => '1257',
 			'hundred' => ''
 		]);
 		//Bexijar
@@ -29938,7 +29938,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '262',
-			'county' => '1254',
+			'county' => '1257',
 			'hundred' => ''
 		]);
 		//Granada
@@ -29960,7 +29960,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '262',
-			'county' => '1256',
+			'county' => '1259',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -29970,7 +29970,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '262',
-			'county' => '1256',
+			'county' => '1259',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -29980,7 +29980,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '262',
-			'county' => '1256',
+			'county' => '1259',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -29990,7 +29990,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '262',
-			'county' => '1256',
+			'county' => '1259',
 			'hundred' => ''
 		]);
 		//Albolote
@@ -30001,7 +30001,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '262',
-			'county' => '1256',
+			'county' => '1259',
 			'hundred' => ''
 		]);
 		//Alfacar
@@ -30012,7 +30012,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '262',
-			'county' => '1256',
+			'county' => '1259',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -30022,7 +30022,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '262',
-			'county' => '1256',
+			'county' => '1259',
 			'hundred' => ''
 		]);
 		//Lachar
@@ -30033,7 +30033,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '262',
-			'county' => '1256',
+			'county' => '1259',
 			'hundred' => ''
 		]);
 		//Pulianas
@@ -30044,7 +30044,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '262',
-			'county' => '1256',
+			'county' => '1259',
 			'hundred' => ''
 		]);
 		//Aquiliana
@@ -30055,7 +30055,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '262',
-			'county' => '1256',
+			'county' => '1259',
 			'hundred' => ''
 		]);
 		//Diarfate
@@ -30066,7 +30066,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '262',
-			'county' => '1256',
+			'county' => '1259',
 			'hundred' => ''
 		]);
 		//Cijuela
@@ -30077,7 +30077,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '262',
-			'county' => '1256',
+			'county' => '1259',
 			'hundred' => ''
 		]);
 		//Elvira
@@ -30088,7 +30088,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '262',
-			'county' => '1256',
+			'county' => '1259',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -30098,7 +30098,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '262',
-			'county' => '1256',
+			'county' => '1259',
 			'hundred' => ''
 		]);
 		//Armilla
@@ -30109,7 +30109,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '262',
-			'county' => '1256',
+			'county' => '1259',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -30119,7 +30119,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '262',
-			'county' => '1256',
+			'county' => '1259',
 			'hundred' => ''
 		]);
 		//Genil
@@ -30130,7 +30130,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '262',
-			'county' => '1256',
+			'county' => '1259',
 			'hundred' => ''
 		]);
 		//Guadix
@@ -30142,7 +30142,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '262',
-			'county' => '1257',
+			'county' => '1260',
 			'hundred' => ''
 		]);
 		//Albunan
@@ -30153,7 +30153,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '262',
-			'county' => '1257',
+			'county' => '1260',
 			'hundred' => ''
 		]);
 		//Benalua
@@ -30164,7 +30164,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '262',
-			'county' => '1257',
+			'county' => '1260',
 			'hundred' => ''
 		]);
 		//Diezma
@@ -30175,7 +30175,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '262',
-			'county' => '1257',
+			'county' => '1260',
 			'hundred' => ''
 		]);
 		//Huelago
@@ -30186,7 +30186,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '262',
-			'county' => '1257',
+			'county' => '1260',
 			'hundred' => ''
 		]);
 		//Reniha
@@ -30197,7 +30197,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '262',
-			'county' => '1257',
+			'county' => '1260',
 			'hundred' => ''
 		]);
 		//Lugros
@@ -30208,7 +30208,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '262',
-			'county' => '1257',
+			'county' => '1260',
 			'hundred' => ''
 		]);
 		//Policar
@@ -30219,7 +30219,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '262',
-			'county' => '1257',
+			'county' => '1260',
 			'hundred' => ''
 		]);
 		//Jaen
@@ -30231,7 +30231,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '262',
-			'county' => '1258',
+			'county' => '1261',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -30241,7 +30241,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '262',
-			'county' => '1258',
+			'county' => '1261',
 			'hundred' => ''
 		]);
 		//Lecrin
@@ -30253,7 +30253,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '262',
-			'county' => '1259',
+			'county' => '1262',
 			'hundred' => ''
 		]);
 		//Cehel
@@ -30265,7 +30265,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '262',
-			'county' => '1261',
+			'county' => '1264',
 			'hundred' => ''
 		]);
 		//Valor
@@ -30276,7 +30276,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '262',
-			'county' => '1261',
+			'county' => '1264',
 			'hundred' => ''
 		]);
 		//Malaga
@@ -30289,7 +30289,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '263',
-			'county' => '1263',
+			'county' => '1266',
 			'hundred' => ''
 		]);
 		//Malaha
@@ -30300,7 +30300,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '263',
-			'county' => '1263',
+			'county' => '1266',
 			'hundred' => ''
 		]);
 		//Huelma
@@ -30311,7 +30311,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '263',
-			'county' => '1263',
+			'county' => '1266',
 			'hundred' => ''
 		]);
 		//Zafarraya
@@ -30322,7 +30322,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '263',
-			'county' => '1263',
+			'county' => '1266',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -30332,7 +30332,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '263',
-			'county' => '1263',
+			'county' => '1266',
 			'hundred' => ''
 		]);
 		//Antequerra
@@ -30344,7 +30344,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '263',
-			'county' => '1264',
+			'county' => '1267',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -30354,7 +30354,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '263',
-			'county' => '1264',
+			'county' => '1267',
 			'hundred' => ''
 		]);
 		//Alameda
@@ -30365,7 +30365,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '263',
-			'county' => '1264',
+			'county' => '1267',
 			'hundred' => ''
 		]);
 		//Loja
@@ -30377,7 +30377,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '263',
-			'county' => '1265',
+			'county' => '1268',
 			'hundred' => ''
 		]);
 		//Algarin
@@ -30388,7 +30388,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '263',
-			'county' => '1265',
+			'county' => '1268',
 			'hundred' => ''
 		]);
 		//Montefrio
@@ -30399,7 +30399,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '263',
-			'county' => '1265',
+			'county' => '1268',
 			'hundred' => ''
 		]);
 		//Malaga
@@ -30421,7 +30421,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '263',
-			'county' => '1266',
+			'county' => '1269',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -30431,7 +30431,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '263',
-			'county' => '1266',
+			'county' => '1269',
 			'hundred' => ''
 		]);
 		//Ronda
@@ -30444,7 +30444,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '264',
-			'county' => '1267',
+			'county' => '1270',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -30454,7 +30454,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '264',
-			'county' => '1267',
+			'county' => '1270',
 			'hundred' => ''
 		]);
 		//Ojen
@@ -30465,7 +30465,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '264',
-			'county' => '1267',
+			'county' => '1270',
 			'hundred' => ''
 		]);
 		//Ronda
@@ -30487,7 +30487,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '264',
-			'county' => '1268',
+			'county' => '1271',
 			'hundred' => ''
 		]);
 		//Sevilla
@@ -30500,7 +30500,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '265',
-			'county' => '1269',
+			'county' => '1272',
 			'hundred' => ''
 		]);
 		//Olivares
@@ -30511,7 +30511,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '265',
-			'county' => '1269',
+			'county' => '1272',
 			'hundred' => ''
 		]);
 		//Pilas
@@ -30522,7 +30522,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '265',
-			'county' => '1269',
+			'county' => '1272',
 			'hundred' => ''
 		]);
 		//Sevilla
@@ -30544,7 +30544,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '265',
-			'county' => '1271',
+			'county' => '1274',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -30554,7 +30554,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '265',
-			'county' => '1271',
+			'county' => '1274',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -30564,7 +30564,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '265',
-			'county' => '1271',
+			'county' => '1274',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -30574,7 +30574,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '265',
-			'county' => '1271',
+			'county' => '1274',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -30584,7 +30584,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '265',
-			'county' => '1271',
+			'county' => '1274',
 			'hundred' => ''
 		]);
 		//Utrera
@@ -30595,7 +30595,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '265',
-			'county' => '1271',
+			'county' => '1274',
 			'hundred' => ''
 		]);
 		//San Luis
@@ -30606,7 +30606,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '265',
-			'county' => '1271',
+			'county' => '1274',
 			'hundred' => ''
 		]);
 		//Kingdom of Algarves
@@ -30632,7 +30632,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '266',
-			'county' => '1273',
+			'county' => '1276',
 			'hundred' => ''
 		]);
 		//Moura
@@ -30643,7 +30643,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '266',
-			'county' => '1273',
+			'county' => '1276',
 			'hundred' => ''
 		]);
 		//Silves
@@ -30655,7 +30655,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '266',
-			'county' => '1274',
+			'county' => '1277',
 			'hundred' => ''
 		]);
 		//Badajoz
@@ -30678,7 +30678,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '267',
-			'county' => '1275',
+			'county' => '1278',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -30688,7 +30688,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '267',
-			'county' => '1275',
+			'county' => '1278',
 			'hundred' => ''
 		]);
 		//Elvas
@@ -30699,7 +30699,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '267',
-			'county' => '1275',
+			'county' => '1278',
 			'hundred' => ''
 		]);
 		//Evora
@@ -30711,7 +30711,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '267',
-			'county' => '1277',
+			'county' => '1280',
 			'hundred' => ''
 		]);
 		//Arraiolos
@@ -30722,7 +30722,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '267',
-			'county' => '1277',
+			'county' => '1280',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -30732,7 +30732,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '267',
-			'county' => '1277',
+			'county' => '1280',
 			'hundred' => ''
 		]);
 		//Redondo
@@ -30743,7 +30743,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '267',
-			'county' => '1277',
+			'county' => '1280',
 			'hundred' => ''
 		]);
 		//Guadiana
@@ -30755,7 +30755,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '267',
-			'county' => '1278',
+			'county' => '1281',
 			'hundred' => ''
 		]);
 		//Llerena
@@ -30767,7 +30767,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '267',
-			'county' => '1279',
+			'county' => '1282',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -30777,7 +30777,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '267',
-			'county' => '1279',
+			'county' => '1282',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -30787,7 +30787,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '267',
-			'county' => '1279',
+			'county' => '1282',
 			'hundred' => ''
 		]);
 		//Azuaga
@@ -30798,7 +30798,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '267',
-			'county' => '1279',
+			'county' => '1282',
 			'hundred' => ''
 		]);
 		//Merida
@@ -30810,7 +30810,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '267',
-			'county' => '1280',
+			'county' => '1283',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -30820,7 +30820,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '267',
-			'county' => '1280',
+			'county' => '1283',
 			'hundred' => ''
 		]);
 		//Mirandilla
@@ -30831,7 +30831,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '267',
-			'county' => '1280',
+			'county' => '1283',
 			'hundred' => ''
 		]);
 		//San Servan
@@ -30842,7 +30842,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '267',
-			'county' => '1280',
+			'county' => '1283',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -30852,7 +30852,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '267',
-			'county' => '1280',
+			'county' => '1283',
 			'hundred' => ''
 		]);
 		//Portalegre
@@ -30864,7 +30864,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '267',
-			'county' => '1282',
+			'county' => '1285',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -30874,7 +30874,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '267',
-			'county' => '1282',
+			'county' => '1285',
 			'hundred' => ''
 		]);
 		//Huelva
@@ -30887,7 +30887,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '268',
-			'county' => '1284',
+			'county' => '1287',
 			'hundred' => ''
 		]);
 		//Aroche
@@ -30898,7 +30898,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '268',
-			'county' => '1284',
+			'county' => '1287',
 			'hundred' => ''
 		]);
 		//Cala
@@ -30909,7 +30909,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '268',
-			'county' => '1284',
+			'county' => '1287',
 			'hundred' => ''
 		]);
 		//Huelva
@@ -30931,7 +30931,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '268',
-			'county' => '1285',
+			'county' => '1288',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -30941,7 +30941,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '268',
-			'county' => '1285',
+			'county' => '1288',
 			'hundred' => ''
 		]);
 		//Cartaya
@@ -30952,7 +30952,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '268',
-			'county' => '1285',
+			'county' => '1288',
 			'hundred' => ''
 		]);
 		//Niebla
@@ -30964,7 +30964,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '268',
-			'county' => '1286',
+			'county' => '1289',
 			'hundred' => ''
 		]);
 		//Moguer
@@ -30975,7 +30975,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '268',
-			'county' => '1286',
+			'county' => '1289',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -30985,7 +30985,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '268',
-			'county' => '1286',
+			'county' => '1289',
 			'hundred' => ''
 		]);
 		//Almonte
@@ -30996,7 +30996,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '268',
-			'county' => '1286',
+			'county' => '1289',
 			'hundred' => ''
 		]);
 		//Palos
@@ -31007,7 +31007,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '268',
-			'county' => '1286',
+			'county' => '1289',
 			'hundred' => ''
 		]);
 		//Kingdom of Levante
@@ -31021,7 +31021,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '269',
-			'county' => '1287',
+			'county' => '1290',
 			'hundred' => ''
 		]);
 		//Guadalajara
@@ -31032,7 +31032,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '269',
-			'county' => '1287',
+			'county' => '1290',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -31042,7 +31042,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '269',
-			'county' => '1287',
+			'county' => '1290',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -31052,7 +31052,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '269',
-			'county' => '1287',
+			'county' => '1290',
 			'hundred' => ''
 		]);
 		//Henares
@@ -31064,7 +31064,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '269',
-			'county' => '1289',
+			'county' => '1292',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -31074,7 +31074,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '269',
-			'county' => '1289',
+			'county' => '1292',
 			'hundred' => ''
 		]);
 		//Medinaceli
@@ -31086,7 +31086,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '269',
-			'county' => '1290',
+			'county' => '1293',
 			'hundred' => ''
 		]);
 		//Serrania
@@ -31108,7 +31108,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '269',
-			'county' => '1292',
+			'county' => '1295',
 			'hundred' => ''
 		]);
 		//Cuenca
@@ -31119,7 +31119,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '269',
-			'county' => '1292',
+			'county' => '1295',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -31129,7 +31129,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '269',
-			'county' => '1292',
+			'county' => '1295',
 			'hundred' => ''
 		]);
 		//Siguenza
@@ -31140,7 +31140,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '269',
-			'county' => '1292',
+			'county' => '1295',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -31150,7 +31150,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '269',
-			'county' => '1292',
+			'county' => '1295',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -31160,7 +31160,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '269',
-			'county' => '1292',
+			'county' => '1295',
 			'hundred' => ''
 		]);
 		//Baleares
@@ -31173,7 +31173,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '270',
-			'county' => '1293',
+			'county' => '1296',
 			'hundred' => ''
 		]);
 		//Mallorca
@@ -31195,7 +31195,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '270',
-			'county' => '1294',
+			'county' => '1297',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -31205,7 +31205,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '270',
-			'county' => '1294',
+			'county' => '1297',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -31215,7 +31215,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '270',
-			'county' => '1294',
+			'county' => '1297',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -31225,7 +31225,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '270',
-			'county' => '1294',
+			'county' => '1297',
 			'hundred' => ''
 		]);
 		//Santa Eugenia
@@ -31236,7 +31236,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '270',
-			'county' => '1294',
+			'county' => '1297',
 			'hundred' => ''
 		]);
 		//Denia
@@ -31249,7 +31249,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '271',
-			'county' => '1296',
+			'county' => '1299',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -31259,7 +31259,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '271',
-			'county' => '1296',
+			'county' => '1299',
 			'hundred' => ''
 		]);
 		//Alcira
@@ -31271,7 +31271,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '271',
-			'county' => '1298',
+			'county' => '1301',
 			'hundred' => ''
 		]);
 		//Alcoy
@@ -31283,7 +31283,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '271',
-			'county' => '1299',
+			'county' => '1302',
 			'hundred' => ''
 		]);
 		//Favanella
@@ -31294,7 +31294,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '271',
-			'county' => '1299',
+			'county' => '1302',
 			'hundred' => ''
 		]);
 		//Alicante
@@ -31306,7 +31306,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '271',
-			'county' => '1300',
+			'county' => '1303',
 			'hundred' => ''
 		]);
 		//Almagro
@@ -31318,7 +31318,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '271',
-			'county' => '1301',
+			'county' => '1304',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -31328,7 +31328,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '271',
-			'county' => '1301',
+			'county' => '1304',
 			'hundred' => ''
 		]);
 		//Granatula
@@ -31339,7 +31339,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '271',
-			'county' => '1301',
+			'county' => '1304',
 			'hundred' => ''
 		]);
 		//Valenzuela
@@ -31350,7 +31350,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '271',
-			'county' => '1301',
+			'county' => '1304',
 			'hundred' => ''
 		]);
 		//Chinchilla
@@ -31362,7 +31362,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '271',
-			'county' => '1302',
+			'county' => '1305',
 			'hundred' => ''
 		]);
 		//Denia
@@ -31384,7 +31384,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '271',
-			'county' => '1304',
+			'county' => '1307',
 			'hundred' => ''
 		]);
 		//Pedreguer
@@ -31395,7 +31395,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '271',
-			'county' => '1304',
+			'county' => '1307',
 			'hundred' => ''
 		]);
 		//Jativa
@@ -31407,7 +31407,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '271',
-			'county' => '1305',
+			'county' => '1308',
 			'hundred' => ''
 		]);
 		//Estubeny
@@ -31418,7 +31418,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '271',
-			'county' => '1305',
+			'county' => '1308',
 			'hundred' => ''
 		]);
 		//Murcia
@@ -31431,7 +31431,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '272',
-			'county' => '1307',
+			'county' => '1310',
 			'hundred' => ''
 		]);
 		//Hellin
@@ -31443,7 +31443,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '272',
-			'county' => '1309',
+			'county' => '1312',
 			'hundred' => ''
 		]);
 		//Albatana
@@ -31454,7 +31454,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '272',
-			'county' => '1309',
+			'county' => '1312',
 			'hundred' => ''
 		]);
 		//Ontur
@@ -31465,7 +31465,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '272',
-			'county' => '1309',
+			'county' => '1312',
 			'hundred' => ''
 		]);
 		//Murcia
@@ -31487,7 +31487,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '272',
-			'county' => '1311',
+			'county' => '1314',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -31497,7 +31497,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '272',
-			'county' => '1311',
+			'county' => '1314',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -31507,7 +31507,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '272',
-			'county' => '1311',
+			'county' => '1314',
 			'hundred' => ''
 		]);
 		//Alquerias
@@ -31518,7 +31518,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '272',
-			'county' => '1311',
+			'county' => '1314',
 			'hundred' => ''
 		]);
 		//Alguazas
@@ -31529,7 +31529,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '272',
-			'county' => '1311',
+			'county' => '1314',
 			'hundred' => ''
 		]);
 		//Beniel
@@ -31540,7 +31540,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '272',
-			'county' => '1311',
+			'county' => '1314',
 			'hundred' => ''
 		]);
 		//Zeneta
@@ -31551,7 +31551,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '272',
-			'county' => '1311',
+			'county' => '1314',
 			'hundred' => ''
 		]);
 		//Albudeite
@@ -31562,7 +31562,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '272',
-			'county' => '1311',
+			'county' => '1314',
 			'hundred' => ''
 		]);
 		//Orihuela
@@ -31574,7 +31574,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '272',
-			'county' => '1312',
+			'county' => '1315',
 			'hundred' => ''
 		]);
 		//Rojales
@@ -31585,7 +31585,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '272',
-			'county' => '1312',
+			'county' => '1315',
 			'hundred' => ''
 		]);
 		//Valencia
@@ -31598,7 +31598,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '273',
-			'county' => '1314',
+			'county' => '1317',
 			'hundred' => ''
 		]);
 		//Benifaixo
@@ -31609,7 +31609,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '273',
-			'county' => '1314',
+			'county' => '1317',
 			'hundred' => ''
 		]);
 		//Borriol
@@ -31620,7 +31620,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '273',
-			'county' => '1314',
+			'county' => '1317',
 			'hundred' => ''
 		]);
 		//Morella
@@ -31632,7 +31632,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '273',
-			'county' => '1315',
+			'county' => '1318',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -31642,7 +31642,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '273',
-			'county' => '1315',
+			'county' => '1318',
 			'hundred' => ''
 		]);
 		//Peniscola
@@ -31654,7 +31654,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '273',
-			'county' => '1316',
+			'county' => '1319',
 			'hundred' => ''
 		]);
 		//Benigazlum
@@ -31665,7 +31665,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '273',
-			'county' => '1316',
+			'county' => '1319',
 			'hundred' => ''
 		]);
 		//Traiguera
@@ -31676,7 +31676,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '273',
-			'county' => '1316',
+			'county' => '1319',
 			'hundred' => ''
 		]);
 		//Estellers
@@ -31687,7 +31687,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '273',
-			'county' => '1316',
+			'county' => '1319',
 			'hundred' => ''
 		]);
 		//San Clemente
@@ -31699,7 +31699,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '273',
-			'county' => '1317',
+			'county' => '1320',
 			'hundred' => ''
 		]);
 		//Honrubia
@@ -31710,7 +31710,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '273',
-			'county' => '1317',
+			'county' => '1320',
 			'hundred' => ''
 		]);
 		//Pedernoso
@@ -31721,7 +31721,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '273',
-			'county' => '1317',
+			'county' => '1320',
 			'hundred' => ''
 		]);
 		//Valencia
@@ -31743,7 +31743,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '273',
-			'county' => '1318',
+			'county' => '1321',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -31753,7 +31753,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '273',
-			'county' => '1318',
+			'county' => '1321',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -31763,7 +31763,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '273',
-			'county' => '1318',
+			'county' => '1321',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -31773,7 +31773,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '273',
-			'county' => '1318',
+			'county' => '1321',
 			'hundred' => ''
 		]);
 		//Montesa
@@ -31784,7 +31784,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '273',
-			'county' => '1318',
+			'county' => '1321',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -31794,7 +31794,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '273',
-			'county' => '1318',
+			'county' => '1321',
 			'hundred' => ''
 		]);
 		//Benetuser
@@ -31805,7 +31805,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '273',
-			'county' => '1318',
+			'county' => '1321',
 			'hundred' => ''
 		]);
 		//Aldamosfar
@@ -31816,7 +31816,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '273',
-			'county' => '1318',
+			'county' => '1321',
 			'hundred' => ''
 		]);
 		//Sedavi
@@ -31827,7 +31827,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '273',
-			'county' => '1318',
+			'county' => '1321',
 			'hundred' => ''
 		]);
 		//Masanasa
@@ -31838,7 +31838,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '273',
-			'county' => '1318',
+			'county' => '1321',
 			'hundred' => ''
 		]);
 		//Silla
@@ -31849,7 +31849,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '273',
-			'county' => '1318',
+			'county' => '1321',
 			'hundred' => ''
 		]);
 		//Almohad
@@ -31874,7 +31874,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '274',
-			'county' => '1319',
+			'county' => '1322',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -31884,7 +31884,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '274',
-			'county' => '1319',
+			'county' => '1322',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -31894,7 +31894,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '274',
-			'county' => '1319',
+			'county' => '1322',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -31904,7 +31904,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '274',
-			'county' => '1319',
+			'county' => '1322',
 			'hundred' => ''
 		]);
 		//Safi
@@ -31916,7 +31916,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '274',
-			'county' => '1320',
+			'county' => '1323',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -31926,7 +31926,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '274',
-			'county' => '1320',
+			'county' => '1323',
 			'hundred' => ''
 		]);
 		//Mogador
@@ -31938,7 +31938,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '274',
-			'county' => '1321',
+			'county' => '1324',
 			'hundred' => ''
 		]);
 		//Aghmat
@@ -31950,7 +31950,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '274',
-			'county' => '1322',
+			'county' => '1325',
 			'hundred' => ''
 		]);
 		//Tadla
@@ -31963,7 +31963,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '275',
-			'county' => '1323',
+			'county' => '1326',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -31973,7 +31973,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '275',
-			'county' => '1323',
+			'county' => '1326',
 			'hundred' => ''
 		]);
 		//Mellal
@@ -31985,7 +31985,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '275',
-			'county' => '1324',
+			'county' => '1327',
 			'hundred' => ''
 		]);
 		//Tadla
@@ -32019,7 +32019,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '276',
-			'county' => '1325',
+			'county' => '1328',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -32029,7 +32029,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '276',
-			'county' => '1325',
+			'county' => '1328',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -32039,7 +32039,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '276',
-			'county' => '1325',
+			'county' => '1328',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -32049,7 +32049,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '276',
-			'county' => '1325',
+			'county' => '1328',
 			'hundred' => ''
 		]);
 		//Rissani
@@ -32060,7 +32060,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '276',
-			'county' => '1325',
+			'county' => '1328',
 			'hundred' => ''
 		]);
 		//Merzouga
@@ -32072,7 +32072,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '276',
-			'county' => '1326',
+			'county' => '1329',
 			'hundred' => ''
 		]);
 		//Erfoud
@@ -32084,7 +32084,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '276',
-			'county' => '1327',
+			'county' => '1330',
 			'hundred' => ''
 		]);
 		//Ouarzazate
@@ -32107,7 +32107,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '277',
-			'county' => '1328',
+			'county' => '1331',
 			'hundred' => ''
 		]);
 		//Taznakht
@@ -32118,7 +32118,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '277',
-			'county' => '1328',
+			'county' => '1331',
 			'hundred' => ''
 		]);
 		//Zagora
@@ -32130,7 +32130,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '277',
-			'county' => '1329',
+			'county' => '1332',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -32140,7 +32140,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '277',
-			'county' => '1329',
+			'county' => '1332',
 			'hundred' => ''
 		]);
 		//Agdz
@@ -32151,7 +32151,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '277',
-			'county' => '1329',
+			'county' => '1332',
 			'hundred' => ''
 		]);
 		//Tinghir
@@ -32163,7 +32163,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '277',
-			'county' => '1330',
+			'county' => '1333',
 			'hundred' => ''
 		]);
 		//Mgouna
@@ -32174,7 +32174,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '277',
-			'county' => '1330',
+			'county' => '1333',
 			'hundred' => ''
 		]);
 		//Kingdom of Fez
@@ -32198,7 +32198,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '278',
-			'county' => '1331',
+			'county' => '1334',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -32208,7 +32208,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '278',
-			'county' => '1331',
+			'county' => '1334',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -32218,7 +32218,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '278',
-			'county' => '1331',
+			'county' => '1334',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -32228,7 +32228,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '278',
-			'county' => '1331',
+			'county' => '1334',
 			'hundred' => ''
 		]);
 		//Sefrou
@@ -32239,7 +32239,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '278',
-			'county' => '1331',
+			'county' => '1334',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -32249,7 +32249,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '278',
-			'county' => '1331',
+			'county' => '1334',
 			'hundred' => ''
 		]);
 		//Bhalil
@@ -32260,7 +32260,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '278',
-			'county' => '1331',
+			'county' => '1334',
 			'hundred' => ''
 		]);
 		//Taza
@@ -32271,7 +32271,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '278',
-			'county' => '1331',
+			'county' => '1334',
 			'hundred' => ''
 		]);
 		//Meknes
@@ -32283,7 +32283,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '278',
-			'county' => '1332',
+			'county' => '1335',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -32293,7 +32293,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '278',
-			'county' => '1332',
+			'county' => '1335',
 			'hundred' => ''
 		]);
 		//Zerhoun
@@ -32304,7 +32304,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '278',
-			'county' => '1332',
+			'county' => '1335',
 			'hundred' => ''
 		]);
 		//Rabat
@@ -32327,7 +32327,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '279',
-			'county' => '1333',
+			'county' => '1336',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -32337,7 +32337,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '279',
-			'county' => '1333',
+			'county' => '1336',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -32347,7 +32347,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '279',
-			'county' => '1333',
+			'county' => '1336',
 			'hundred' => ''
 		]);
 		//Sale
@@ -32358,7 +32358,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '279',
-			'county' => '1333',
+			'county' => '1336',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -32368,7 +32368,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '279',
-			'county' => '1333',
+			'county' => '1336',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -32378,7 +32378,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '279',
-			'county' => '1333',
+			'county' => '1336',
 			'hundred' => ''
 		]);
 		//Mehdya
@@ -32390,7 +32390,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '279',
-			'county' => '1334',
+			'county' => '1337',
 			'hundred' => ''
 		]);
 		//Tangier
@@ -32403,7 +32403,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '280',
-			'county' => '1335',
+			'county' => '1338',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -32423,7 +32423,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '280',
-			'county' => '1335',
+			'county' => '1338',
 			'hundred' => ''
 		]);
 		//Tetouan
@@ -32435,7 +32435,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '280',
-			'county' => '1336',
+			'county' => '1339',
 			'hundred' => ''
 		]);
 		//Kebir
@@ -32447,7 +32447,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '280',
-			'county' => '1337',
+			'county' => '1340',
 			'hundred' => ''
 		]);
 		//Kingdom of Kairouan
@@ -32471,7 +32471,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '281',
-			'county' => '1339',
+			'county' => '1342',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -32481,7 +32481,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '281',
-			'county' => '1339',
+			'county' => '1342',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -32491,7 +32491,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '281',
-			'county' => '1339',
+			'county' => '1342',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -32501,7 +32501,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '281',
-			'county' => '1339',
+			'county' => '1342',
 			'hundred' => ''
 		]);
 		//Raqqada
@@ -32512,7 +32512,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '281',
-			'county' => '1339',
+			'county' => '1342',
 			'hundred' => ''
 		]);
 		//Mahdia
@@ -32524,7 +32524,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '281',
-			'county' => '1340',
+			'county' => '1343',
 			'hundred' => ''
 		]);
 		//Susa
@@ -32536,7 +32536,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '281',
-			'county' => '1341',
+			'county' => '1344',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -32546,7 +32546,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '281',
-			'county' => '1341',
+			'county' => '1344',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -32556,7 +32556,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '281',
-			'county' => '1341',
+			'county' => '1344',
 			'hundred' => ''
 		]);
 		//Upenna
@@ -32567,7 +32567,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '281',
-			'county' => '1341',
+			'county' => '1344',
 			'hundred' => ''
 		]);
 		//Msaken
@@ -32578,7 +32578,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '281',
-			'county' => '1341',
+			'county' => '1344',
 			'hundred' => ''
 		]);
 		//Tunis
@@ -32601,7 +32601,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '282',
-			'county' => '1343',
+			'county' => '1346',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -32611,7 +32611,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '282',
-			'county' => '1343',
+			'county' => '1346',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -32621,7 +32621,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '282',
-			'county' => '1343',
+			'county' => '1346',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -32631,7 +32631,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '282',
-			'county' => '1343',
+			'county' => '1346',
 			'hundred' => ''
 		]);
 		//Marsa
@@ -32642,7 +32642,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '282',
-			'county' => '1343',
+			'county' => '1346',
 			'hundred' => ''
 		]);
 		//Djerid
@@ -32665,7 +32665,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '283',
-			'county' => '1345',
+			'county' => '1348',
 			'hundred' => ''
 		]);
 		//Tozeur
@@ -32677,7 +32677,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '283',
-			'county' => '1346',
+			'county' => '1349',
 			'hundred' => ''
 		]);
 		//Nefta
@@ -32688,7 +32688,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '283',
-			'county' => '1346',
+			'county' => '1349',
 			'hundred' => ''
 		]);
 		//Tripoli
@@ -32711,7 +32711,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '284',
-			'county' => '1347',
+			'county' => '1350',
 			'hundred' => ''
 		]);
 		//Misrata
@@ -32723,7 +32723,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '284',
-			'county' => '1348',
+			'county' => '1351',
 			'hundred' => ''
 		]);
 		//Zliten
@@ -32734,7 +32734,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '284',
-			'county' => '1348',
+			'county' => '1351',
 			'hundred' => ''
 		]);
 		//Sirte
@@ -32757,7 +32757,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '285',
-			'county' => '1349',
+			'county' => '1352',
 			'hundred' => ''
 		]);
 		//Cyrene
@@ -32769,7 +32769,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '285',
-			'county' => '1350',
+			'county' => '1353',
 			'hundred' => ''
 		]);
 		//Kingdom of Tlemcen
@@ -32793,7 +32793,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '286',
-			'county' => '1351',
+			'county' => '1354',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -32803,7 +32803,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '286',
-			'county' => '1351',
+			'county' => '1354',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -32813,7 +32813,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '286',
-			'county' => '1351',
+			'county' => '1354',
 			'hundred' => ''
 		]);
 		//Mansourah
@@ -32824,7 +32824,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '286',
-			'county' => '1351',
+			'county' => '1354',
 			'hundred' => ''
 		]);
 		//Oujda
@@ -32847,7 +32847,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '287',
-			'county' => '1353',
+			'county' => '1356',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -32857,7 +32857,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '287',
-			'county' => '1353',
+			'county' => '1356',
 			'hundred' => ''
 		]);
 		//Nador
@@ -32869,7 +32869,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '287',
-			'county' => '1354',
+			'county' => '1357',
 			'hundred' => ''
 		]);
 		//Segangan
@@ -32880,7 +32880,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '287',
-			'county' => '1354',
+			'county' => '1357',
 			'hundred' => ''
 		]);
 		//Oran
@@ -32893,7 +32893,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '288',
-			'county' => '1355',
+			'county' => '1358',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -32913,7 +32913,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '288',
-			'county' => '1355',
+			'county' => '1358',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -32923,7 +32923,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '288',
-			'county' => '1355',
+			'county' => '1358',
 			'hundred' => ''
 		]);
 		//Algiers
@@ -32947,7 +32947,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '289',
-			'county' => '1358',
+			'county' => '1361',
 			'hundred' => ''
 		]);
 		//Hadjar
@@ -32959,7 +32959,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '289',
-			'county' => '1359',
+			'county' => '1362',
 			'hundred' => ''
 		]);
 		//Titteri
@@ -32971,7 +32971,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '289',
-			'county' => '1361',
+			'county' => '1364',
 			'hundred' => ''
 		]);
 		//Tiaret
@@ -32994,7 +32994,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '290',
-			'county' => '1362',
+			'county' => '1365',
 			'hundred' => ''
 		]);
 		//Mzab
@@ -33019,7 +33019,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '291',
-			'county' => '1365',
+			'county' => '1368',
 			'hundred' => ''
 		]);
 		//Laghouat
@@ -33042,7 +33042,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '292',
-			'county' => '1366',
+			'county' => '1369',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -33052,7 +33052,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '292',
-			'county' => '1366',
+			'county' => '1369',
 			'hundred' => ''
 		]);
 		//Djelfa
@@ -33075,7 +33075,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '293',
-			'county' => '1368',
+			'county' => '1371',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -33085,7 +33085,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '293',
-			'county' => '1368',
+			'county' => '1371',
 			'hundred' => ''
 		]);
 		//Tuggert
@@ -33108,7 +33108,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '294',
-			'county' => '1370',
+			'county' => '1373',
 			'hundred' => ''
 		]);
 		//Principality of Ifni
@@ -33134,7 +33134,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '295',
-			'county' => '1373',
+			'county' => '1376',
 			'hundred' => ''
 		]);
 		//Bounaamane
@@ -33145,7 +33145,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '295',
-			'county' => '1373',
+			'county' => '1376',
 			'hundred' => ''
 		]);
 		//Taroudant
@@ -33168,7 +33168,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '296',
-			'county' => '1374',
+			'county' => '1377',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -33178,7 +33178,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '296',
-			'county' => '1374',
+			'county' => '1377',
 			'hundred' => ''
 		]);
 		//Tinmel
@@ -33190,7 +33190,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '296',
-			'county' => '1376',
+			'county' => '1379',
 			'hundred' => ''
 		]);
 		//Principality of Figuig
@@ -33214,7 +33214,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '297',
-			'county' => '1377',
+			'county' => '1380',
 			'hundred' => ''
 		]);
 		//Adrar
@@ -33237,7 +33237,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '298',
-			'county' => '1380',
+			'county' => '1383',
 			'hundred' => ''
 		]);
 		//Abbasid
@@ -33262,7 +33262,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '299',
-			'county' => '1382',
+			'county' => '1385',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -33272,7 +33272,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '299',
-			'county' => '1382',
+			'county' => '1385',
 			'hundred' => ''
 		]);
 		//Shareban
@@ -33284,7 +33284,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '299',
-			'county' => '1383',
+			'county' => '1386',
 			'hundred' => ''
 		]);
 		//Baqubah
@@ -33295,7 +33295,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '299',
-			'county' => '1383',
+			'county' => '1386',
 			'hundred' => ''
 		]);
 		//Khanaqin
@@ -33306,7 +33306,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '299',
-			'county' => '1383',
+			'county' => '1386',
 			'hundred' => ''
 		]);
 		//Anbar
@@ -33318,7 +33318,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '299',
-			'county' => '1384',
+			'county' => '1387',
 			'hundred' => ''
 		]);
 		//Basra
@@ -33330,7 +33330,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '299',
-			'county' => '1385',
+			'county' => '1388',
 			'hundred' => ''
 		]);
 		//Karbala
@@ -33342,7 +33342,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '299',
-			'county' => '1386',
+			'county' => '1389',
 			'hundred' => ''
 		]);
 		//Najaf
@@ -33354,7 +33354,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '299',
-			'county' => '1387',
+			'county' => '1390',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -33364,7 +33364,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '299',
-			'county' => '1387',
+			'county' => '1390',
 			'hundred' => ''
 		]);
 		//Erbil
@@ -33387,7 +33387,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '300',
-			'county' => '1388',
+			'county' => '1391',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -33397,7 +33397,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '300',
-			'county' => '1388',
+			'county' => '1391',
 			'hundred' => ''
 		]);
 		//Khanzad
@@ -33408,7 +33408,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '300',
-			'county' => '1388',
+			'county' => '1391',
 			'hundred' => ''
 		]);
 		//Kingdom of Syria
@@ -33432,7 +33432,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '301',
-			'county' => '1390',
+			'county' => '1393',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -33442,7 +33442,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '301',
-			'county' => '1390',
+			'county' => '1393',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -33452,7 +33452,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '301',
-			'county' => '1390',
+			'county' => '1393',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -33462,7 +33462,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '301',
-			'county' => '1390',
+			'county' => '1393',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -33472,7 +33472,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '301',
-			'county' => '1390',
+			'county' => '1393',
 			'hundred' => ''
 		]);
 		//Saqba
@@ -33483,7 +33483,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '301',
-			'county' => '1390',
+			'county' => '1393',
 			'hundred' => ''
 		]);
 		//Douma
@@ -33494,7 +33494,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '301',
-			'county' => '1390',
+			'county' => '1393',
 			'hundred' => ''
 		]);
 		//Dannun
@@ -33505,7 +33505,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '301',
-			'county' => '1390',
+			'county' => '1393',
 			'hundred' => ''
 		]);
 		//Nawa
@@ -33516,7 +33516,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '301',
-			'county' => '1390',
+			'county' => '1393',
 			'hundred' => ''
 		]);
 		//Qalamoun
@@ -33528,7 +33528,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '301',
-			'county' => '1391',
+			'county' => '1394',
 			'hundred' => ''
 		]);
 		//Jayrud
@@ -33540,7 +33540,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '301',
-			'county' => '1392',
+			'county' => '1395',
 			'hundred' => ''
 		]);
 		//Dumayr
@@ -33552,7 +33552,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '301',
-			'county' => '1393',
+			'county' => '1396',
 			'hundred' => ''
 		]);
 		//Suada
@@ -33564,7 +33564,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '301',
-			'county' => '1394',
+			'county' => '1397',
 			'hundred' => ''
 		]);
 		//Jabal
@@ -33587,7 +33587,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '302',
-			'county' => '1396',
+			'county' => '1399',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -33597,7 +33597,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '302',
-			'county' => '1396',
+			'county' => '1399',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -33607,7 +33607,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '302',
-			'county' => '1396',
+			'county' => '1399',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -33617,7 +33617,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '302',
-			'county' => '1396',
+			'county' => '1399',
 			'hundred' => ''
 		]);
 		//Kabir
@@ -33628,7 +33628,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '302',
-			'county' => '1396',
+			'county' => '1399',
 			'hundred' => ''
 		]);
 		//Idlib
@@ -33640,7 +33640,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '302',
-			'county' => '1397',
+			'county' => '1400',
 			'hundred' => ''
 		]);
 		//Homs
@@ -33665,7 +33665,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '303',
-			'county' => '1399',
+			'county' => '1402',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -33675,7 +33675,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '303',
-			'county' => '1399',
+			'county' => '1402',
 			'hundred' => ''
 		]);
 		//Jubail
@@ -33686,7 +33686,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '303',
-			'county' => '1399',
+			'county' => '1402',
 			'hundred' => ''
 		]);
 		//Beirut
@@ -33698,7 +33698,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '303',
-			'county' => '1400',
+			'county' => '1403',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -33708,7 +33708,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '303',
-			'county' => '1400',
+			'county' => '1403',
 			'hundred' => ''
 		]);
 		//Zahle
@@ -33719,7 +33719,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '303',
-			'county' => '1400',
+			'county' => '1403',
 			'hundred' => ''
 		]);
 		//Marjaba
@@ -33730,7 +33730,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '303',
-			'county' => '1400',
+			'county' => '1403',
 			'hundred' => ''
 		]);
 		//Sidon
@@ -33742,7 +33742,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '303',
-			'county' => '1401',
+			'county' => '1404',
 			'hundred' => ''
 		]);
 		//Tyre
@@ -33754,7 +33754,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '303',
-			'county' => '1402',
+			'county' => '1405',
 			'hundred' => ''
 		]);
 		//Rabia
@@ -33777,7 +33777,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '304',
-			'county' => '',
+			'county' => '1406',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -33787,7 +33787,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '304',
-			'county' => '1403',
+			'county' => '1406',
 			'hundred' => ''
 		]);
 		//Hatra
@@ -33799,7 +33799,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '304',
-			'county' => '1405',
+			'county' => '1408',
 			'hundred' => ''
 		]);
 		//Sinjar
@@ -33810,7 +33810,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '304',
-			'county' => '1405',
+			'county' => '1408',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -33820,7 +33820,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '304',
-			'county' => '1405',
+			'county' => '1408',
 			'hundred' => ''
 		]);
 		//Bakr
@@ -33843,7 +33843,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '305',
-			'county' => '1407',
+			'county' => '1410',
 			'hundred' => ''
 		]);
 		//Karahan
@@ -33854,7 +33854,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '305',
-			'county' => '1407',
+			'county' => '1410',
 			'hundred' => ''
 		]);
 		//Siirt
@@ -33866,7 +33866,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '305',
-			'county' => '1408',
+			'county' => '1411',
 			'hundred' => ''
 		]);
 		//Sirvan
@@ -33877,7 +33877,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '305',
-			'county' => '1408',
+			'county' => '1411',
 			'hundred' => ''
 		]);
 		//Principality of Najd
@@ -33901,7 +33901,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '306',
-			'county' => '1409',
+			'county' => '1412',
 			'hundred' => ''
 		]);
 		//Qarma
@@ -33912,7 +33912,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '306',
-			'county' => '1409',
+			'county' => '1412',
 			'hundred' => ''
 		]);
 		//Turaif
@@ -33924,7 +33924,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '306',
-			'county' => '1410',
+			'county' => '1413',
 			'hundred' => ''
 		]);
 		//Khatt
@@ -33947,7 +33947,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '307',
-			'county' => '1412',
+			'county' => '1415',
 			'hundred' => ''
 		]);
 		//Principality of Antioch
@@ -33971,7 +33971,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '308',
-			'county' => '1413',
+			'county' => '1416',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -33981,7 +33981,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '308',
-			'county' => '1413',
+			'county' => '1416',
 			'hundred' => ''
 		]);
 		//Gephyra
@@ -33992,7 +33992,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '308',
-			'county' => '1413',
+			'county' => '1416',
 			'hundred' => ''
 		]);
 		//Daphne
@@ -34003,7 +34003,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '308',
-			'county' => '1413',
+			'county' => '1416',
 			'hundred' => ''
 		]);
 		//Seleucia
@@ -34014,7 +34014,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '308',
-			'county' => '1413',
+			'county' => '1416',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -34024,7 +34024,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '308',
-			'county' => '1413',
+			'county' => '1416',
 			'hundred' => ''
 		]);
 		//Alexandretta
@@ -34036,7 +34036,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '308',
-			'county' => '1414',
+			'county' => '1417',
 			'hundred' => ''
 		]);
 		//Mudar
@@ -34059,7 +34059,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '309',
-			'county' => '1418',
+			'county' => '1421',
 			'hundred' => ''
 		]);
 		//Harran
@@ -34071,7 +34071,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '309',
-			'county' => '1419',
+			'county' => '1422',
 			'hundred' => ''
 		]);
 		//Fatimid
@@ -34096,7 +34096,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '310',
-			'county' => '1420',
+			'county' => '1423',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -34106,7 +34106,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '310',
-			'county' => '1420',
+			'county' => '1423',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -34116,7 +34116,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '310',
-			'county' => '1420',
+			'county' => '1423',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -34126,7 +34126,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '310',
-			'county' => '1420',
+			'county' => '1423',
 			'hundred' => ''
 		]);
 		//Fustat
@@ -34137,7 +34137,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '310',
-			'county' => '1420',
+			'county' => '1423',
 			'hundred' => ''
 		]);
 		//Alexandria
@@ -34160,7 +34160,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '311',
-			'county' => '1422',
+			'county' => '1425',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -34170,7 +34170,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '311',
-			'county' => '1422',
+			'county' => '1425',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -34180,7 +34180,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '311',
-			'county' => '1422',
+			'county' => '1425',
 			'hundred' => ''
 		]);
 		//Damanhur
@@ -34192,7 +34192,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '311',
-			'county' => '1423',
+			'county' => '1426',
 			'hundred' => ''
 		]);
 		//Baroud
@@ -34203,7 +34203,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '311',
-			'county' => '1423',
+			'county' => '1426',
 			'hundred' => ''
 		]);
 		//Rosetta
@@ -34215,7 +34215,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '311',
-			'county' => '1424',
+			'county' => '1427',
 			'hundred' => ''
 		]);
 		//Mansoura
@@ -34238,7 +34238,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '312',
-			'county' => '1425',
+			'county' => '1428',
 			'hundred' => ''
 		]);
 		//Dekernes
@@ -34250,7 +34250,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '312',
-			'county' => '1426',
+			'county' => '1429',
 			'hundred' => ''
 		]);
 		//Damietta
@@ -34273,7 +34273,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '313',
-			'county' => '1427',
+			'county' => '1430',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -34283,7 +34283,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '313',
-			'county' => '1427',
+			'county' => '1430',
 			'hundred' => ''
 		]);
 		//Damul
@@ -34294,7 +34294,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '313',
-			'county' => '1427',
+			'county' => '1430',
 			'hundred' => ''
 		]);
 		//Minya
@@ -34317,7 +34317,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '314',
-			'county' => '1429',
+			'county' => '1432',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -34327,7 +34327,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '314',
-			'county' => '1429',
+			'county' => '1432',
 			'hundred' => ''
 		]);	
 		//Mallawi
@@ -34339,7 +34339,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '314',
-			'county' => '1430',
+			'county' => '1433',
 			'hundred' => ''
 		]);
 		//Asyut
@@ -34362,7 +34362,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '315',
-			'county' => '1431',
+			'county' => '1434',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -34372,7 +34372,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '315',
-			'county' => '1431',
+			'county' => '1434',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -34382,7 +34382,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '315',
-			'county' => '1431',
+			'county' => '1434',
 			'hundred' => ''
 		]);
 		//Abu
@@ -34394,7 +34394,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '315',
-			'county' => '1433',
+			'county' => '1436',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -34404,7 +34404,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '315',
-			'county' => '1433',
+			'county' => '1436',
 			'hundred' => ''
 		]);
 		//Kharga
@@ -34428,7 +34428,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '316',
-			'county' => '1434',
+			'county' => '1437',
 			'hundred' => ''
 		]);
 		//Baritun
@@ -34453,7 +34453,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '317',
-			'county' => '1437',
+			'county' => '1440',
 			'hundred' => ''
 		]);
 		//Boula
@@ -34476,7 +34476,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '318',
-			'county' => '1440',
+			'county' => '1443',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -34486,7 +34486,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '318',
-			'county' => '1440',
+			'county' => '1443',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -34496,7 +34496,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '318',
-			'county' => '1440',
+			'county' => '1443',
 			'hundred' => ''
 		]);
 		//Kingdom of Jerusalem
@@ -34520,7 +34520,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '319',
-			'county' => '1441',
+			'county' => '1444',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -34530,7 +34530,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '319',
-			'county' => '1441',
+			'county' => '1444',
 			'hundred' => ''
 		]);
 		//Hizma
@@ -34541,7 +34541,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '319',
-			'county' => '1441',
+			'county' => '1444',
 			'hundred' => ''
 		]);
 		//Ascolon
@@ -34553,7 +34553,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '319',
-			'county' => '1442',
+			'county' => '1445',
 			'hundred' => ''
 		]);
 		//Majdal
@@ -34564,7 +34564,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '319',
-			'county' => '1442',
+			'county' => '1445',
 			'hundred' => ''
 		]);
 		//Galilee
@@ -34587,7 +34587,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '320',
-			'county' => '1444',
+			'county' => '1447',
 			'hundred' => ''
 		]);
 		//Hattin
@@ -34598,7 +34598,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '320',
-			'county' => '1444',
+			'county' => '1447',
 			'hundred' => ''
 		]);
 		//Haifa
@@ -34610,7 +34610,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '320',
-			'county' => '1446',
+			'county' => '1449',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -34620,7 +34620,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '320',
-			'county' => '1446',
+			'county' => '1449',
 			'hundred' => ''
 		]);
 		//Principality of Hejaz
@@ -34644,7 +34644,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '321',
-			'county' => '1447',
+			'county' => '1450',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -34654,7 +34654,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '321',
-			'county' => '1447',
+			'county' => '1450',
 			'hundred' => ''
 		]);
 		//Jeddah
@@ -34666,7 +34666,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '321',
-			'county' => '1448',
+			'county' => '1451',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -34676,7 +34676,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '321',
-			'county' => '1448',
+			'county' => '1451',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -34686,7 +34686,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '321',
-			'county' => '1448',
+			'county' => '1451',
 			'hundred' => ''
 		]);
 		//Taif
@@ -34698,7 +34698,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '321',
-			'county' => '1449',
+			'county' => '1452',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -34708,7 +34708,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '321',
-			'county' => '1449',
+			'county' => '1452',
 			'hundred' => ''
 		]);
 		//Medina
@@ -34731,7 +34731,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '322',
-			'county' => '1450',
+			'county' => '1453',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -34741,7 +34741,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '322',
-			'county' => '1450',
+			'county' => '1453',
 			'hundred' => ''
 		]);
 		//Yanbu
@@ -34753,7 +34753,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '322',
-			'county' => '1451',
+			'county' => '1454',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -34763,7 +34763,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '322',
-			'county' => '1451',
+			'county' => '1454',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -34773,7 +34773,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '322',
-			'county' => '1451',
+			'county' => '1454',
 			'hundred' => ''
 		]);
 		//Khaybar
@@ -34785,7 +34785,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '322',
-			'county' => '1452',
+			'county' => '1455',
 			'hundred' => ''
 		]);
 		//Tabuk
@@ -34808,7 +34808,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '323',
-			'county' => '1453',
+			'county' => '1456',
 			'hundred' => ''
 		]);
 		//Sharat
@@ -34820,7 +34820,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '323',
-			'county' => '1454',
+			'county' => '1457',
 			'hundred' => ''
 		]);
 		//Hegra
@@ -34832,7 +34832,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '323',
-			'county' => '1455',
+			'county' => '1458',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -34842,7 +34842,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '323',
-			'county' => '1455',
+			'county' => '1458',
 			'hundred' => ''
 		]);
 		//Khazar Empire
@@ -34867,7 +34867,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '324',
-			'county' => '1456',
+			'county' => '1459',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -34877,7 +34877,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '324',
-			'county' => '1456',
+			'county' => '1459',
 			'hundred' => ''
 		]);
 		//Araltobe
@@ -34889,7 +34889,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '324',
-			'county' => '1457',
+			'county' => '1460',
 			'hundred' => ''
 		]);
 		//Sarkel
@@ -34912,7 +34912,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '325',
-			'county' => '1458',
+			'county' => '1461',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -34922,7 +34922,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '325',
-			'county' => '1458',
+			'county' => '1461',
 			'hundred' => ''
 		]);
 		//Mayaki
@@ -34934,7 +34934,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '325',
-			'county' => '1459',
+			'county' => '1462',
 			'hundred' => ''
 		]);
 		//Khazaran
@@ -34957,7 +34957,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '326',
-			'county' => '1460',
+			'county' => '1463',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -34967,7 +34967,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '326',
-			'county' => '1460',
+			'county' => '1463',
 			'hundred' => ''
 		]);
 		//Sarayjuk
@@ -34979,7 +34979,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '326',
-			'county' => '1461',
+			'county' => '1464',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -34989,7 +34989,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '326',
-			'county' => '1461',
+			'county' => '1464',
 			'hundred' => ''
 		]);
 		//Tatar
@@ -35012,7 +35012,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '327',
-			'county' => '1462',
+			'county' => '1465',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -35022,7 +35022,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '327',
-			'county' => '1462',
+			'county' => '1465',
 			'hundred' => ''
 		]);	
 		//Samara
@@ -35033,7 +35033,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '327',
-			'county' => '1462',
+			'county' => '1465',
 			'hundred' => ''
 		]);	
 		//Suar
@@ -35045,7 +35045,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '327',
-			'county' => '1463',
+			'county' => '1466',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -35055,7 +35055,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '327',
-			'county' => '1464',
+			'county' => '1466',
 			'hundred' => ''
 		]);
 		//Qashan
@@ -35066,7 +35066,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '327',
-			'county' => '1463',
+			'county' => '1466',
 			'hundred' => ''
 		]);	
 		//Bilar
@@ -35078,7 +35078,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '327',
-			'county' => '1464',
+			'county' => '1467',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -35088,7 +35088,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '327',
-			'county' => '1464',
+			'county' => '1467',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -35098,7 +35098,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '327',
-			'county' => '1464',
+			'county' => '1467',
 			'hundred' => ''
 		]);
 		//Cukataw
@@ -35109,7 +35109,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '327',
-			'county' => '1464',
+			'county' => '1467',
 			'hundred' => ''
 		]);
 		//Kingdom of Alania
@@ -35133,7 +35133,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '328',
-			'county' => '1464',
+			'county' => '1468',
 			'hundred' => ''
 		]);
 		//Tarki
@@ -35145,7 +35145,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '328',
-			'county' => '1465',
+			'county' => '1469',
 			'hundred' => ''
 		]);
 		//Makhachkala
@@ -35156,7 +35156,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '328',
-			'county' => '1465',
+			'county' => '1469',
 			'hundred' => ''
 		]);
 		//Alania
@@ -35169,7 +35169,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '329',
-			'county' => '1467',
+			'county' => '1470',
 			'hundred' => ''
 		]);
 		//Tmutarakan
@@ -35180,7 +35180,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '329',
-			'county' => '1467',
+			'county' => '1470',
 			'hundred' => ''
 		]);
 		//Maghas
@@ -35202,7 +35202,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '329',
-			'county' => '1469',
+			'county' => '1472',
 			'hundred' => ''
 		]);
 		//Kingdom of Cumania
@@ -35226,7 +35226,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '330',
-			'county' => '1470',
+			'county' => '1473',
 			'hundred' => ''
 		]);
 		//Otrar
@@ -35237,7 +35237,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '330',
-			'county' => '1470',
+			'county' => '1473',
 			'hundred' => ''
 		]);
 		//Sozak
@@ -35249,7 +35249,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '330',
-			'county' => '1471',
+			'county' => '1474',
 			'hundred' => ''
 		]);
 		//Sibir
@@ -35272,7 +35272,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '331',
-			'county' => '1472',
+			'county' => '1475',
 			'hundred' => ''
 		]);
 		//Bashkor
@@ -35284,7 +35284,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '331',
-			'county' => '1473',
+			'county' => '1476',
 			'hundred' => ''
 		]);
 		//Seljuk Empire
@@ -35309,7 +35309,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '332',
-			'county' => '1474',
+			'county' => '1477',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -35319,7 +35319,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '332',
-			'county' => '1474',
+			'county' => '1477',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -35329,7 +35329,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '332',
-			'county' => '1474',
+			'county' => '1477',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -35339,7 +35339,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '332',
-			'county' => '1474',
+			'county' => '1477',
 			'hundred' => ''
 		]);
 		//Nyzvar
@@ -35350,7 +35350,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '332',
-			'county' => '1474',
+			'county' => '1477',
 			'hundred' => ''
 		]);
 		//Khorezm
@@ -35362,7 +35362,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '332',
-			'county' => '1475',
+			'county' => '1478',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -35372,7 +35372,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '332',
-			'county' => '1475',
+			'county' => '1478',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -35382,7 +35382,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '332',
-			'county' => '1475',
+			'county' => '1478',
 			'hundred' => ''
 		]);
 		//Khiva
@@ -35405,7 +35405,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '333',
-			'county' => '1476',
+			'county' => '1479',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -35415,7 +35415,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '333',
-			'county' => '1476',
+			'county' => '1479',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -35425,7 +35425,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '333',
-			'county' => '1476',
+			'county' => '1479',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -35435,7 +35435,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '333',
-			'county' => '1476',
+			'county' => '1479',
 			'hundred' => ''
 		]);
 		//Durghan
@@ -35447,7 +35447,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '333',
-			'county' => '1477',
+			'county' => '1480',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -35457,7 +35457,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '333',
-			'county' => '1477',
+			'county' => '1480',
 			'hundred' => ''
 		]);
 		//Jakarband
@@ -35468,7 +35468,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '333',
-			'county' => '1477',
+			'county' => '1480',
 			'hundred' => ''
 		]);
 		//Tahiriya
@@ -35479,7 +35479,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '333',
-			'county' => '1477',
+			'county' => '1480',
 			'hundred' => ''
 		]);
 		//Merv
@@ -35502,7 +35502,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '334',
-			'county' => '1478',
+			'county' => '1481',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -35512,7 +35512,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '334',
-			'county' => '1478',
+			'county' => '1481',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -35522,7 +35522,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '334',
-			'county' => '1478',
+			'county' => '1481',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -35532,7 +35532,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '334',
-			'county' => '1478',
+			'county' => '1481',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -35542,7 +35542,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '334',
-			'county' => '1478',
+			'county' => '1481',
 			'hundred' => ''
 		]);
 		//Bayram
@@ -35553,7 +35553,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '334',
-			'county' => '1478',
+			'county' => '1481',
 			'hundred' => ''
 		]);
 		//Gyaur
@@ -35564,7 +35564,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '334',
-			'county' => '1478',
+			'county' => '1481',
 			'hundred' => ''
 		]);
 		//Erk
@@ -35575,7 +35575,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '334',
-			'county' => '1478',
+			'county' => '1481',
 			'hundred' => ''
 		]);
 		//Sarakhs
@@ -35587,7 +35587,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '334',
-			'county' => '1479',
+			'county' => '1482',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -35597,7 +35597,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '334',
-			'county' => '1479',
+			'county' => '1482',
 			'hundred' => ''
 		]);
 		//Sharaf
@@ -35608,7 +35608,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '334',
-			'county' => '1479',
+			'county' => '1482',
 			'hundred' => ''
 		]);
 		//Bereket
@@ -35620,7 +35620,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '334',
-			'county' => '1480',
+			'county' => '1483',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -35630,7 +35630,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '334',
-			'county' => '1480',
+			'county' => '1483',
 			'hundred' => ''
 		]);
 		//Kyzyl
@@ -35641,7 +35641,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '334',
-			'county' => '1480',
+			'county' => '1483',
 			'hundred' => ''
 		]);
 		//Kingdom of Isfahan
@@ -35665,7 +35665,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '335',
-			'county' => '1481',
+			'county' => '1484',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -35675,7 +35675,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '335',
-			'county' => '1481',
+			'county' => '1484',
 			'hundred' => ''
 		]);
 		//Kavraskan
@@ -35686,7 +35686,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '335',
-			'county' => '1481',
+			'county' => '1484',
 			'hundred' => ''
 		]);
 		//Kashan
@@ -35698,7 +35698,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '335',
-			'county' => '1482',
+			'county' => '1485',
 			'hundred' => ''
 		]);
 		//Meshgan
@@ -35709,7 +35709,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '335',
-			'county' => '1482',
+			'county' => '1485',
 			'hundred' => ''
 		]);
 		//Barzak
@@ -35720,7 +35720,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '335',
-			'county' => '1482',
+			'county' => '1485',
 			'hundred' => ''
 		]);
 		//Niaser
@@ -35731,7 +35731,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '335',
-			'county' => '1482',
+			'county' => '1485',
 			'hundred' => ''
 		]);
 		//Kamsar
@@ -35742,7 +35742,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '335',
-			'county' => '1482',
+			'county' => '1485',
 			'hundred' => ''
 		]);
 		//Qom
@@ -35754,7 +35754,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '335',
-			'county' => '1483',
+			'county' => '1486',
 			'hundred' => ''
 		]);
 		//Sarafjakan
@@ -35765,7 +35765,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '335',
-			'county' => '1483',
+			'county' => '1486',
 			'hundred' => ''
 		]);
 		//Yazd
@@ -35777,7 +35777,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '335',
-			'county' => '1484',
+			'county' => '1487',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -35787,7 +35787,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '335',
-			'county' => '1484',
+			'county' => '1487',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -35797,7 +35797,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '335',
-			'county' => '1484',
+			'county' => '1487',
 			'hundred' => ''
 		]);
 		//Chahak
@@ -35808,7 +35808,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '335',
-			'county' => '1484',
+			'county' => '1487',
 			'hundred' => ''
 		]);
 		//Karaj
@@ -35820,7 +35820,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '335',
-			'county' => '1485',
+			'county' => '1488',
 			'hundred' => ''
 		]);
 		//Garmdarreh
@@ -35831,7 +35831,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '335',
-			'county' => '1485',
+			'county' => '1488',
 			'hundred' => ''
 		]);
 		//Qazvin
@@ -35843,7 +35843,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '335',
-			'county' => '1486',
+			'county' => '1489',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -35853,7 +35853,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '335',
-			'county' => '1486',
+			'county' => '1489',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -35863,7 +35863,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '335',
-			'county' => '1486',
+			'county' => '1489',
 			'hundred' => ''
 		]);
 		//Rhages
@@ -35874,7 +35874,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '335',
-			'county' => '1486',
+			'county' => '1489',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -35884,7 +35884,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '335',
-			'county' => '1486',
+			'county' => '1489',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -35894,7 +35894,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '335',
-			'county' => '1486',
+			'county' => '1489',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -35904,7 +35904,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '335',
-			'county' => '1486',
+			'county' => '1489',
 			'hundred' => ''
 		]);
 		//Fars
@@ -35927,7 +35927,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '336',
-			'county' => '1487',
+			'county' => '1490',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -35937,7 +35937,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '336',
-			'county' => '1487',
+			'county' => '1490',
 			'hundred' => ''
 		]);
 		//Fasa
@@ -35949,7 +35949,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '336',
-			'county' => '1488',
+			'county' => '1491',
 			'hundred' => ''
 		]);
 		//Darab
@@ -35961,7 +35961,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '336',
-			'county' => '1489',
+			'county' => '1492',
 			'hundred' => ''
 		]);
 		//Pashkan
@@ -35972,7 +35972,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '336',
-			'county' => '1489',
+			'county' => '1492',
 			'hundred' => ''
 		]);
 		//Daylam
@@ -35995,7 +35995,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '337',
-			'county' => '1490',
+			'county' => '1493',
 			'hundred' => ''
 		]);
 		//Abaskun
@@ -36006,7 +36006,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '337',
-			'county' => '1490',
+			'county' => '1493',
 			'hundred' => ''
 		]);
 		//Amol
@@ -36018,7 +36018,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '337',
-			'county' => '1491',
+			'county' => '1494',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -36028,7 +36028,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '337',
-			'county' => '1491',
+			'county' => '1494',
 			'hundred' => ''
 		]);
 		//Principality of Hormuz
@@ -36053,7 +36053,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '338',
-			'county' => '1492',
+			'county' => '1495',
 			'hundred' => ''
 		]);
 		//Ramkan
@@ -36064,7 +36064,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '338',
-			'county' => '1492',
+			'county' => '1495',
 			'hundred' => ''
 		]);
 		//Minab
@@ -36076,7 +36076,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '338',
-			'county' => '1493',
+			'county' => '1496',
 			'hundred' => ''
 		]);
 		//Kerman
@@ -36099,7 +36099,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '339',
-			'county' => '1496',
+			'county' => '1499',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -36109,7 +36109,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '339',
-			'county' => '1496',
+			'county' => '1499',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -36119,7 +36119,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '339',
-			'county' => '1496',
+			'county' => '1499',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -36129,7 +36129,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '339',
-			'county' => '1496',
+			'county' => '1499',
 			'hundred' => ''
 		]);
 		//Baghin
@@ -36140,7 +36140,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '339',
-			'county' => '1496',
+			'county' => '1499',
 			'hundred' => ''
 		]);
 		//Bam
@@ -36152,7 +36152,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '339',
-			'county' => '1497',
+			'county' => '1500',
 			'hundred' => ''
 		]);
 		//Rafsinjan
@@ -36164,7 +36164,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '339',
-			'county' => '1498',
+			'county' => '1501',
 			'hundred' => ''
 		]);
 		DB::table('guilds')->insert([
@@ -36174,7 +36174,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '339',
-			'county' => '1498',
+			'county' => '1501',
 			'hundred' => ''
 		]);
 		//Kuhbanan
@@ -36185,7 +36185,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '339',
-			'county' => '1498',
+			'county' => '1501',
 			'hundred' => ''
 		]);
 		//Behabad
@@ -36196,7 +36196,7 @@ class GuildSeeder extends Seeder
 			'empire' => null,
 			'kingdom' => null,
 			'duchy' => '339',
-			'county' => '1498',
+			'county' => '1501',
 			'hundred' => ''
 		]);
 		
